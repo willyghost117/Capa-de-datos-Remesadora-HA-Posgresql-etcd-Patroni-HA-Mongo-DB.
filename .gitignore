@@ -5,3 +5,5 @@ Migración/secrets/
 *.key
 *.pem
 *.crt
+*.docx
+*.rar
