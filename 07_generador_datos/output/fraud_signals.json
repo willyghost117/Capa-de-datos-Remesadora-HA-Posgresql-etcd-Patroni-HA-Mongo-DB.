@@ -1,0 +1,5354 @@
+[
+  {
+    "_id": "80f0a4da-c352-4fff-aaac-339b9ed9ebb7",
+    "signal_id": "b91bfedb-9678-4545-88bd-3611d43da5f7",
+    "remittance_id": 3,
+    "customer_id": 50,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7296,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16708.69,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 3
+    },
+    "detected_at": "2026-06-15T13:39:38+00:00",
+    "source_event_id": "2abe01e6-65f5-47f2-8581-c04b99dd29f1",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "23ad24b6-2cc1-4481-a4e2-7f3ac3942675",
+    "signal_id": "c34c2e98-86f2-42dd-883a-b8701e8b1e1a",
+    "remittance_id": 16,
+    "customer_id": 31,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6987,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16716.5652,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 16
+    },
+    "detected_at": "2026-07-09T14:55:39+00:00",
+    "source_event_id": "eaf640b5-bea3-4231-9685-f600c55ca61e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "9f8a17dd-0523-4b94-a22a-3491279b8411",
+    "signal_id": "f720b026-dcf6-46fe-a316-3c4acf47d4bd",
+    "remittance_id": 20,
+    "customer_id": 122,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6769,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 11568.5225,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 20
+    },
+    "detected_at": "2026-06-21T01:12:39+00:00",
+    "source_event_id": "274d48f6-736c-4587-b3fe-9f422c2430d9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "cbaf39fb-1eaa-40fd-a9ea-bf0fe4fb35ee",
+    "signal_id": "87956ef6-cd97-45a8-b378-35860d6da842",
+    "remittance_id": 22,
+    "customer_id": 181,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.71,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15921.6786,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 22
+    },
+    "detected_at": "2026-06-30T09:00:39+00:00",
+    "source_event_id": "8d52e935-4b53-4c72-8889-c6c093d7d677",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c62ce226-e046-4bb7-adf7-6f64769e4b2f",
+    "signal_id": "5ec3c6a5-e2e9-467f-a93a-3dd1f0b10b3e",
+    "remittance_id": 39,
+    "customer_id": 142,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.822,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10767.2964,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 39
+    },
+    "detected_at": "2026-06-18T23:18:40+00:00",
+    "source_event_id": "492a6eba-bc66-4981-8791-9a5194d40bc7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8f7ac948-4b14-4c72-9aa7-4dc600afc9fc",
+    "signal_id": "889f59f3-d894-4c05-86ed-f4988de6de76",
+    "remittance_id": 45,
+    "customer_id": 9,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7384,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13157.6754,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 45
+    },
+    "detected_at": "2026-06-17T20:20:41+00:00",
+    "source_event_id": "ef5ab3ea-ffc7-4a98-94d7-e4af69c1764f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c5a8b628-113f-4e3a-8029-f743fc59204a",
+    "signal_id": "9884bae6-dfd4-472f-8762-96acc9e0b3de",
+    "remittance_id": 50,
+    "customer_id": 168,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.816,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4461.3788,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 50
+    },
+    "detected_at": "2026-07-08T15:31:41+00:00",
+    "source_event_id": "e73d9af4-17b8-49ae-86cf-c202a9ba1292",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4df1f017-8b00-407e-8f02-79b8af521800",
+    "signal_id": "51f2aeff-d0ec-42d0-8af8-bb85261dfd7a",
+    "remittance_id": 56,
+    "customer_id": 69,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.9099,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9166.7621,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 56
+    },
+    "detected_at": "2026-06-27T07:46:42+00:00",
+    "source_event_id": "e21d68b6-f839-4210-bba7-85c5213bbb92",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "28ea4c7c-886e-4ad3-b184-ba83274b9cc5",
+    "signal_id": "0cecbe58-cd3f-42f6-8d67-225b6d29a514",
+    "remittance_id": 57,
+    "customer_id": 99,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8834,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1437.9987,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 57
+    },
+    "detected_at": "2026-06-27T22:38:42+00:00",
+    "source_event_id": "bb05380b-d828-4f54-b725-7fcb91f16a26",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7abb1509-cff5-4873-b31c-3e5f4065692e",
+    "signal_id": "a9c02b36-d77b-4e65-a910-793b3fa0d73f",
+    "remittance_id": 62,
+    "customer_id": 33,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7864,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9217.3615,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 62
+    },
+    "detected_at": "2026-07-06T23:55:42+00:00",
+    "source_event_id": "bf9d6373-3764-42f9-ae75-206a09c6beef",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c95da649-7fb4-4d4e-8f53-1aa8cb8b6cd4",
+    "signal_id": "2e3d0295-ab0a-4d34-97cf-e8c653ace520",
+    "remittance_id": 73,
+    "customer_id": 7,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6997,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3689.3267,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 73
+    },
+    "detected_at": "2026-06-18T09:42:43+00:00",
+    "source_event_id": "74771894-6b1d-4a4d-9dad-add4a403d34e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "64ba06f7-fecf-4313-b507-1e1dead867a9",
+    "signal_id": "364846ad-7298-494b-9b8a-29987290e8f4",
+    "remittance_id": 76,
+    "customer_id": 116,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8793,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2518.1409,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 76
+    },
+    "detected_at": "2026-06-17T05:23:43+00:00",
+    "source_event_id": "2db43879-4d2c-489a-8086-d6649bd70852",
+    "status": "OPEN"
+  },
+  {
+    "_id": "43d6d036-aeef-4890-ae9c-70466706378d",
+    "signal_id": "c92c5305-300d-40fd-a45c-cd1e0e2fcf7c",
+    "remittance_id": 99,
+    "customer_id": 189,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9111,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3591.3628,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 99
+    },
+    "detected_at": "2026-06-11T09:20:45+00:00",
+    "source_event_id": "dd443987-6d27-4682-87b3-7cd6fae6be2f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b76d7c37-bc02-4d2b-869e-41a7f59bf019",
+    "signal_id": "ace29980-72b1-46a7-9e6d-5cddedc73c95",
+    "remittance_id": 100,
+    "customer_id": 190,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8194,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3257.8986,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 100
+    },
+    "detected_at": "2026-06-24T04:04:45+00:00",
+    "source_event_id": "029b9924-cc45-4112-80f7-ba5d481fc45f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e0e6767c-c360-4d7e-8798-f0a87a713fff",
+    "signal_id": "b6597b68-942a-4633-838e-a822c99040d8",
+    "remittance_id": 110,
+    "customer_id": 73,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8275,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4781.5535,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 110
+    },
+    "detected_at": "2026-06-15T00:23:46+00:00",
+    "source_event_id": "2ed53aa4-d8a8-4d5d-8e6f-c7c8ec4194b7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c5769931-1297-4f65-bc57-2a74fdbe1f47",
+    "signal_id": "9e5e27f2-cfb3-47f6-a892-06d94bc83786",
+    "remittance_id": 125,
+    "customer_id": 72,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7116,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13674.678,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 125
+    },
+    "detected_at": "2026-06-27T13:16:47+00:00",
+    "source_event_id": "54dfdbc5-9e07-436c-8b1a-754a847cd702",
+    "status": "OPEN"
+  },
+  {
+    "_id": "db6dce93-77e9-43a6-b035-ac413bc2b3f2",
+    "signal_id": "69dbff7e-8a2a-4863-8103-853f55f3ffb2",
+    "remittance_id": 128,
+    "customer_id": 132,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8341,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2934.0808,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 128
+    },
+    "detected_at": "2026-06-15T19:01:48+00:00",
+    "source_event_id": "1428a755-e343-4ad1-ac51-470ff3675b61",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a6c4fe59-4ca6-47f5-af18-1fcbdc7edd20",
+    "signal_id": "bd24b513-70c6-4d68-80c4-1c46dc247aa5",
+    "remittance_id": 140,
+    "customer_id": 187,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8272,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12917.6107,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 140
+    },
+    "detected_at": "2026-07-08T05:52:48+00:00",
+    "source_event_id": "582cb78c-1213-4494-ae8b-312c81c0fd1c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b5257c4c-1fa5-489f-8f57-9cfeffc5cf3b",
+    "signal_id": "4b377d46-c996-46d2-99f1-8dc40f4c8e73",
+    "remittance_id": 141,
+    "customer_id": 37,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8569,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17978.9224,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 141
+    },
+    "detected_at": "2026-06-18T22:44:48+00:00",
+    "source_event_id": "36ca1f65-ca0d-4b46-a196-47c3e75f1d04",
+    "status": "OPEN"
+  },
+  {
+    "_id": "f20825a0-cc43-4223-b04e-663a732386f9",
+    "signal_id": "3fddb1fa-6e89-47e1-ab2e-6fd449503702",
+    "remittance_id": 153,
+    "customer_id": 37,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7587,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2502.5404,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 153
+    },
+    "detected_at": "2026-06-21T09:32:49+00:00",
+    "source_event_id": "1cb3f4c7-8f24-40ae-a854-142522356983",
+    "status": "OPEN"
+  },
+  {
+    "_id": "30c4e483-c98b-4586-9daa-f7743bbe4f5f",
+    "signal_id": "5a77eb52-07ef-4e3f-b2b5-ae37947c4d3f",
+    "remittance_id": 163,
+    "customer_id": 62,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7411,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16627.0986,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 163
+    },
+    "detected_at": "2026-07-02T21:26:50+00:00",
+    "source_event_id": "8826b12d-8679-4322-9b19-4e9b854d0774",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0a53eccf-3a2c-477a-aae5-ac5d2ec16aa7",
+    "signal_id": "74dcca98-040d-40b7-a84d-a826c7d858d5",
+    "remittance_id": 188,
+    "customer_id": 14,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8921,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12199.5689,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 188
+    },
+    "detected_at": "2026-07-03T13:54:52+00:00",
+    "source_event_id": "647167ce-f6d7-4c36-8d7e-3e71285e062a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "16343d11-14d7-4130-80db-5aee6f4fa273",
+    "signal_id": "d602fd49-c271-44fe-900d-e8ceed2ff044",
+    "remittance_id": 204,
+    "customer_id": 114,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6984,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 864.2658,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 204
+    },
+    "detected_at": "2026-06-25T00:13:53+00:00",
+    "source_event_id": "cc023604-8dc4-4036-8932-0602752824f0",
+    "status": "OPEN"
+  },
+  {
+    "_id": "04c50617-b17f-43ec-b6f8-01f4cc917820",
+    "signal_id": "0a998926-e433-4be1-82ba-e4bef72451df",
+    "remittance_id": 209,
+    "customer_id": 93,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8691,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 11310.8919,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 209
+    },
+    "detected_at": "2026-06-15T12:38:54+00:00",
+    "source_event_id": "6228b6d2-b6db-41cf-9bcd-6d11db33abbb",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e0a54be0-ab6f-48ce-b3ee-6edeb7557800",
+    "signal_id": "438ecd49-1fc3-4701-9c23-5b2e25f4d6ca",
+    "remittance_id": 213,
+    "customer_id": 52,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8494,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12365.0357,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 213
+    },
+    "detected_at": "2026-06-17T12:01:54+00:00",
+    "source_event_id": "c611ea76-77ad-4619-8c87-671f34b1a106",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4a3fac54-f6da-472e-a060-b3b1bb5ae1b1",
+    "signal_id": "8caa22df-71c0-40a6-aaca-1e92a3626155",
+    "remittance_id": 220,
+    "customer_id": 111,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.74,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1085.4181,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 220
+    },
+    "detected_at": "2026-07-03T02:24:54+00:00",
+    "source_event_id": "678d2391-15fd-458c-a4b4-73dfdb77d71a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "62957c4c-501b-46ac-96ba-9586ac082525",
+    "signal_id": "c5bd050d-26c9-4385-9840-63685d897b3a",
+    "remittance_id": 222,
+    "customer_id": 182,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8234,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13050.4217,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 222
+    },
+    "detected_at": "2026-07-04T20:58:55+00:00",
+    "source_event_id": "45523b60-bac2-479f-93cd-f43fe3880363",
+    "status": "OPEN"
+  },
+  {
+    "_id": "6ada96e7-8728-4afb-91b7-7e59291a4c27",
+    "signal_id": "08e3e259-d8f5-4b50-9a2a-c43c351264c0",
+    "remittance_id": 228,
+    "customer_id": 63,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7311,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2267.169,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 228
+    },
+    "detected_at": "2026-06-19T04:40:55+00:00",
+    "source_event_id": "3f302323-ab5b-446a-8ac6-100aa557364c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "cb3fa594-4c4f-4e52-b394-6f6e059eae2c",
+    "signal_id": "1ab38056-abd6-460a-8c36-e4e2fe31078b",
+    "remittance_id": 242,
+    "customer_id": 57,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.834,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1764.9877,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 242
+    },
+    "detected_at": "2026-06-23T05:37:56+00:00",
+    "source_event_id": "e8d7422c-e867-4129-8b88-2c671bbebec8",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7da0259b-a262-43c9-8515-b6faf97f2ca7",
+    "signal_id": "c13dd056-e3ad-4bc1-a07e-56352318964d",
+    "remittance_id": 251,
+    "customer_id": 181,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.9027,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17371.2599,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 251
+    },
+    "detected_at": "2026-06-20T21:18:57+00:00",
+    "source_event_id": "749d92a7-5db2-41fe-acb9-72ab5218a07f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c29c596f-e9d3-407a-90e8-dfeaa87ae26d",
+    "signal_id": "0d528930-d602-44dd-9eb6-c5ce661d492e",
+    "remittance_id": 260,
+    "customer_id": 81,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7142,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4569.4939,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 260
+    },
+    "detected_at": "2026-06-23T20:13:57+00:00",
+    "source_event_id": "7f226f10-04b7-44a6-a2a8-08f6e85ac753",
+    "status": "OPEN"
+  },
+  {
+    "_id": "85f77a44-3811-492c-a467-3f3c5c22f44a",
+    "signal_id": "ccb44e82-037f-4881-9df8-5083f9593fb6",
+    "remittance_id": 276,
+    "customer_id": 34,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8402,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3413.4575,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 276
+    },
+    "detected_at": "2026-06-23T15:46:58+00:00",
+    "source_event_id": "c1de5c8d-379a-4ad1-ac9a-f902fbf5e24d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "636ff81c-6271-442f-b017-b35e614dbc4a",
+    "signal_id": "1c282de7-4899-4831-88bf-3a81e5927fee",
+    "remittance_id": 285,
+    "customer_id": 138,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.884,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13738.1296,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 285
+    },
+    "detected_at": "2026-06-26T00:01:59+00:00",
+    "source_event_id": "f551ab7d-b01f-42fc-8ab1-9fc37d53ad02",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "7684ce27-16c0-4075-b238-670ae95363b0",
+    "signal_id": "f104e796-0910-4d88-b996-13019d9a0a0b",
+    "remittance_id": 293,
+    "customer_id": 124,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9006,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7536.1724,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 293
+    },
+    "detected_at": "2026-06-13T06:49:00+00:00",
+    "source_event_id": "8a3e642c-cfc6-4301-afbb-d204a71e6ac1",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "1548a162-aa52-4a32-a35f-b65c1cc33fa0",
+    "signal_id": "e4277b27-43ec-4248-b1f2-1b21fe642a79",
+    "remittance_id": 295,
+    "customer_id": 21,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7001,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2126.8297,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 295
+    },
+    "detected_at": "2026-07-07T16:40:00+00:00",
+    "source_event_id": "96983eeb-b899-401d-aeee-0de746a992de",
+    "status": "OPEN"
+  },
+  {
+    "_id": "89aa55df-0ccf-465e-80a5-1a6ed38ab841",
+    "signal_id": "ac3aa33a-178d-499f-969c-97f4cb5c9dfa",
+    "remittance_id": 300,
+    "customer_id": 120,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6755,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1125.9316,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 300
+    },
+    "detected_at": "2026-06-27T19:03:00+00:00",
+    "source_event_id": "8be6dd50-30f6-40fc-a473-7943cb6cfc22",
+    "status": "OPEN"
+  },
+  {
+    "_id": "1f24c5f4-6541-4bb7-86d1-bda89c581a48",
+    "signal_id": "d4a057e3-a0e2-4785-9255-c16500880779",
+    "remittance_id": 303,
+    "customer_id": 144,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8427,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14856.6717,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 303
+    },
+    "detected_at": "2026-07-03T22:50:00+00:00",
+    "source_event_id": "7ac1b8b7-d899-48db-95d9-e0c53eb1fe87",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c3fd4a37-6f35-41ca-81e7-9494410d5c80",
+    "signal_id": "a3992deb-242f-44e1-941a-2487cd46cfe5",
+    "remittance_id": 311,
+    "customer_id": 185,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7191,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16127.0853,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 311
+    },
+    "detected_at": "2026-06-15T22:06:01+00:00",
+    "source_event_id": "4abfa9e3-8dad-4be5-a15d-6d5d788db2a4",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a9f0a76e-b477-4e2a-be56-c7b8a49aadd0",
+    "signal_id": "92e5fe12-31ed-4a95-9c91-98a12bf7bb1e",
+    "remittance_id": 321,
+    "customer_id": 56,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7617,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15870.3553,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 321
+    },
+    "detected_at": "2026-07-05T06:29:02+00:00",
+    "source_event_id": "b61cd3c1-ab90-4205-a707-9d0e8cacc4a3",
+    "status": "OPEN"
+  },
+  {
+    "_id": "67cbfef2-8f65-4665-8b3d-04cfe4518ec6",
+    "signal_id": "c4cf1e0a-12fa-4e38-b342-6e179a36f51f",
+    "remittance_id": 324,
+    "customer_id": 178,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7927,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8611.9908,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 324
+    },
+    "detected_at": "2026-07-04T13:37:02+00:00",
+    "source_event_id": "39849ff3-ca8b-4aa2-8952-052a534ef4e2",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8f6ccc9c-b730-4876-9673-dcdaed71ce29",
+    "signal_id": "d9a9105f-238a-4961-a9d4-bb92a107f28d",
+    "remittance_id": 330,
+    "customer_id": 62,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7768,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14243.3453,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 330
+    },
+    "detected_at": "2026-07-06T06:01:02+00:00",
+    "source_event_id": "cc2c4ba6-5b0f-4946-a4ac-45cf7fdb7558",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "bf164fcb-dce9-4c58-9614-e15281700e32",
+    "signal_id": "99b26512-8de2-4045-bc6a-964f3391be8d",
+    "remittance_id": 331,
+    "customer_id": 37,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6842,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15066.4366,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 331
+    },
+    "detected_at": "2026-07-07T04:46:03+00:00",
+    "source_event_id": "e4360a84-9c57-447c-a6a9-e65f5eeb4fd0",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "a5e7c9c6-b1de-4661-bf30-e8580f6c9680",
+    "signal_id": "4ca1e328-55e4-459b-802d-5214a6d824df",
+    "remittance_id": 338,
+    "customer_id": 49,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.9067,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10259.8877,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 338
+    },
+    "detected_at": "2026-06-29T17:51:03+00:00",
+    "source_event_id": "79422acd-e890-49df-969e-dc0eca69d4b9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "725a4c82-666d-46f9-af31-00beae931dbd",
+    "signal_id": "7f3010b1-31f8-4385-862d-40e74d100776",
+    "remittance_id": 343,
+    "customer_id": 112,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.9166,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1837.7378,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 343
+    },
+    "detected_at": "2026-06-13T05:54:03+00:00",
+    "source_event_id": "e84c3424-2ecc-4fcb-8636-aefe75cc36a7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "6d6d266e-b741-4a79-bb6b-2d73787236bf",
+    "signal_id": "55d9dbc6-c556-4a28-b11e-fe46af7a22d9",
+    "remittance_id": 349,
+    "customer_id": 112,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7717,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17543.5479,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 349
+    },
+    "detected_at": "2026-06-14T05:59:04+00:00",
+    "source_event_id": "e2b6be84-83af-4a44-adea-f924ba5c3506",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8e24bab7-06d7-4614-8115-8a81af5de42b",
+    "signal_id": "33e4a348-fb1f-44a8-8cf0-d7ff503564d0",
+    "remittance_id": 354,
+    "customer_id": 5,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6968,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8479.1074,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 354
+    },
+    "detected_at": "2026-07-05T19:17:04+00:00",
+    "source_event_id": "631140ee-ca17-4937-9458-66f43b0fc549",
+    "status": "OPEN"
+  },
+  {
+    "_id": "2a3b9100-3c09-4f38-abcf-08d7371a2fc2",
+    "signal_id": "2d96e60d-f6a9-460f-a0d0-e871130c7aac",
+    "remittance_id": 358,
+    "customer_id": 48,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7947,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 208.7537,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 358
+    },
+    "detected_at": "2026-06-17T10:12:05+00:00",
+    "source_event_id": "c7691d09-2305-44e7-b355-931b94e131a4",
+    "status": "OPEN"
+  },
+  {
+    "_id": "bae887bf-c179-4cc9-97a0-7a77f5deb5f7",
+    "signal_id": "e329994a-c9e9-48f4-91f7-209e76f751fa",
+    "remittance_id": 363,
+    "customer_id": 102,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7791,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1964.8242,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 363
+    },
+    "detected_at": "2026-06-14T20:36:05+00:00",
+    "source_event_id": "4e64539b-af7e-428b-bc6e-01249e3da460",
+    "status": "OPEN"
+  },
+  {
+    "_id": "bd469193-bc24-46e7-b19f-711850e12426",
+    "signal_id": "7feb23b7-45d7-44bf-9237-205bee04f147",
+    "remittance_id": 364,
+    "customer_id": 51,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8396,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9821.9953,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 364
+    },
+    "detected_at": "2026-06-25T18:30:05+00:00",
+    "source_event_id": "cf589dc2-bc67-44bd-a313-5d491cecb3c9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "50b0e9a7-78fa-44d6-ab57-dab732038ba4",
+    "signal_id": "88c5547b-4c66-43f2-8b67-1da18e399f37",
+    "remittance_id": 365,
+    "customer_id": 16,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.66,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 800.9112,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 365
+    },
+    "detected_at": "2026-07-09T22:53:05+00:00",
+    "source_event_id": "9dfe3feb-f8b8-4083-925a-2724cf3bce19",
+    "status": "OPEN"
+  },
+  {
+    "_id": "bfb68ea5-3d6e-4985-a6ce-80be2f0195df",
+    "signal_id": "55b1bb1f-a66e-459b-8cd0-33dfe64453e6",
+    "remittance_id": 367,
+    "customer_id": 77,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8461,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2312.2678,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 367
+    },
+    "detected_at": "2026-06-17T04:55:05+00:00",
+    "source_event_id": "9778c710-23de-4077-b647-fbc78515715a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "17670513-65a0-4b6d-94c4-fba85ec9a893",
+    "signal_id": "774284d3-419e-490a-85c0-a0cc81e99654",
+    "remittance_id": 368,
+    "customer_id": 161,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8556,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10579.3292,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 368
+    },
+    "detected_at": "2026-07-02T18:25:05+00:00",
+    "source_event_id": "6c66ad82-4797-473b-876c-20d48f00fb77",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0df201d9-652c-4515-84d2-a0ccca535ca2",
+    "signal_id": "77c84324-5f9b-4349-8e17-eaf846ab80f3",
+    "remittance_id": 370,
+    "customer_id": 187,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.9008,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15352.4831,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 370
+    },
+    "detected_at": "2026-06-22T19:52:06+00:00",
+    "source_event_id": "bdba0bc1-c9b2-4537-aba4-bd809121ec5b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "607249e0-73b5-45f3-b4fe-b32eeb84fb98",
+    "signal_id": "a59fc79f-0a50-4963-bd6b-3807a62b3ce9",
+    "remittance_id": 371,
+    "customer_id": 164,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7856,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17536.3166,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 371
+    },
+    "detected_at": "2026-06-13T07:09:06+00:00",
+    "source_event_id": "5ebd1398-e8b4-4299-8c97-5de15a1f8212",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e55faec2-5d0d-4754-80b5-57380c12d8d4",
+    "signal_id": "a9c9820a-4ab9-4193-b870-f07b41e36499",
+    "remittance_id": 379,
+    "customer_id": 108,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8478,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16170.6335,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 379
+    },
+    "detected_at": "2026-06-14T15:11:06+00:00",
+    "source_event_id": "0e3d09f6-c2e7-47bd-ae7c-ec1353b248ec",
+    "status": "OPEN"
+  },
+  {
+    "_id": "68965752-21c8-4f9e-9f2d-eca1baf3dde2",
+    "signal_id": "18b6c7b6-65b5-4e9f-9774-1eea0bfa1640",
+    "remittance_id": 394,
+    "customer_id": 175,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7137,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10426.4936,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 394
+    },
+    "detected_at": "2026-06-18T11:25:07+00:00",
+    "source_event_id": "ae47e1d0-9a39-4449-b368-dfdded374c47",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "b443ee5a-736f-49e7-8709-238cdc6b7b8f",
+    "signal_id": "cb68a6fd-31d5-4039-be2e-8ec87bfb984d",
+    "remittance_id": 403,
+    "customer_id": 153,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8792,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7062.208,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 403
+    },
+    "detected_at": "2026-06-12T08:27:08+00:00",
+    "source_event_id": "b3a9c229-fc48-4a60-85d4-85360e8f030e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5e9d9fec-d663-4597-a732-8d3902c27f26",
+    "signal_id": "0f907e45-aae3-41c3-8de4-5ff4d3a6f757",
+    "remittance_id": 413,
+    "customer_id": 169,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8613,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8910.8258,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 413
+    },
+    "detected_at": "2026-07-06T04:31:09+00:00",
+    "source_event_id": "2f7e4378-c0b4-4c23-a6c4-7fe5a1810c8a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "fea14aa1-9b77-4730-98d7-fdcea2a7c57a",
+    "signal_id": "e76703d2-c100-443b-9d00-d31f07196a46",
+    "remittance_id": 420,
+    "customer_id": 114,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7829,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 497.6732,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 420
+    },
+    "detected_at": "2026-06-22T09:56:09+00:00",
+    "source_event_id": "80992d60-0cb9-4640-ae3a-78b0c0110e20",
+    "status": "OPEN"
+  },
+  {
+    "_id": "712746d7-83b5-415b-b101-80dd4ba33cb7",
+    "signal_id": "ccd46489-b2b0-4716-aba5-00d4c8d16b8e",
+    "remittance_id": 438,
+    "customer_id": 88,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7619,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14349.6369,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 438
+    },
+    "detected_at": "2026-07-01T06:34:11+00:00",
+    "source_event_id": "68e6854e-97a8-44c1-af39-da4d1bb7a930",
+    "status": "OPEN"
+  },
+  {
+    "_id": "99830a6a-9648-4dc5-81c6-fa9cd47fcd10",
+    "signal_id": "fc318f2a-cb21-4f19-9ce3-9d18174727d0",
+    "remittance_id": 441,
+    "customer_id": 66,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6748,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1990.9816,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 441
+    },
+    "detected_at": "2026-06-14T17:36:11+00:00",
+    "source_event_id": "a9d4ebbf-b715-4103-9153-e01b493ae87a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8705ab03-9307-419a-8b1d-35070c99c764",
+    "signal_id": "29066b69-b994-4c20-91ab-988b42f2dc19",
+    "remittance_id": 445,
+    "customer_id": 55,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8192,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3084.9189,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 445
+    },
+    "detected_at": "2026-07-02T00:34:11+00:00",
+    "source_event_id": "d06a04b5-f7ed-4af4-a654-67b35e09c619",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0f1230a9-c534-41e5-9ee8-34377edfb994",
+    "signal_id": "bd909572-bed8-405d-95ef-4050ea1a9ef7",
+    "remittance_id": 454,
+    "customer_id": 8,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8727,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16397.0535,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 454
+    },
+    "detected_at": "2026-06-12T06:19:12+00:00",
+    "source_event_id": "f334ae8b-5996-45ff-b36d-ac520d5221e8",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "ce0f255e-9c1b-48c0-b24c-a25aa19ad0f7",
+    "signal_id": "878379b8-e2cb-4404-a49e-10802790014a",
+    "remittance_id": 475,
+    "customer_id": 114,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.83,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16194.7573,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 475
+    },
+    "detected_at": "2026-06-22T16:50:13+00:00",
+    "source_event_id": "90518a3c-ee59-4e39-a4e9-4c613ec33d58",
+    "status": "OPEN"
+  },
+  {
+    "_id": "1b8059d5-262a-45e9-94cf-29c8cf3f5673",
+    "signal_id": "572a92a9-3662-470b-ae24-0b996701e5b4",
+    "remittance_id": 483,
+    "customer_id": 87,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8071,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2990.3111,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 483
+    },
+    "detected_at": "2026-06-28T03:28:14+00:00",
+    "source_event_id": "faeb1cb1-779f-44a2-a0e4-452b5c42c09f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "44687efd-292a-44c4-b335-52e65001f33a",
+    "signal_id": "429bdd8b-38e8-4fff-90c4-c90c8b15f8ab",
+    "remittance_id": 492,
+    "customer_id": 3,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.844,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8952.5442,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 492
+    },
+    "detected_at": "2026-06-27T23:36:15+00:00",
+    "source_event_id": "c7447d94-95f3-4375-84b2-375639ca4c62",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4ec7d3ad-d9a5-4866-b506-88caaf79c7fa",
+    "signal_id": "21b29df2-cc29-4324-b3c4-8cca60f72d6c",
+    "remittance_id": 494,
+    "customer_id": 193,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7096,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1728.0563,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 494
+    },
+    "detected_at": "2026-06-11T12:38:15+00:00",
+    "source_event_id": "51ab015b-f7c0-4f96-a426-5eef947da266",
+    "status": "OPEN"
+  },
+  {
+    "_id": "9bbaaa79-1983-4eb6-8986-e0bbdc140646",
+    "signal_id": "40c2114c-3a41-49dd-a4e1-022512805d00",
+    "remittance_id": 502,
+    "customer_id": 139,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6579,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15261.8647,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 502
+    },
+    "detected_at": "2026-07-01T14:58:15+00:00",
+    "source_event_id": "5217413b-d3d5-4aa7-b531-9661b1d953a2",
+    "status": "OPEN"
+  },
+  {
+    "_id": "63654243-08ec-4c4c-8205-ea95e96b633e",
+    "signal_id": "2799b3e2-db97-45d5-b5b0-74bfa4ae3460",
+    "remittance_id": 507,
+    "customer_id": 196,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8798,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15381.951,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 507
+    },
+    "detected_at": "2026-06-22T00:13:16+00:00",
+    "source_event_id": "098088bf-b6f1-4db2-a357-dbc6591140b7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0a5fdb53-b4b7-406a-ba7b-8f427e0b62f7",
+    "signal_id": "a3b1e7e7-7743-4cdd-b6fd-85c0c405ecdf",
+    "remittance_id": 511,
+    "customer_id": 22,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7064,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12268.7822,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 511
+    },
+    "detected_at": "2026-06-19T01:12:16+00:00",
+    "source_event_id": "061ba939-8a05-429f-82e8-7fb1b87732e9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "be561def-06a9-46a6-9706-25da22a96909",
+    "signal_id": "72c7cd39-94da-47ca-8f92-3b96646e2e49",
+    "remittance_id": 512,
+    "customer_id": 63,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7515,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2779.7884,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 512
+    },
+    "detected_at": "2026-06-19T07:10:16+00:00",
+    "source_event_id": "6befd6d5-5b41-45f9-99ee-a0b13bb094b9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8bed0231-a075-4e2d-b9b3-d13f72c28ef8",
+    "signal_id": "4f812eee-7fc6-4796-9237-9b434367beb3",
+    "remittance_id": 520,
+    "customer_id": 148,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8036,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8701.1871,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 520
+    },
+    "detected_at": "2026-06-17T06:13:17+00:00",
+    "source_event_id": "dd572e95-ff0d-4eb5-b272-775e54e986f3",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c2f8bd4d-ed6e-48a6-b906-d032de1953bc",
+    "signal_id": "17c491fd-f571-4377-aef6-0ee36f19efb8",
+    "remittance_id": 529,
+    "customer_id": 199,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8842,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14641.4889,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 529
+    },
+    "detected_at": "2026-07-10T00:28:17+00:00",
+    "source_event_id": "8125baa2-8f4f-4fe7-aef8-c07fa0066961",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "536fe5e0-8f6b-4ef6-9b5a-4d7db0cf8854",
+    "signal_id": "66307151-0d0c-4680-8f75-4901b19a8683",
+    "remittance_id": 530,
+    "customer_id": 99,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8665,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10519.7355,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 530
+    },
+    "detected_at": "2026-06-30T20:50:17+00:00",
+    "source_event_id": "7f5686e6-ecb1-49ed-9956-481f7e2ac080",
+    "status": "OPEN"
+  },
+  {
+    "_id": "2f225b27-c62f-4428-b21f-a279e5372c3d",
+    "signal_id": "8d2f14fb-d33d-48a9-9141-efb611d9b0c1",
+    "remittance_id": 533,
+    "customer_id": 41,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6986,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13552.4478,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 533
+    },
+    "detected_at": "2026-06-14T15:22:18+00:00",
+    "source_event_id": "50520a72-b1e7-4b9b-9ede-bb4e4a8a113a",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "148bf444-4eb5-4b2c-88fe-28f75acd0487",
+    "signal_id": "38dcf2a5-0240-4ad5-a064-dc6088663f8f",
+    "remittance_id": 541,
+    "customer_id": 151,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7079,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2667.5953,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 541
+    },
+    "detected_at": "2026-06-24T04:20:18+00:00",
+    "source_event_id": "c75907d8-bd1d-4aa5-9fd3-f1e9a54892ac",
+    "status": "OPEN"
+  },
+  {
+    "_id": "6ca3c756-9bff-4db1-b3f3-47521bf1949c",
+    "signal_id": "0c72575b-edd3-4821-a502-94afb133e123",
+    "remittance_id": 544,
+    "customer_id": 91,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8219,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1491.643,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 544
+    },
+    "detected_at": "2026-06-13T16:27:18+00:00",
+    "source_event_id": "920301e9-473f-4680-928c-7bee286a50eb",
+    "status": "OPEN"
+  },
+  {
+    "_id": "af859f02-c1c9-4733-be01-15547a844335",
+    "signal_id": "e0dc52e5-99b3-4c80-98f3-3ef2902c3239",
+    "remittance_id": 546,
+    "customer_id": 56,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7602,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17498.9941,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 546
+    },
+    "detected_at": "2026-06-18T12:33:18+00:00",
+    "source_event_id": "949f8975-5360-40d5-a51d-36d9d849c08f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "dca90ba4-2edd-464b-8544-5b43417f6aac",
+    "signal_id": "f540df5b-6cd5-40af-be34-e985a426fad7",
+    "remittance_id": 550,
+    "customer_id": 89,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6938,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2426.0207,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 550
+    },
+    "detected_at": "2026-07-04T16:58:19+00:00",
+    "source_event_id": "f0331af8-1a53-4282-ada7-f72cf403f8a2",
+    "status": "OPEN"
+  },
+  {
+    "_id": "598fa17f-c97f-4b3b-bdd5-4fca22f243e1",
+    "signal_id": "92cd3745-b92d-4d58-aa04-2869ba408d9f",
+    "remittance_id": 555,
+    "customer_id": 44,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6601,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8369.6264,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 555
+    },
+    "detected_at": "2026-06-23T04:47:19+00:00",
+    "source_event_id": "3af3a85b-51a6-4fae-850d-aa2e87ceb643",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "64832cc5-a5f2-4b41-b67a-f0a91d69eef0",
+    "signal_id": "7d03b887-f12e-40af-ba26-3e48fb7fa090",
+    "remittance_id": 560,
+    "customer_id": 18,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6868,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1866.2304,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 560
+    },
+    "detected_at": "2026-06-26T10:28:19+00:00",
+    "source_event_id": "f2b36578-c9d5-49b9-9b35-3ff390067f2a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "65e3b65f-8cc9-4d9b-8127-396a5eacadfa",
+    "signal_id": "0ef48712-a829-4878-8fd4-aaea9aea672d",
+    "remittance_id": 562,
+    "customer_id": 60,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7595,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2822.9198,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 562
+    },
+    "detected_at": "2026-06-30T06:16:19+00:00",
+    "source_event_id": "61a61301-9adb-421e-8344-2044cef0b10a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "46386204-b70f-4e19-8cb0-b730d3fe23be",
+    "signal_id": "e63d356b-6e61-47df-8347-1fa6b5abbd41",
+    "remittance_id": 576,
+    "customer_id": 68,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8335,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4344.8415,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 576
+    },
+    "detected_at": "2026-06-24T14:42:20+00:00",
+    "source_event_id": "dfbef9e2-fe06-447b-aa18-04a73a4eeb0c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "26767aaf-1aa2-4243-9ffb-3d288ed4f135",
+    "signal_id": "d68ac61c-e932-46eb-aeda-193c970cecad",
+    "remittance_id": 585,
+    "customer_id": 7,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7678,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7073.4649,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 585
+    },
+    "detected_at": "2026-06-16T09:52:21+00:00",
+    "source_event_id": "a8e2c58f-95cf-49bf-b40d-9a2d073ff4d6",
+    "status": "OPEN"
+  },
+  {
+    "_id": "d396b871-9f0e-4a5c-af34-ab2102b0f1a5",
+    "signal_id": "9bcdc697-382a-456c-9a09-fe0606891a47",
+    "remittance_id": 590,
+    "customer_id": 149,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8828,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17566.0753,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 590
+    },
+    "detected_at": "2026-06-30T00:59:22+00:00",
+    "source_event_id": "438e2be1-ca49-476c-9c82-2aadc46ce0ba",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "53a1319b-ebaf-4d6a-8ea0-63eb97bc92b5",
+    "signal_id": "a7f0dee1-75c8-48e4-9cde-f497ff12c315",
+    "remittance_id": 595,
+    "customer_id": 47,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7334,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14684.5417,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 595
+    },
+    "detected_at": "2026-07-04T17:52:22+00:00",
+    "source_event_id": "c5d4a77a-0ff9-4c95-bd12-2edea9abb06b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "acccd8ac-cab7-4708-8c16-334d8e9c370c",
+    "signal_id": "2ad144eb-71e9-41d6-b2c7-ab0c68afdd02",
+    "remittance_id": 598,
+    "customer_id": 84,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9109,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14004.2068,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 598
+    },
+    "detected_at": "2026-06-24T14:24:22+00:00",
+    "source_event_id": "7e69269a-0ef3-428d-a664-6ce7c816b8fc",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e317f22a-a7eb-40f2-a1ab-9c0ca8612d31",
+    "signal_id": "06f89f83-fa15-41d6-ab2d-620ea2d73240",
+    "remittance_id": 603,
+    "customer_id": 8,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.706,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3853.2472,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 603
+    },
+    "detected_at": "2026-06-20T23:47:22+00:00",
+    "source_event_id": "13413aec-6145-40a4-a215-88c2c9156844",
+    "status": "OPEN"
+  },
+  {
+    "_id": "01d569ff-39eb-42f4-b1bd-281064b13815",
+    "signal_id": "c89afdf2-b7c6-4c37-8595-8c0ba9e37364",
+    "remittance_id": 606,
+    "customer_id": 80,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8458,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10200.2154,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 606
+    },
+    "detected_at": "2026-06-26T01:39:23+00:00",
+    "source_event_id": "e542315f-752b-46a1-bc79-410716dd137a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a8a9ab13-4c2a-4329-9bb2-efb27b9ae699",
+    "signal_id": "7e86f34c-bf3d-4fd9-88dd-7f88fc28e4fe",
+    "remittance_id": 608,
+    "customer_id": 15,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8726,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15374.1911,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 608
+    },
+    "detected_at": "2026-07-05T19:19:23+00:00",
+    "source_event_id": "ff06286d-3646-40ef-935c-5eb55345b465",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b203b746-8952-4056-9576-d7adf0b3211f",
+    "signal_id": "f175fb0b-5ffe-4d05-8537-7f76ca6d87d6",
+    "remittance_id": 626,
+    "customer_id": 190,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.873,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7354.2461,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 626
+    },
+    "detected_at": "2026-06-26T09:52:24+00:00",
+    "source_event_id": "403b4787-e5a4-434f-bfd0-a61e72242380",
+    "status": "OPEN"
+  },
+  {
+    "_id": "f87e839d-5886-48df-9266-2d952dfeaf5e",
+    "signal_id": "cdb49719-1c6e-4c38-bbcc-9461ad8d3d5a",
+    "remittance_id": 632,
+    "customer_id": 156,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6687,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1335.2833,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 632
+    },
+    "detected_at": "2026-07-03T18:54:25+00:00",
+    "source_event_id": "44b72fc4-4a10-44b6-b544-2fc7d40292be",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b5d5f833-4716-4147-84a5-87c4af1ec493",
+    "signal_id": "f1c41ef1-a1ef-4570-86b1-aeaeac1b1ab0",
+    "remittance_id": 636,
+    "customer_id": 56,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.886,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 193.6286,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 636
+    },
+    "detected_at": "2026-06-24T18:33:25+00:00",
+    "source_event_id": "9291daea-1129-4254-a3fa-5097f69929ff",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b2530d5f-e39c-4181-aa3c-80a47a852abd",
+    "signal_id": "0cdaa463-caf0-4e28-ac84-a326a86c1064",
+    "remittance_id": 638,
+    "customer_id": 95,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8382,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1757.8823,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 638
+    },
+    "detected_at": "2026-06-17T15:08:25+00:00",
+    "source_event_id": "c24c5409-e43b-419f-8eb3-798afa5f73e2",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8085147b-c3b8-4e7e-8ecc-3ddb572d9c9e",
+    "signal_id": "f884e102-78fe-406b-9459-92482520ae9d",
+    "remittance_id": 654,
+    "customer_id": 19,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8461,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2057.3294,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 654
+    },
+    "detected_at": "2026-07-01T13:18:26+00:00",
+    "source_event_id": "fd75f863-ee56-4b38-a758-453c7e76d18a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5faa8d52-f504-493a-a7b9-5293a2d53663",
+    "signal_id": "6eb182bf-84f1-46d7-8019-c71b9f0c6690",
+    "remittance_id": 662,
+    "customer_id": 199,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6759,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1962.8936,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 662
+    },
+    "detected_at": "2026-07-04T19:28:27+00:00",
+    "source_event_id": "f7b5a419-ca4f-4350-bda6-5e1fdcb33291",
+    "status": "OPEN"
+  },
+  {
+    "_id": "50bfb6da-1ea3-49bb-972f-8490a90a6ef9",
+    "signal_id": "60717d75-6e3a-47bb-8568-0bb9378d72e8",
+    "remittance_id": 691,
+    "customer_id": 123,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9183,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15020.3303,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 691
+    },
+    "detected_at": "2026-06-13T00:20:29+00:00",
+    "source_event_id": "230c834f-2a9e-4f51-8394-adacd0e6003a",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "6910e59f-791e-40a1-830a-961a672e2dd2",
+    "signal_id": "515edae4-5c8c-47e7-9d1d-08385f75743c",
+    "remittance_id": 703,
+    "customer_id": 11,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6742,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4111.6788,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 703
+    },
+    "detected_at": "2026-07-02T14:08:30+00:00",
+    "source_event_id": "5089b78a-4323-499d-ad69-8ffd56fd3f99",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e794d8cb-7c51-4bf1-a3b3-746fcefc64c2",
+    "signal_id": "a4aee3bf-f5e1-49b4-8724-192665020637",
+    "remittance_id": 706,
+    "customer_id": 194,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8798,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1829.944,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 706
+    },
+    "detected_at": "2026-07-06T02:15:30+00:00",
+    "source_event_id": "80e9082f-bdb4-4f08-9a8f-28b957ac8782",
+    "status": "OPEN"
+  },
+  {
+    "_id": "133c279a-cb59-43cc-a9a3-8169d9b9285c",
+    "signal_id": "07c490f1-38ed-4745-9236-ba510245116a",
+    "remittance_id": 707,
+    "customer_id": 5,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8646,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10671.3738,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 707
+    },
+    "detected_at": "2026-07-06T09:16:30+00:00",
+    "source_event_id": "7fc5db48-c45f-4eef-90d9-9c7557e0ea80",
+    "status": "OPEN"
+  },
+  {
+    "_id": "e996f069-96f8-4b4c-8f17-df57092beb27",
+    "signal_id": "b533ad4e-3a6a-425b-af8a-b63352565587",
+    "remittance_id": 708,
+    "customer_id": 80,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7925,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4849.0348,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 708
+    },
+    "detected_at": "2026-06-15T18:36:30+00:00",
+    "source_event_id": "0473bfe4-bc5c-4a11-8c99-eb27100ac762",
+    "status": "OPEN"
+  },
+  {
+    "_id": "750d5ee9-9f73-4bf9-8b6d-310263c6f383",
+    "signal_id": "1195f231-d406-4f1d-93d5-6e9520e33281",
+    "remittance_id": 715,
+    "customer_id": 39,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8233,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7627.9455,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 715
+    },
+    "detected_at": "2026-06-20T00:42:31+00:00",
+    "source_event_id": "6a34a0c5-fefa-481c-9089-6df0287bf30d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8256e51e-8396-4be6-afac-38479e7d5b64",
+    "signal_id": "5aa2c6f0-1d58-4e54-8c5b-84b7279d719f",
+    "remittance_id": 716,
+    "customer_id": 171,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.9145,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3163.0042,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 716
+    },
+    "detected_at": "2026-07-02T15:10:31+00:00",
+    "source_event_id": "5576ad4f-ffca-4e05-9f18-7bb72862a73f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4b861ac7-9cea-4832-afbd-a70a41780a11",
+    "signal_id": "c9874d1a-9e98-499b-8882-1d10effa6fda",
+    "remittance_id": 717,
+    "customer_id": 192,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8417,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9293.2139,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 717
+    },
+    "detected_at": "2026-06-19T00:29:31+00:00",
+    "source_event_id": "bdd80224-cc30-41a3-b0f5-e45a6cdf9408",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c00da251-06bc-4b15-aabc-03bd5644ec5d",
+    "signal_id": "93dd30c0-dfd2-4f23-a6a7-a4391051ed1f",
+    "remittance_id": 719,
+    "customer_id": 52,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8337,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16882.0518,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 719
+    },
+    "detected_at": "2026-07-04T03:53:31+00:00",
+    "source_event_id": "cb0153ea-0632-4933-b34e-7840ab4d1367",
+    "status": "OPEN"
+  },
+  {
+    "_id": "52cfb44e-7472-4792-ae4c-3f34b0aed289",
+    "signal_id": "bf0b288a-1156-445f-851e-f23af30b6d0f",
+    "remittance_id": 726,
+    "customer_id": 36,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7538,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17474.3175,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 726
+    },
+    "detected_at": "2026-06-16T05:12:32+00:00",
+    "source_event_id": "7bd65357-e727-4558-afd9-84d8c09f62a4",
+    "status": "OPEN"
+  },
+  {
+    "_id": "cd51eee3-6017-4dba-9974-6343cae21e29",
+    "signal_id": "43cf90ad-3b2b-4946-8dc8-5769a7d2140f",
+    "remittance_id": 736,
+    "customer_id": 152,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6685,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4427.1318,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 736
+    },
+    "detected_at": "2026-06-28T14:20:32+00:00",
+    "source_event_id": "45601a4a-85b4-47d1-b3a5-c2e9ff2f4819",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5af1adbc-42ed-4197-ab1c-a233eaad400a",
+    "signal_id": "39080cb8-1d9c-4690-9b22-5f63bd99f79c",
+    "remittance_id": 741,
+    "customer_id": 96,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7518,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2514.8857,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 741
+    },
+    "detected_at": "2026-06-29T14:00:33+00:00",
+    "source_event_id": "2587e6ff-2dd5-4ec9-88ef-623e298dc539",
+    "status": "OPEN"
+  },
+  {
+    "_id": "646586b6-bfc3-47fd-979d-f1e61f842e19",
+    "signal_id": "8ae7a9dd-d3a9-4bd3-a39e-88d1a99cb3b8",
+    "remittance_id": 744,
+    "customer_id": 110,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7944,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17468.1974,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 744
+    },
+    "detected_at": "2026-06-14T19:23:33+00:00",
+    "source_event_id": "67f4d336-b435-49d5-8850-76dd0be01789",
+    "status": "OPEN"
+  },
+  {
+    "_id": "917d90a9-aa19-4f34-8aa4-61638bf8d3c5",
+    "signal_id": "22e7be59-1b02-4fde-84cd-4e2b05e89b86",
+    "remittance_id": 748,
+    "customer_id": 197,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6678,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13896.894,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 748
+    },
+    "detected_at": "2026-06-11T10:26:33+00:00",
+    "source_event_id": "6296850f-b447-4dcf-9aae-eb300b673d8e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "3e52def6-a402-41fd-a102-260cb3a5d2f0",
+    "signal_id": "8fbe2a56-61d3-4449-8c98-93a4b9bcc250",
+    "remittance_id": 750,
+    "customer_id": 141,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6959,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9948.1506,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 750
+    },
+    "detected_at": "2026-06-21T07:58:33+00:00",
+    "source_event_id": "cb91c22c-3455-4048-a419-74f18e13ed43",
+    "status": "OPEN"
+  },
+  {
+    "_id": "67e30499-7c3d-4747-9d2f-080f6e21b934",
+    "signal_id": "3626ebef-906d-4ea5-88fa-b042c6fe5cf3",
+    "remittance_id": 752,
+    "customer_id": 118,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7795,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3425.4286,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 752
+    },
+    "detected_at": "2026-07-03T14:03:34+00:00",
+    "source_event_id": "abcec485-5ddb-4a30-9dcf-4b1e81dfa0c1",
+    "status": "OPEN"
+  },
+  {
+    "_id": "ca779a1c-2a97-409b-8700-6305557fcb65",
+    "signal_id": "5ca206ad-3c0b-4ca1-83f7-20c8fd54d2d3",
+    "remittance_id": 754,
+    "customer_id": 36,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6655,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13863.0058,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 754
+    },
+    "detected_at": "2026-06-17T16:57:34+00:00",
+    "source_event_id": "7b645a74-609a-4ba5-8b58-7432c17706e6",
+    "status": "OPEN"
+  },
+  {
+    "_id": "75100f2d-c354-4456-89be-2a0e3282a857",
+    "signal_id": "7f52e19d-3c89-4e49-a4a6-fab992ce72c5",
+    "remittance_id": 760,
+    "customer_id": 120,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.919,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9857.5356,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 760
+    },
+    "detected_at": "2026-06-11T04:19:34+00:00",
+    "source_event_id": "72e518c0-57ec-4cb5-a205-2e2c455a2fc0",
+    "status": "OPEN"
+  },
+  {
+    "_id": "61649d6d-d2f4-4f1b-af64-4e886fdab7ab",
+    "signal_id": "be02a658-9abd-4f5b-9138-61a7b1f73a0e",
+    "remittance_id": 762,
+    "customer_id": 87,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.86,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3556.6784,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 762
+    },
+    "detected_at": "2026-07-05T00:21:34+00:00",
+    "source_event_id": "8515a9be-6de1-4025-a180-31ad2da20205",
+    "status": "OPEN"
+  },
+  {
+    "_id": "3f3fc72c-e5ef-4444-91c5-85bdeb74f0c7",
+    "signal_id": "fc4ce6cd-5b9e-4054-ad02-2c4dd189be73",
+    "remittance_id": 766,
+    "customer_id": 139,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.9095,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1186.5981,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 766
+    },
+    "detected_at": "2026-06-16T22:34:34+00:00",
+    "source_event_id": "d403356b-c20c-4b42-a1a2-42bc0f5a6e54",
+    "status": "OPEN"
+  },
+  {
+    "_id": "cfa93952-c7d3-4368-85cb-22b2f988fd2c",
+    "signal_id": "453a0a14-8cc8-42c0-bbe0-1ba0c96cfd58",
+    "remittance_id": 769,
+    "customer_id": 160,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6517,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1801.347,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 769
+    },
+    "detected_at": "2026-06-12T16:09:35+00:00",
+    "source_event_id": "a727df56-49e4-4029-adfd-4bbe216c269f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8bc6d3ce-50cb-41e9-9b7c-3d1f09427409",
+    "signal_id": "3ea6a17c-d1f8-4163-8141-bd973e624a42",
+    "remittance_id": 783,
+    "customer_id": 55,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6546,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1344.668,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 783
+    },
+    "detected_at": "2026-06-19T14:42:36+00:00",
+    "source_event_id": "b927b089-d7bb-4c71-b52b-9fc2a85f9424",
+    "status": "OPEN"
+  },
+  {
+    "_id": "d3b05cc2-9e55-46f7-81a7-335eb94a40cb",
+    "signal_id": "f436c191-64ae-4009-9c5d-6787d169576e",
+    "remittance_id": 797,
+    "customer_id": 85,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7456,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10828.4835,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 797
+    },
+    "detected_at": "2026-06-18T08:33:37+00:00",
+    "source_event_id": "278a3ad7-bc26-4f5d-a4fd-767c8da85e5b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "44abe953-30a1-4800-b5d8-72a112a73f92",
+    "signal_id": "aaceac2a-3f21-450f-ad00-ef60c49c1dc6",
+    "remittance_id": 807,
+    "customer_id": 150,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7753,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4277.4482,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 807
+    },
+    "detected_at": "2026-06-18T05:02:37+00:00",
+    "source_event_id": "9a23a3b0-536e-49f6-a360-87d0de8fd1c4",
+    "status": "OPEN"
+  },
+  {
+    "_id": "20f5fb75-ff7a-43fb-ac7c-b9b5a36fa7bf",
+    "signal_id": "234687fd-8ae1-4c38-9c15-f4df0548215c",
+    "remittance_id": 818,
+    "customer_id": 169,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7215,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1212.7945,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 818
+    },
+    "detected_at": "2026-06-18T03:56:38+00:00",
+    "source_event_id": "a34e6c7c-3b34-4aeb-b918-1beaff5a98fe",
+    "status": "OPEN"
+  },
+  {
+    "_id": "673b8051-bb75-4d26-b097-557e7f39a5a5",
+    "signal_id": "3ec581c0-c769-4b96-8855-8f17f8ced108",
+    "remittance_id": 820,
+    "customer_id": 107,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8231,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1693.8196,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 820
+    },
+    "detected_at": "2026-06-16T00:44:38+00:00",
+    "source_event_id": "596f5667-7ca3-4b7c-8889-ac13cc447ade",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5b8c95a7-b485-4342-bc60-72fc0e7efaaf",
+    "signal_id": "ec3acbd7-59c5-4885-adff-f77ed609e868",
+    "remittance_id": 824,
+    "customer_id": 66,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7622,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3535.8232,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 824
+    },
+    "detected_at": "2026-06-20T02:42:38+00:00",
+    "source_event_id": "1de51840-607e-4464-a3ac-5f8763db315f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "8027b305-a0d5-4c6e-b048-46aa6d553d08",
+    "signal_id": "8e164369-cafd-4878-acda-07853bc84895",
+    "remittance_id": 825,
+    "customer_id": 16,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8388,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13417.3127,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 825
+    },
+    "detected_at": "2026-06-17T17:50:39+00:00",
+    "source_event_id": "cb129983-98a4-48cb-9c08-b5b9b69b33fc",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b9f1273b-91f8-4da5-857f-615be28affdb",
+    "signal_id": "668e7885-f43a-44f3-a9c8-fd33b056d035",
+    "remittance_id": 827,
+    "customer_id": 116,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6831,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17050.7538,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 827
+    },
+    "detected_at": "2026-06-12T14:26:39+00:00",
+    "source_event_id": "fef87db8-060d-49c2-ad6b-8336d520293c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0b41015b-6bcd-40de-98cf-62aab763b881",
+    "signal_id": "e17120c6-b3be-4c04-8f80-7cb212107891",
+    "remittance_id": 830,
+    "customer_id": 1,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8735,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12173.078,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 830
+    },
+    "detected_at": "2026-07-02T06:37:39+00:00",
+    "source_event_id": "7f5abd12-b311-4ad8-98d3-940ba877b391",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "383d317c-5c45-40f3-91a2-63466ecd84c5",
+    "signal_id": "62a83796-eaa7-4d1e-beb1-3c35ad3b5621",
+    "remittance_id": 846,
+    "customer_id": 145,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.707,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2736.6439,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 846
+    },
+    "detected_at": "2026-07-07T12:24:40+00:00",
+    "source_event_id": "5989ee20-aee6-40a0-92f8-779b842d13ac",
+    "status": "OPEN"
+  },
+  {
+    "_id": "deef8e32-fa9c-4cc1-9fae-9555ea5a4214",
+    "signal_id": "6ffce6b0-f134-4cc8-9ebc-9e31bdceb3a8",
+    "remittance_id": 847,
+    "customer_id": 155,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.731,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3399.0957,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 847
+    },
+    "detected_at": "2026-06-23T03:53:40+00:00",
+    "source_event_id": "16dc552c-ec22-4dd7-9c5b-c26e6efc981e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7cafcfa2-9a42-4aee-90f8-b2b1dfd9ec1d",
+    "signal_id": "bf8a674c-b91f-440c-a1c4-83c7dbc121ad",
+    "remittance_id": 853,
+    "customer_id": 97,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.738,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1766.8691,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 853
+    },
+    "detected_at": "2026-06-15T08:43:41+00:00",
+    "source_event_id": "56e14bd9-d290-414d-b1e5-851f979915b7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0a104872-50b1-4cc5-941b-09e39d910418",
+    "signal_id": "a490036e-1948-4883-aa1f-50fdd24de219",
+    "remittance_id": 854,
+    "customer_id": 49,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8818,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16399.2221,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 854
+    },
+    "detected_at": "2026-06-30T20:42:41+00:00",
+    "source_event_id": "ac5bb5a4-4bb7-4500-96fa-5398e1e91ea9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a1006500-a698-4089-a4b2-d10ebc2fec4d",
+    "signal_id": "7a0b0b77-f262-46ca-99ba-0852cff14259",
+    "remittance_id": 863,
+    "customer_id": 25,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8384,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4094.1969,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 863
+    },
+    "detected_at": "2026-06-29T06:41:42+00:00",
+    "source_event_id": "5f1de73d-bad3-4ceb-aab0-9b061abba199",
+    "status": "OPEN"
+  },
+  {
+    "_id": "3c7ff260-d2da-427b-abae-ab88d4b700c5",
+    "signal_id": "26d8e31e-1f79-4ca4-a518-e5ccd09cdee3",
+    "remittance_id": 864,
+    "customer_id": 162,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7167,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8605.7493,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 864
+    },
+    "detected_at": "2026-06-26T09:31:42+00:00",
+    "source_event_id": "9d40d484-022f-4836-976e-773d8c010d19",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7eaa73df-a6c5-42dc-9ff2-7df85fdaaf94",
+    "signal_id": "2f1a8483-9757-4aaf-9732-5f19fede6cf7",
+    "remittance_id": 867,
+    "customer_id": 81,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8142,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3423.3771,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 867
+    },
+    "detected_at": "2026-07-02T16:10:42+00:00",
+    "source_event_id": "b6f8454d-ccc2-4d15-8349-5ff715cac7b0",
+    "status": "OPEN"
+  },
+  {
+    "_id": "77b2939d-78d1-4be1-a052-5088fd3fa283",
+    "signal_id": "b38b2a1a-284c-452d-a501-1bdff50a1934",
+    "remittance_id": 876,
+    "customer_id": 180,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.682,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1853.0014,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 876
+    },
+    "detected_at": "2026-06-29T12:14:43+00:00",
+    "source_event_id": "62acad83-0c38-40b0-a777-80a42f622277",
+    "status": "OPEN"
+  },
+  {
+    "_id": "29e1bca5-79ac-4070-ab4a-965bf329955b",
+    "signal_id": "c26cc07d-c6c5-41f0-a8f5-0320f3a67ecd",
+    "remittance_id": 880,
+    "customer_id": 45,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6853,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17193.4415,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 880
+    },
+    "detected_at": "2026-06-24T01:35:43+00:00",
+    "source_event_id": "3ba82d1b-e270-4e32-bd4a-dd5bdd8477fa",
+    "status": "OPEN"
+  },
+  {
+    "_id": "1854171c-7a5e-4be1-9614-f5a930ee0e7a",
+    "signal_id": "57e481fb-c263-4cba-a361-10eaeef287fd",
+    "remittance_id": 886,
+    "customer_id": 179,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7607,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2520.4116,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 886
+    },
+    "detected_at": "2026-06-26T17:58:43+00:00",
+    "source_event_id": "d8b7c5c3-d59c-4c7f-8432-be7071c70385",
+    "status": "OPEN"
+  },
+  {
+    "_id": "010baacc-21e0-44c8-be62-55b9ec9ceeb9",
+    "signal_id": "bf1bf1f0-b73b-45bb-92f0-10464b1f4c08",
+    "remittance_id": 887,
+    "customer_id": 88,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7194,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17347.6911,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 887
+    },
+    "detected_at": "2026-06-22T19:12:43+00:00",
+    "source_event_id": "eab85895-85f0-40ac-8247-1d16589c9cf7",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "36774e22-b02f-4aac-afd7-b841233f5499",
+    "signal_id": "0a65ab3d-26a7-43d7-bc68-6889d8332d42",
+    "remittance_id": 899,
+    "customer_id": 77,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.9001,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3474.4783,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 899
+    },
+    "detected_at": "2026-06-22T11:22:44+00:00",
+    "source_event_id": "6e188d27-3e6b-4069-a89b-450090e300e8",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a887447a-835d-428f-bac5-1da15bea622a",
+    "signal_id": "058d5e6a-3c42-4cc4-b3e2-6394edd1cf85",
+    "remittance_id": 924,
+    "customer_id": 1,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8162,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16415.1775,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 924
+    },
+    "detected_at": "2026-07-08T12:30:46+00:00",
+    "source_event_id": "ed353adf-4008-4550-a2df-8c68378d0668",
+    "status": "OPEN"
+  },
+  {
+    "_id": "6ac48a0b-72e3-40c6-ac5e-8f09986c6618",
+    "signal_id": "dfa5dae6-6a48-45d2-a893-99788679d6aa",
+    "remittance_id": 930,
+    "customer_id": 63,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7829,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4553.7969,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 930
+    },
+    "detected_at": "2026-06-27T00:32:47+00:00",
+    "source_event_id": "ff513662-4860-4233-88c2-bdac3bca1d1a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "dab9e72d-385f-4876-a182-ea0f06cfc0c8",
+    "signal_id": "05a5e354-7ed5-4b9e-a70b-071160dc85d5",
+    "remittance_id": 933,
+    "customer_id": 131,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8583,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16841.3753,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 933
+    },
+    "detected_at": "2026-06-21T03:45:47+00:00",
+    "source_event_id": "db829fe2-a988-41cc-8d97-389a69cf9257",
+    "status": "OPEN"
+  },
+  {
+    "_id": "1e27cef0-ef41-4dfa-b977-a1158d90fcb3",
+    "signal_id": "2ba9f8be-24e6-4c91-b785-5f6d80b69424",
+    "remittance_id": 944,
+    "customer_id": 16,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8235,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13983.4196,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 944
+    },
+    "detected_at": "2026-06-23T00:56:48+00:00",
+    "source_event_id": "0e2304ac-d47e-4b39-8db1-3a5881d9ee77",
+    "status": "OPEN"
+  },
+  {
+    "_id": "18043616-e324-40ca-ac37-9c79f8eca5f6",
+    "signal_id": "ac81d851-72be-4037-a583-28c7cb43fede",
+    "remittance_id": 945,
+    "customer_id": 161,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6561,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4755.1184,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 945
+    },
+    "detected_at": "2026-06-21T12:50:48+00:00",
+    "source_event_id": "1a99a3f6-4759-498f-a4d4-903cb3f29fee",
+    "status": "OPEN"
+  },
+  {
+    "_id": "946f9e32-1491-4f12-84b5-d8b9b81de896",
+    "signal_id": "ca0fcb37-67d5-4aca-a062-be287c30864a",
+    "remittance_id": 949,
+    "customer_id": 127,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8457,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 11652.4304,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 949
+    },
+    "detected_at": "2026-06-23T12:16:48+00:00",
+    "source_event_id": "a3211f15-051f-4afd-97b0-09133b026aaa",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0ec061b8-b806-451d-832c-f698c0ec540e",
+    "signal_id": "baa118b0-967a-41c6-80b8-7c33ce8fcf38",
+    "remittance_id": 953,
+    "customer_id": 91,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8597,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 770.7202,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 953
+    },
+    "detected_at": "2026-07-08T12:02:48+00:00",
+    "source_event_id": "daacebc9-5cc0-4b6e-b6fe-9162a96c6ac5",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b87f2c53-56f0-4a05-9eed-d90e9a134553",
+    "signal_id": "e945227a-4884-45e5-88c7-36779b0c9263",
+    "remittance_id": 958,
+    "customer_id": 30,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6524,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1060.6234,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 958
+    },
+    "detected_at": "2026-06-24T11:17:48+00:00",
+    "source_event_id": "8e18466f-a094-4f13-afbe-f1c7a0c83a7b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c1a3e6de-d873-4be2-8dbe-7076fff78ec6",
+    "signal_id": "d114b6bd-b9a4-4e98-adbd-85a53f08a4c0",
+    "remittance_id": 984,
+    "customer_id": 180,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8774,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2121.7433,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 984
+    },
+    "detected_at": "2026-06-19T10:15:50+00:00",
+    "source_event_id": "bbf2f318-37ca-4d9b-84fd-b6927d40b678",
+    "status": "OPEN"
+  },
+  {
+    "_id": "db248e0c-1b16-4b8a-ad2d-634785ab4e89",
+    "signal_id": "1df4d24f-ce32-451d-8693-5b589c5a9aff",
+    "remittance_id": 985,
+    "customer_id": 159,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6924,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 538.6135,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 985
+    },
+    "detected_at": "2026-06-20T23:58:50+00:00",
+    "source_event_id": "2158b6fe-3ac9-4c3a-8ecd-00b3f3067342",
+    "status": "OPEN"
+  },
+  {
+    "_id": "2a2e2861-7dd0-4f9f-a1e8-857b0869bdfe",
+    "signal_id": "46157644-3283-4a5d-9b49-7209a20106d2",
+    "remittance_id": 986,
+    "customer_id": 139,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7347,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13439.1883,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 986
+    },
+    "detected_at": "2026-06-25T08:20:51+00:00",
+    "source_event_id": "c0ca2e4d-b35c-43fd-8542-d728f6c08b4d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "ed1050ac-defd-4d36-b245-094dd5051c4e",
+    "signal_id": "6226dbd4-8fa0-4ca0-ba4c-272ed736081a",
+    "remittance_id": 987,
+    "customer_id": 82,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8745,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3683.0991,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 987
+    },
+    "detected_at": "2026-07-03T13:06:51+00:00",
+    "source_event_id": "88b6635b-4f63-4594-93f4-0fad57acaae7",
+    "status": "OPEN"
+  },
+  {
+    "_id": "02cd3674-28fc-4595-be42-95b9524c01f4",
+    "signal_id": "073363fa-5b6d-48c5-9464-872c99ea438d",
+    "remittance_id": 990,
+    "customer_id": 48,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8186,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3651.2483,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 990
+    },
+    "detected_at": "2026-06-29T11:59:51+00:00",
+    "source_event_id": "99c108fc-da51-477e-ba4e-e8a71f254750",
+    "status": "OPEN"
+  },
+  {
+    "_id": "ac7c28c1-b07c-427d-aa0f-2612d3cd1949",
+    "signal_id": "b3b39a5a-17ab-4e46-8467-a0b5835ff014",
+    "remittance_id": 1001,
+    "customer_id": 57,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7587,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15929.5729,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1001
+    },
+    "detected_at": "2026-07-09T00:06:52+00:00",
+    "source_event_id": "0f80f181-53eb-47d2-9723-1accaa3de63c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "70e41943-2f26-41cb-bdea-dba61677f18c",
+    "signal_id": "cce4b3d2-da7c-41f5-81be-d05a2c2e07ca",
+    "remittance_id": 1007,
+    "customer_id": 43,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.81,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1202.3596,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1007
+    },
+    "detected_at": "2026-07-06T01:16:52+00:00",
+    "source_event_id": "d97d1515-a746-4faa-896f-8bb152c43631",
+    "status": "OPEN"
+  },
+  {
+    "_id": "fb279ecf-7a7a-4dfe-973a-f87acc80ee72",
+    "signal_id": "45622c7c-789c-4660-8b13-ca6f9316af39",
+    "remittance_id": 1018,
+    "customer_id": 157,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.657,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 252.3847,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1018
+    },
+    "detected_at": "2026-06-16T00:42:53+00:00",
+    "source_event_id": "235a296c-5607-4d43-b3cd-7a79813bbdcd",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7db6cc45-d387-47b9-ac16-61bfbe01dd35",
+    "signal_id": "c8fd0704-95ef-42d3-9b9b-7f32fd27914c",
+    "remittance_id": 1019,
+    "customer_id": 113,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8854,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17295.9795,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1019
+    },
+    "detected_at": "2026-07-01T09:03:53+00:00",
+    "source_event_id": "447c588f-aeef-46f7-9f7c-8d8e995e3a4a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0c50dcf4-75f6-4037-9f03-f4c7ae88b09c",
+    "signal_id": "18988253-37d1-40dd-9a35-3d4b1f2cdd2a",
+    "remittance_id": 1024,
+    "customer_id": 129,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7515,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10184.1519,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1024
+    },
+    "detected_at": "2026-06-22T19:45:53+00:00",
+    "source_event_id": "a4b26a36-fc34-4963-888b-7876919fb3cb",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4931dca5-e9bc-42a3-9d3a-1891d0776557",
+    "signal_id": "95c0c74c-2a58-48d9-912d-723602eb063c",
+    "remittance_id": 1025,
+    "customer_id": 175,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8276,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3465.7436,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1025
+    },
+    "detected_at": "2026-06-22T23:40:53+00:00",
+    "source_event_id": "928a0b07-2c7f-4f5e-8437-4e6a64399e8e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "97cbe73b-66b8-43a2-b15a-066e7ea9dd8c",
+    "signal_id": "89b6ec27-c70e-4b25-9e98-85b00cf5285d",
+    "remittance_id": 1026,
+    "customer_id": 33,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7654,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14759.8256,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1026
+    },
+    "detected_at": "2026-06-21T12:21:53+00:00",
+    "source_event_id": "e8d70ad3-a11e-4db9-9c5a-d50593eaa541",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b26c2d55-7380-46eb-a33e-dd8d08fc00b0",
+    "signal_id": "2bb0a45b-e9a1-4d35-a3e1-441df75d5f80",
+    "remittance_id": 1030,
+    "customer_id": 15,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7723,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2626.2224,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1030
+    },
+    "detected_at": "2026-07-10T15:23:54+00:00",
+    "source_event_id": "fd289efa-a5a7-43c8-a304-eceef4bd0f9a",
+    "status": "OPEN"
+  },
+  {
+    "_id": "6804afde-016d-4eea-a05c-4c4a28a913c4",
+    "signal_id": "de7b3354-0c2b-444d-8583-4a575416e1d6",
+    "remittance_id": 1035,
+    "customer_id": 146,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8202,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17982.3104,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1035
+    },
+    "detected_at": "2026-07-05T07:29:54+00:00",
+    "source_event_id": "ceef957d-ef1b-4f8d-9c9e-b075ef6654f5",
+    "status": "OPEN"
+  },
+  {
+    "_id": "f233161a-89d8-40a0-b7b4-bdc0b0b63e2e",
+    "signal_id": "a8db48ba-933b-409c-8850-ecf41a48a2b6",
+    "remittance_id": 1039,
+    "customer_id": 173,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7546,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16994.12,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1039
+    },
+    "detected_at": "2026-06-13T23:27:54+00:00",
+    "source_event_id": "96867ca2-e99a-4dbd-8ea4-28832deb77b2",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "33aad64a-fbe6-47fd-8f3e-edf45efc3f5f",
+    "signal_id": "145aee6b-4424-436f-a6eb-e48a09b01078",
+    "remittance_id": 1044,
+    "customer_id": 168,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.9153,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7587.788,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1044
+    },
+    "detected_at": "2026-06-19T22:40:55+00:00",
+    "source_event_id": "f615de5d-5ec8-4343-b2cc-278c4c00d812",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4eb3b5c5-7e10-45be-b3cf-a217f1d72fe6",
+    "signal_id": "f7f3f4b0-7871-4736-b384-870db9810fba",
+    "remittance_id": 1055,
+    "customer_id": 100,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7536,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 789.9091,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1055
+    },
+    "detected_at": "2026-06-17T00:44:55+00:00",
+    "source_event_id": "61aede07-63bc-4c93-a9f2-dc383fca688d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b73b47e6-0698-4a66-9f6d-6dc68e614b7f",
+    "signal_id": "e7597e8d-84ba-4aa8-9868-6ff35693293b",
+    "remittance_id": 1076,
+    "customer_id": 58,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6659,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2095.928,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1076
+    },
+    "detected_at": "2026-06-18T13:48:57+00:00",
+    "source_event_id": "083b76f4-dea4-4b97-95e3-ce4be47f5367",
+    "status": "OPEN"
+  },
+  {
+    "_id": "9ab18c2a-9523-4352-b4e9-6110eac1d639",
+    "signal_id": "a3a154bb-44a6-454e-beaf-22a1d33be7fc",
+    "remittance_id": 1078,
+    "customer_id": 37,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6735,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4926.8658,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1078
+    },
+    "detected_at": "2026-06-20T04:21:57+00:00",
+    "source_event_id": "46b521d8-c43a-429e-9b4c-edfb091e09ca",
+    "status": "OPEN"
+  },
+  {
+    "_id": "83c954ea-1633-4f81-bfbb-a8f05ba543bb",
+    "signal_id": "776e46df-ec21-4c5e-9eed-f7aea4e95ae8",
+    "remittance_id": 1079,
+    "customer_id": 109,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8321,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8109.0223,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1079
+    },
+    "detected_at": "2026-06-28T12:59:57+00:00",
+    "source_event_id": "e50c88ce-ae44-4dbe-a4d2-26afbc42c9c3",
+    "status": "OPEN"
+  },
+  {
+    "_id": "d2b58d9b-5a03-41d4-b59e-9c85eaa4dce1",
+    "signal_id": "291f6ab3-4195-4d0a-b6b6-19cdea40fc14",
+    "remittance_id": 1089,
+    "customer_id": 52,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7578,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3286.9003,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1089
+    },
+    "detected_at": "2026-06-25T17:16:58+00:00",
+    "source_event_id": "d00d4030-caeb-4ed0-ba6b-7395b7d82cc1",
+    "status": "OPEN"
+  },
+  {
+    "_id": "f4b51191-8496-4ed0-82a6-320aa3ba79a8",
+    "signal_id": "4bab5de6-60a3-4b2f-9171-644ad6561d96",
+    "remittance_id": 1090,
+    "customer_id": 18,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8061,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2733.6349,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1090
+    },
+    "detected_at": "2026-07-08T03:43:58+00:00",
+    "source_event_id": "e585e8a7-97a4-4381-a6a3-026671f5c0ed",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4df9fa31-4a32-4017-aadb-226a6887c723",
+    "signal_id": "51224b02-065b-4a40-880e-9b43669056ae",
+    "remittance_id": 1104,
+    "customer_id": 90,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7453,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3417.6464,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1104
+    },
+    "detected_at": "2026-07-07T06:34:59+00:00",
+    "source_event_id": "7e04fd28-cae9-4ff2-b791-b06892d16d6d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "9607b7ea-8615-4913-9595-54a54537e27c",
+    "signal_id": "705b7f6a-ae6a-4d6c-aa14-f031e0cb0f91",
+    "remittance_id": 1106,
+    "customer_id": 21,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8305,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16556.2624,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1106
+    },
+    "detected_at": "2026-06-27T12:47:59+00:00",
+    "source_event_id": "6e26c634-a667-4089-a50c-ebf91b8500d8",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "dbc640b7-51e3-47a4-ad9b-4d052f624004",
+    "signal_id": "0944eb70-9915-45bc-ba63-58e8ded6d799",
+    "remittance_id": 1113,
+    "customer_id": 17,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6723,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10680.5299,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1113
+    },
+    "detected_at": "2026-06-28T00:48:00+00:00",
+    "source_event_id": "6478ac27-4db1-414d-a9b7-716080981539",
+    "status": "OPEN"
+  },
+  {
+    "_id": "243f7181-3f1b-454c-a390-b1f374cf3cef",
+    "signal_id": "f1a886ba-9bb8-4ce9-b0c8-47ba8b346e5b",
+    "remittance_id": 1115,
+    "customer_id": 72,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.891,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10533.8489,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1115
+    },
+    "detected_at": "2026-06-25T05:12:00+00:00",
+    "source_event_id": "90c0e36c-48e0-468a-a9ab-78c89bb8fd3e",
+    "status": "OPEN"
+  },
+  {
+    "_id": "3ab60626-7116-4e66-ad37-35fd9e5f0b56",
+    "signal_id": "ac04450f-db53-4888-9a38-062fba2b4d00",
+    "remittance_id": 1117,
+    "customer_id": 150,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7029,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14963.5559,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1117
+    },
+    "detected_at": "2026-06-12T06:12:02+00:00",
+    "source_event_id": "d601b5fc-0746-48c3-85c8-e8fee78add30",
+    "status": "OPEN"
+  },
+  {
+    "_id": "4f575c93-2e38-4be2-95ce-3894cfb15dd3",
+    "signal_id": "f905235f-fec2-492a-8623-314205ae072e",
+    "remittance_id": 1119,
+    "customer_id": 101,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8612,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10668.8034,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1119
+    },
+    "detected_at": "2026-07-04T02:20:02+00:00",
+    "source_event_id": "1a69c373-0891-4ea9-92bb-ca3d40b7352f",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "bb5b56b3-e23a-4fde-a05a-a598720f6a7c",
+    "signal_id": "b4bf7193-5435-4c0c-bcb5-a80620e94502",
+    "remittance_id": 1130,
+    "customer_id": 67,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8845,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13521.8365,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1130
+    },
+    "detected_at": "2026-07-07T23:22:03+00:00",
+    "source_event_id": "e04b9393-c60a-4cff-98c1-d0b5546f4e20",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a52a076e-94d0-4bef-a7ab-213385226b42",
+    "signal_id": "03414427-bff2-439b-9c74-a2e0e0d1171b",
+    "remittance_id": 1135,
+    "customer_id": 18,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9029,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2169.7921,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1135
+    },
+    "detected_at": "2026-06-27T06:55:04+00:00",
+    "source_event_id": "aabf9d22-5943-468d-a5f7-d752c30b2e90",
+    "status": "OPEN"
+  },
+  {
+    "_id": "3a3aad49-fb8e-48aa-8f17-9befaf58a2da",
+    "signal_id": "9992de02-65b7-4dcb-8673-4bbaa68a1bfd",
+    "remittance_id": 1137,
+    "customer_id": 33,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8173,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7475.9462,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1137
+    },
+    "detected_at": "2026-06-22T06:08:04+00:00",
+    "source_event_id": "3bf0e39c-2425-4370-892c-696578ebb337",
+    "status": "OPEN"
+  },
+  {
+    "_id": "ce2b27cc-6182-4d79-a4a1-4476e0ee92c6",
+    "signal_id": "56abdad9-c1b6-46dd-ae1c-6e8183c64a36",
+    "remittance_id": 1141,
+    "customer_id": 88,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8989,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1542.7351,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1141
+    },
+    "detected_at": "2026-06-20T23:26:04+00:00",
+    "source_event_id": "03cf7afd-dd48-410c-877a-79beb527b909",
+    "status": "OPEN"
+  },
+  {
+    "_id": "b06d7df7-0bf3-4d75-b2e2-24821498c178",
+    "signal_id": "87f7b32b-df12-4998-a51b-081a8379cdb6",
+    "remittance_id": 1152,
+    "customer_id": 99,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.77,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15502.2364,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1152
+    },
+    "detected_at": "2026-06-26T11:45:05+00:00",
+    "source_event_id": "f2397443-0198-494a-83ee-74652f14ead2",
+    "status": "OPEN"
+  },
+  {
+    "_id": "32ede96c-6cbe-4b78-8fb6-562a0b9cfc56",
+    "signal_id": "a751872e-f2a2-4958-9845-160a50d3dbdd",
+    "remittance_id": 1160,
+    "customer_id": 51,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6701,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4914.6784,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1160
+    },
+    "detected_at": "2026-06-30T20:08:06+00:00",
+    "source_event_id": "3428b99b-3015-4f9e-a2f8-86ca3ade56fd",
+    "status": "OPEN"
+  },
+  {
+    "_id": "7cbe23f4-b401-45c3-9c18-314780a32201",
+    "signal_id": "19ea376e-e22c-4185-915a-48ffed634c61",
+    "remittance_id": 1188,
+    "customer_id": 21,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.65,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12794.7271,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1188
+    },
+    "detected_at": "2026-06-12T07:15:08+00:00",
+    "source_event_id": "eba00a71-e71e-400d-bc92-fed8e4733eb3",
+    "status": "OPEN"
+  },
+  {
+    "_id": "17e8d16a-c2bc-4ace-978a-f0ea71b3de5e",
+    "signal_id": "a08ba7fe-fb4b-4914-8d93-6071b0872ae2",
+    "remittance_id": 1189,
+    "customer_id": 98,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.723,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17316.0229,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1189
+    },
+    "detected_at": "2026-06-28T18:11:08+00:00",
+    "source_event_id": "f0c61a91-9c92-4d81-adc4-80ec5a2b5eaf",
+    "status": "OPEN"
+  },
+  {
+    "_id": "c51f8d18-3114-4430-aebe-a4b7bc9f5a4a",
+    "signal_id": "3cd3a432-aa84-4488-af61-929e9169aa2d",
+    "remittance_id": 1215,
+    "customer_id": 61,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.8483,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 970.0416,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1215
+    },
+    "detected_at": "2026-06-24T21:37:10+00:00",
+    "source_event_id": "ea006f96-2fb0-4673-ad8a-6fcb5e84896f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "40be33b9-2471-4d68-9318-50981aa35f67",
+    "signal_id": "d4e2364a-a870-41cf-9a00-7d752366a6c6",
+    "remittance_id": 1224,
+    "customer_id": 193,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6564,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8174.2622,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1224
+    },
+    "detected_at": "2026-07-02T23:29:11+00:00",
+    "source_event_id": "42626646-160c-420e-bd92-7ad3c251cd34",
+    "status": "OPEN"
+  },
+  {
+    "_id": "1edde874-decd-4686-8064-fab5de08df4d",
+    "signal_id": "de5916b7-48bf-432f-bea1-438ea3ad322c",
+    "remittance_id": 1225,
+    "customer_id": 26,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8874,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2630.4643,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1225
+    },
+    "detected_at": "2026-06-22T01:38:11+00:00",
+    "source_event_id": "ef81422c-8bef-48ad-b37a-60f0b9333000",
+    "status": "OPEN"
+  },
+  {
+    "_id": "174653f7-2c06-45a2-901b-89052527f294",
+    "signal_id": "64121789-e41e-488e-ba2e-fc5bf9f328cc",
+    "remittance_id": 1227,
+    "customer_id": 23,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "CRITICAL",
+    "score": 0.8593,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13474.7839,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1227
+    },
+    "detected_at": "2026-06-26T13:29:11+00:00",
+    "source_event_id": "a8dbfd91-72fb-4edd-bd06-2a47718f5986",
+    "status": "OPEN"
+  },
+  {
+    "_id": "bbbf5c86-76c3-4fdc-9676-9b5da1806579",
+    "signal_id": "ead55200-6dfc-48c0-9a36-5a28a2102e52",
+    "remittance_id": 1228,
+    "customer_id": 115,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.8474,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17525.8841,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1228
+    },
+    "detected_at": "2026-06-14T19:50:11+00:00",
+    "source_event_id": "4d6d9c0c-a6ee-4c56-8210-9582081bb8b9",
+    "status": "OPEN"
+  },
+  {
+    "_id": "be5e7797-9a28-4178-86d0-c888235ade4d",
+    "signal_id": "42f26153-b179-4f28-a7d6-38aea716bff7",
+    "remittance_id": 1230,
+    "customer_id": 81,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8296,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2812.1701,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1230
+    },
+    "detected_at": "2026-06-12T15:26:11+00:00",
+    "source_event_id": "6a86450b-82f7-4edb-b534-d46187b426b6",
+    "status": "OPEN"
+  },
+  {
+    "_id": "fbc0dfab-05b7-42b8-85cb-fefacb68bacd",
+    "signal_id": "7d708fec-b198-4ab2-8bcf-aa8677ac97db",
+    "remittance_id": 1234,
+    "customer_id": 6,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7617,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9580.7711,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1234
+    },
+    "detected_at": "2026-07-09T00:21:11+00:00",
+    "source_event_id": "c4c87e5c-ce5e-493f-a19c-78851c3ba353",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "70f2be4e-b849-44eb-befc-1941d7e95ced",
+    "signal_id": "31bf9807-0722-48ec-ae7b-2e488cdf212c",
+    "remittance_id": 1242,
+    "customer_id": 25,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6926,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 9846.6389,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1242
+    },
+    "detected_at": "2026-07-10T10:58:12+00:00",
+    "source_event_id": "9bf115bf-2b36-4cf1-a402-2cd441aea2ee",
+    "status": "OPEN"
+  },
+  {
+    "_id": "cacc83c3-92d2-4d52-b95b-e7b20289a907",
+    "signal_id": "8599585f-e3b7-495c-ba57-06c613a9b082",
+    "remittance_id": 1248,
+    "customer_id": 146,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6636,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17502.8353,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1248
+    },
+    "detected_at": "2026-06-26T07:40:12+00:00",
+    "source_event_id": "6bdbe074-03de-43eb-be86-a3aa6871e090",
+    "status": "OPEN"
+  },
+  {
+    "_id": "2477ce38-c454-4fdd-9408-11c264b72400",
+    "signal_id": "90842ba4-7fce-4b16-8c41-20a4530f5776",
+    "remittance_id": 1250,
+    "customer_id": 7,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.661,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13285.7445,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1250
+    },
+    "detected_at": "2026-06-25T11:10:12+00:00",
+    "source_event_id": "e3773050-0210-4c8a-8cda-4debaf80030c",
+    "status": "OPEN"
+  },
+  {
+    "_id": "2cf380a2-3905-41e6-823a-6041ec1ee35d",
+    "signal_id": "9234094e-7d8e-4a68-be14-f07a4a09621c",
+    "remittance_id": 1253,
+    "customer_id": 1,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8551,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13012.9845,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1253
+    },
+    "detected_at": "2026-06-16T07:54:13+00:00",
+    "source_event_id": "888f5ff8-7327-48c8-be69-02fbadd81cad",
+    "status": "OPEN"
+  },
+  {
+    "_id": "401fdfab-6b9f-4bd5-803a-b422b3abd51b",
+    "signal_id": "52c840af-b673-4055-89be-bb06a21b646b",
+    "remittance_id": 1258,
+    "customer_id": 55,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.708,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 11871.9937,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1258
+    },
+    "detected_at": "2026-06-24T02:10:13+00:00",
+    "source_event_id": "84242a9c-3129-4338-9bfc-544d9c2e87fd",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5b30ab8d-df57-44c0-a3f9-f0eb2d74a368",
+    "signal_id": "a47bd387-23fa-41e3-a87b-13cdabed9881",
+    "remittance_id": 1260,
+    "customer_id": 139,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.9082,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3127.6748,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1260
+    },
+    "detected_at": "2026-06-25T22:56:13+00:00",
+    "source_event_id": "111b0ec8-ed89-4cc4-905b-170e08c642ec",
+    "status": "OPEN"
+  },
+  {
+    "_id": "facdf48d-35c0-4a53-965a-babdd0ef9118",
+    "signal_id": "b605e04e-e3ee-4bd2-bd77-2414acbf14c2",
+    "remittance_id": 1261,
+    "customer_id": 144,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7548,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2993.0406,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1261
+    },
+    "detected_at": "2026-07-01T09:42:13+00:00",
+    "source_event_id": "18778ead-c190-4060-9276-e306fbf54177",
+    "status": "OPEN"
+  },
+  {
+    "_id": "87b3872f-69e0-42cf-8830-bce02b30857d",
+    "signal_id": "04cf042e-7ace-40d3-a464-7a2c22424f41",
+    "remittance_id": 1266,
+    "customer_id": 76,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8689,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13457.9781,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1266
+    },
+    "detected_at": "2026-07-03T10:35:14+00:00",
+    "source_event_id": "44a5925b-56f1-47bc-91f8-fb46addee849",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "452bd2e3-5d0b-43a7-b7bc-ec2a4c21acc9",
+    "signal_id": "dd201d33-d5b9-454f-9140-b5dfd190ffca",
+    "remittance_id": 1267,
+    "customer_id": 134,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.772,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17293.2722,
+      "corridor": "MX-GT-MXN-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1267
+    },
+    "detected_at": "2026-07-05T04:52:14+00:00",
+    "source_event_id": "a17a8006-72a1-454f-9d35-d59e78916ca4",
+    "status": "OPEN"
+  },
+  {
+    "_id": "9dec0660-d4e0-46ac-9799-51950e456cf6",
+    "signal_id": "62f57748-0493-4742-9e28-e9f90be185f2",
+    "remittance_id": 1283,
+    "customer_id": 130,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.771,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 8158.6425,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1283
+    },
+    "detected_at": "2026-06-15T03:40:15+00:00",
+    "source_event_id": "4bae2a1e-9169-409f-8629-bf6a6aded7d1",
+    "status": "OPEN"
+  },
+  {
+    "_id": "5b02d90b-47ee-4ee9-a318-221720f6bbfb",
+    "signal_id": "edb63abc-15c9-4648-bad2-e39892ab3c1d",
+    "remittance_id": 1290,
+    "customer_id": 4,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7828,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 11637.3497,
+      "corridor": "US-GT-USD-GTQ"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1290
+    },
+    "detected_at": "2026-07-01T10:15:15+00:00",
+    "source_event_id": "d3688e61-274c-42f2-b0c4-8a3f6470211b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "00c5bbd5-40db-4065-b9af-ea119f9d60a6",
+    "signal_id": "a0f89e78-d993-409c-b91a-1a4668766ee3",
+    "remittance_id": 1299,
+    "customer_id": 41,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7438,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7357.3007,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1299
+    },
+    "detected_at": "2026-07-01T01:26:16+00:00",
+    "source_event_id": "610d5a82-de2d-4e58-acda-d53f2b7fd3e0",
+    "status": "OPEN"
+  },
+  {
+    "_id": "f6a5f707-8852-4760-8123-e98735827bd0",
+    "signal_id": "388825da-984c-438f-9db2-684459e5d20f",
+    "remittance_id": 1308,
+    "customer_id": 143,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.734,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14409.5808,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1308
+    },
+    "detected_at": "2026-06-27T00:05:17+00:00",
+    "source_event_id": "1c41af81-2f87-49fd-96ee-1749d379dd64",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0c6ee970-ff52-4af0-9c00-bbdd753e37e8",
+    "signal_id": "77dcfba5-4412-4be6-9e4e-5732f5a2be64",
+    "remittance_id": 1312,
+    "customer_id": 67,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8457,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2773.1758,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1312
+    },
+    "detected_at": "2026-07-05T23:19:17+00:00",
+    "source_event_id": "f667948b-8db6-4ad9-865a-f57276408e45",
+    "status": "OPEN"
+  },
+  {
+    "_id": "0645ee7d-03a1-4c2e-aa8d-c152fcb5d276",
+    "signal_id": "5ae0d8b0-d7d7-4aa5-b9b0-7436f6ede938",
+    "remittance_id": 1314,
+    "customer_id": 30,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8838,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14015.0217,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1314
+    },
+    "detected_at": "2026-06-15T00:28:17+00:00",
+    "source_event_id": "4d794ab7-0a48-4bff-9456-41908070430b",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "c8a78b66-8095-4bf4-9a87-e3bbf955341b",
+    "signal_id": "9c6bd5b3-b8f9-4762-ac69-8983944fa3da",
+    "remittance_id": 1319,
+    "customer_id": 188,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.9199,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 7204.1461,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1319
+    },
+    "detected_at": "2026-06-14T17:02:17+00:00",
+    "source_event_id": "a54c27f1-9f67-4cf8-9461-1abb864cb18c",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "dae244f1-d5ab-413d-8151-cad3776b4c94",
+    "signal_id": "835be79b-e3c8-4576-b2ce-862d3dcade67",
+    "remittance_id": 1333,
+    "customer_id": 150,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6815,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 2470.5819,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1333
+    },
+    "detected_at": "2026-06-26T17:17:18+00:00",
+    "source_event_id": "6d485163-56f0-41a3-8f0e-eb67432b9e69",
+    "status": "OPEN"
+  },
+  {
+    "_id": "97be0cda-bcc4-408f-a1e5-be9b96317647",
+    "signal_id": "19c3f0b8-4090-46b0-8086-73643b17849b",
+    "remittance_id": 1361,
+    "customer_id": 143,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.7494,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 12114.4959,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1361
+    },
+    "detected_at": "2026-07-04T22:26:20+00:00",
+    "source_event_id": "4445b10a-4d16-4cde-b1a9-1b102dd74570",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "67250040-cc19-4f7b-8ded-6958099405c1",
+    "signal_id": "64bac325-642b-4171-8718-7c338137f652",
+    "remittance_id": 1383,
+    "customer_id": 172,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.6617,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16321.6415,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1383
+    },
+    "detected_at": "2026-06-17T22:55:22+00:00",
+    "source_event_id": "9b00040c-e656-41cc-aa46-f7b4ecc0218b",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a03b76a2-2c0c-4a95-8028-a258d560d1e1",
+    "signal_id": "53c24a47-0a39-481a-8c06-a79c6e7c9ce7",
+    "remittance_id": 1384,
+    "customer_id": 137,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.8347,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14564.2435,
+      "corridor": "GT-US-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1384
+    },
+    "detected_at": "2026-06-30T19:08:22+00:00",
+    "source_event_id": "c7d83684-05aa-4da9-8593-0493a4f8d564",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "9112c331-5a1d-4b58-ae62-ced85bb3498c",
+    "signal_id": "08c37c27-a31a-44f4-b4b0-ea52687e1a8e",
+    "remittance_id": 1385,
+    "customer_id": 181,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6509,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3531.1231,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1385
+    },
+    "detected_at": "2026-07-06T03:04:22+00:00",
+    "source_event_id": "30593fd4-2e45-41e9-b665-614840389483",
+    "status": "OPEN"
+  },
+  {
+    "_id": "17c35484-a0fc-45fd-9cfa-b8529cd2f1c3",
+    "signal_id": "b04c6220-5640-4ca9-b910-14ab85095480",
+    "remittance_id": 1403,
+    "customer_id": 125,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7064,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 4670.4167,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1403
+    },
+    "detected_at": "2026-06-25T09:34:24+00:00",
+    "source_event_id": "a3515338-042c-4817-80b6-c699845e5708",
+    "status": "OPEN"
+  },
+  {
+    "_id": "a1ff8328-7e78-41c0-98e7-8c0f7adcfdff",
+    "signal_id": "9082bab3-92e4-4107-875c-fc5c81b59ca4",
+    "remittance_id": 1421,
+    "customer_id": 70,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8288,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 14192.3737,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1421
+    },
+    "detected_at": "2026-07-02T01:17:25+00:00",
+    "source_event_id": "4e04599c-cfbd-4be6-82a0-8eac493c66ea",
+    "status": "OPEN"
+  },
+  {
+    "_id": "01aa7c30-ec02-449f-b380-342f994a677b",
+    "signal_id": "3ba6ad2f-304f-45b1-ba60-c5f65a2c06ad",
+    "remittance_id": 1430,
+    "customer_id": 156,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "CRITICAL",
+    "score": 0.8807,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 1855.1645,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1430
+    },
+    "detected_at": "2026-06-23T16:53:26+00:00",
+    "source_event_id": "b90f8bbe-1072-467b-ab22-ca65b926af70",
+    "status": "OPEN"
+  },
+  {
+    "_id": "bf635bc9-9a36-473d-a6fb-023fbcee464f",
+    "signal_id": "48851200-fdf8-419d-a845-d859c9926096",
+    "remittance_id": 1444,
+    "customer_id": 13,
+    "signal_type": "HIGH_VELOCITY",
+    "severity": "HIGH",
+    "score": 0.6836,
+    "rule": {
+      "rule_code": "FRD-HIGH_VELOCITY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 331.197,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1444
+    },
+    "detected_at": "2026-06-29T16:10:27+00:00",
+    "source_event_id": "9a0a2f20-39d3-44d0-b4ac-7a01122c1c5d",
+    "status": "OPEN"
+  },
+  {
+    "_id": "995ae25b-2d31-413a-80d6-ca2b9503749c",
+    "signal_id": "88d42e31-6de8-452e-941a-1bf249bc2628",
+    "remittance_id": 1451,
+    "customer_id": 76,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.7745,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 778.3235,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1451
+    },
+    "detected_at": "2026-06-25T23:55:27+00:00",
+    "source_event_id": "829b204a-831d-4ac0-a567-53b7776797e1",
+    "status": "OPEN"
+  },
+  {
+    "_id": "687cfda3-1b55-45be-b42a-95ea6734cec9",
+    "signal_id": "aebc28dd-0c7e-42ed-bcea-15c6607312aa",
+    "remittance_id": 1454,
+    "customer_id": 188,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.6652,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 17997.3036,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1454
+    },
+    "detected_at": "2026-07-03T07:39:28+00:00",
+    "source_event_id": "7f95baee-95a0-409f-89ab-eeeaa29acdf2",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "ca38cae7-1718-4d5c-b79f-b2206279dbf9",
+    "signal_id": "da2bd953-1d82-440c-a2b6-a60e1243eccf",
+    "remittance_id": 1459,
+    "customer_id": 182,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "CRITICAL",
+    "score": 0.8926,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10805.7129,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1459
+    },
+    "detected_at": "2026-06-28T16:32:28+00:00",
+    "source_event_id": "dc374bf5-f2d5-4e26-a843-ced2944865cc",
+    "status": "OPEN"
+  },
+  {
+    "_id": "24fc0e28-8cb1-480d-9737-1143a6684a6a",
+    "signal_id": "eabcb382-5449-46ee-8c0b-5db6d0413b66",
+    "remittance_id": 1469,
+    "customer_id": 166,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.7809,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 10988.5908,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1469
+    },
+    "detected_at": "2026-06-19T16:02:29+00:00",
+    "source_event_id": "9956ea36-7256-4191-83c4-08d7e60965eb",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "11bfbc28-cd1b-401e-81ed-f7f0b992681f",
+    "signal_id": "6b406239-4414-4723-9db9-454d7f36ff35",
+    "remittance_id": 1475,
+    "customer_id": 9,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.8399,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 3949.2888,
+      "corridor": "GT-SV-GTQ-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1475
+    },
+    "detected_at": "2026-07-06T00:35:29+00:00",
+    "source_event_id": "19bfbca8-e4f9-4131-9b42-6131f0b27658",
+    "status": "OPEN"
+  },
+  {
+    "_id": "75834fd3-03c3-4a91-b400-b186c7b76817",
+    "signal_id": "97293707-c03e-4a56-b507-7449825004c4",
+    "remittance_id": 1483,
+    "customer_id": 83,
+    "signal_type": "HIGH_AMOUNT",
+    "severity": "HIGH",
+    "score": 0.797,
+    "rule": {
+      "rule_code": "FRD-HIGH_AMOUNT",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 13032.7486,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1483
+    },
+    "detected_at": "2026-06-27T17:10:30+00:00",
+    "source_event_id": "abd5d05b-53a6-4f9f-a4f9-17c882efa68b",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "0c740c27-9b75-411b-9596-556725894cba",
+    "signal_id": "4e68584c-66ee-4202-95fb-54f372ccc4b0",
+    "remittance_id": 1485,
+    "customer_id": 170,
+    "signal_type": "HIGH_RISK_CORRIDOR",
+    "severity": "HIGH",
+    "score": 0.6881,
+    "rule": {
+      "rule_code": "FRD-HIGH_RISK_CORRIDOR",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 16922.0804,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REJECT",
+      "postgres_risk_assessment_id": 1485
+    },
+    "detected_at": "2026-07-10T13:57:30+00:00",
+    "source_event_id": "03755baa-139c-4ec4-becf-a62ecf148ba1",
+    "status": "CONFIRMED"
+  },
+  {
+    "_id": "bd87baf8-1c9e-45ca-bd8d-d94dca878759",
+    "signal_id": "99f39513-b3cd-48ce-adf6-6b651e6b38fb",
+    "remittance_id": 1489,
+    "customer_id": 53,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "HIGH",
+    "score": 0.7902,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 15686.5018,
+      "corridor": "HN-US-HNL-USD"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1489
+    },
+    "detected_at": "2026-06-30T09:21:30+00:00",
+    "source_event_id": "e72a0fea-91ef-44e7-869b-bd440365fa2f",
+    "status": "OPEN"
+  },
+  {
+    "_id": "71e140c9-32f7-4a5f-94a8-e392a2b2881b",
+    "signal_id": "71f74697-17e9-4300-8966-620cd67e9e8c",
+    "remittance_id": 1499,
+    "customer_id": 42,
+    "signal_type": "NEW_BENEFICIARY",
+    "severity": "CRITICAL",
+    "score": 0.8989,
+    "rule": {
+      "rule_code": "FRD-NEW_BENEFICIARY",
+      "rule_version": "1.0"
+    },
+    "features": {
+      "send_amount": 679.2504,
+      "corridor": "GT-MX-GTQ-MXN"
+    },
+    "decision_context": {
+      "recommended_action": "REVIEW",
+      "postgres_risk_assessment_id": 1499
+    },
+    "detected_at": "2026-07-09T18:18:31+00:00",
+    "source_event_id": "96652c66-080e-40df-ad79-e75ab9bee869",
+    "status": "OPEN"
+  }
+]

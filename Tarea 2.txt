@@ -1,0 +1,146 @@
+. Introducción
+En el ecosistema financiero actual, la información se ha consolidado como el activo estratégico más
+valioso de cualquier organización. La capacidad de capturar, almacenar, procesar y acceder a
+grandes volúmenes de datos en tiempo real no solo determina la eficiencia operativa de una
+institución, sino también su competitividad y supervivencia en un mercado altamente regulado y
+digitalizado. Este proyecto final desafía a los estudiantes de la maestría a asumir el rol de arquitectos
+de datos líderes, enfrentando la responsabilidad de diseñar e implementar soluciones tecnológicas
+robustas que respondan a las demandas analíticas y transaccionales de corporaciones financieras
+modernas.
+Para lograr este objetivo, el núcleo del proyecto radica en el diseño y la coexistencia de arquitecturas
+de datos híbridas. Los estudiantes deberán modelar y desplegar tanto bases de datos relacionales
+(SQL) como no relacionales (NoSQL), utilizando datos simulados que repliquen la complejidad de un
+entorno financiero real. Este enfoque polígloto busca que los futuros profesionales dominen la
+normalización y la consistencia transaccional estricta (propiedades ACID), al mismo tiempo que
+aprovechan la escalabilidad horizontal, la flexibilidad de esquemas y la alta velocidad de
+lectura/escritura que ofrecen las tecnologías NoSQL para casos de uso específicos como la detección
+de fraudes o el análisis de comportamiento.
+Sin embargo, una arquitectura moderna está incompleta si no garantiza la resiliencia y la
+continuidad del negocio. Por ello, un componente crítico de este trabajo es la elaboración de una
+estrategia integral de alta disponibilidad y recuperación ante desastres (DRP). Los grupos deberán
+diseñar infraestructuras capaces de tolerar fallos a través de mecanismos de replicación, balanceo
+de carga y estrategias de failover, asegurando que el acceso a la información crítica permanezca
+ininterrumpido bajo los estándares de Acuerdos de Nivel de Servicio (SLA) rigurosos, comunes en la
+banca e instituciones de seguros.
+Paralelamente, la capa de datos debe blindarse bajo un plan de seguridad de nivel empresarial que
+mitigue los riesgos inherentes al manejo de información sensible. Los estudiantes estructurarán
+políticas avanzadas de gobernanza de datos que abarquen el cifrado en reposo y en tránsito, el
+control de acceso basado en roles (RBAC) y mecanismos de auditoría exhaustivos. Estas medidas no
+solo pretenden proteger la infraestructura contra amenazas cibernéticas, sino también asegurar el
+cumplimiento normativo y legal vigente que rige al sector financiero a nivel global.
+Finalmente, este proyecto trasciende la ejecución técnica al exigir una documentación técnica
+impecable y una presentación ejecutiva de alto nivel. A través de la simulación de casos de negocio
+para empresas financieras ficticias, cada equipo deberá demostrar su capacidad para traducir
+decisiones técnicas complejas en valor estratégico para la toma de decisiones gerenciales. Con este
+enfoque integral, el curso de Almacenamiento y Acceso de la Información busca consolidar
+competencias críticas en los maestrantes, preparándolos para liderar la transformación digital y la
+gobernanza de datos en las organizaciones del mañana.
+3
+Análisis de sistemas I 2,025 – Ing. Gerber Flores
+2. Etapas del proyecto
+Las etapas de análisis y diseño de un proyecto de software suelen variar según la metodología
+utilizada, pero para este proyecto final de curso se incluirá las siguientes fases:
+Fase 1: Diseño Completo de la Arquitectura de Datos
+Descripción: Esta fase busca que los estudiantes analicen el caso de negocio asignado y definan la
+estrategia estructural de los datos. Se enfoca en el modelado conceptual, lógico y físico de la
+información, justificando técnicamente la división de la carga de trabajo entre el paradigma
+relacional y el no relacional según las necesidades del negocio financiero (por ejemplo,
+transacciones vs. analítica en tiempo real).
+Entregables:
+1. Diagrama Entidad-Relación (DER): Modelo lógico y físico para la base de datos SQL,
+demostrando la aplicación de la Tercera Forma Normal (3FN).
+2. Modelo de Datos NoSQL: Diseño del esquema (documental, clave-valor o grafos) que detalle
+las estrategias de desnormalización y diseño de llaves de partición.
+3. Matriz de Linaje y Flujo de Datos: Documento que mapee el origen, transformación y
+destino de la información entre ambos sistemas de almacenamiento.
+4. Diccionario de Datos Exhaustivo: Especificación técnica de tipos de datos, restricciones,
+índices y descripciones de cada entidad y atributo.
+Fase 2: Implementación y Simulación de Datos
+Descripción: El objetivo de esta fase es llevar el diseño a la realidad mediante el despliegue de los
+motores de bases de datos elegidos. Los alumnos deberán construir los entornos y desarrollar
+scripts o programas que generen y carguen un volumen significativo de datos simulados pero
+realistas, permitiendo probar la robustez del diseño bajo escenarios de estrés operativo.
+Entregables:
+1. Scripts de Despliegue DDL/DML: Código fuente para la creación de tablas, colecciones,
+restricciones e índices en ambos motores (SQL y NoSQL).
+2. Módulo Generador de Datos: Código (en Python, Java, o similar) que automatice la creación
+de datos ficticios coherentes con el negocio financiero (clientes, transacciones, pólizas, etc.).
+3. Reporte de Carga de Datos: Documento que certifique la inserción exitosa del volumen de
+datos simulados y métricas iniciales de almacenamiento.
+4. Set de Consultas de Prueba: Un repositorio de al menos 5 consultas complejas (búsquedas,
+agregaciones o joins) que demuestren que la data es accesible y consistente.
+4
+Análisis de sistemas I 2,025 – Ing. Gerber Flores
+Fase 3: Estrategia de Alta Disponibilidad y Continuidad
+Descripción: Esta fase busca que los estudiantes diseñen e implementen mecanismos que aseguren
+que la capa de datos sea tolerante a fallos y mantenga la continuidad del negocio. Se evalúa la
+capacidad de configurar arquitecturas distribuidas que minimicen el tiempo de inactividad
+(Downtime) y la pérdida de datos ante incidentes técnicos.
+Entregables:
+1. Arquitectura de Replicación Configurada: Demostración de un clúster funcional (por
+ejemplo, Mirroring/AlwaysOn para SQL y Replica Sets para NoSQL).
+2. Configuración de Balanceo de Carga y Failover: Evidencia técnica del enrutamiento
+automático de peticiones ante la caída del nodo principal.
+3. Plan de Recuperación ante Desastres (DRP): Documento formal que defina las métricas de
+RPO (Objetivo de Punto de Recuperación) y RTO (Objetivo de Tiempo de Recuperación) para
+el caso de estudio.
+4. Bitácora de Pruebas de Estrés y Caída: Reporte del comportamiento del sistema durante
+una simulación de fallo provocado (chaos engineering elemental).
+Fase 4: Plan de Seguridad y Gobernanza de la Capa de Datos
+Descripción: El propósito de esta fase es blindar la infraestructura de datos contra accesos no
+autorizados y fugas de información, garantizando a la vez el cumplimiento de regulaciones
+financieras internacionales. Los alumnos deben aplicar el principio de "menor privilegio" y asegurar
+la confidencialidad e integridad de los datos.
+Entregables:
+1. Matriz de Control de Acceso Basado en Roles (RBAC): Definición de roles de usuario,
+permisos específicos a nivel de tablas/colecciones y políticas de autenticación.
+2. Scripts de Cifrado de Datos: Implementación de mecanismos de cifrado tanto para los datos
+en reposo (TDE) como para los datos en tránsito (SSL/TLS).
+3. Configuración del Sistema de Auditoría: Activación de logs y trazas que registren las
+operaciones críticas (DML/DDL) y los accesos a datos sensibles.
+4. Política de Enmascaramiento y Anonimización: Implementación de reglas para ocultar datos
+sensibles (como números de tarjetas o identificaciones) en ambientes de desarrollo o
+analíticos.
+Fase 5: Documentación Técnica y Presentación Ejecutiva
+Descripción: La fase final busca consolidar la capacidad de comunicación de los maestrandos,
+exigiéndoles traducir un proyecto profundamente técnico en un activo comprensible tanto para
+ingenieros como para la alta gerencia. Se evalúa la calidad de la documentación formal y la habilidad
+para vender y defender la solución arquitectónica.
+5
+Análisis de sistemas I 2,025 – Ing. Gerber Flores
+Entregables:
+1. Documento Técnico de Arquitectura (Whitepaper): Compilado final detallado de las
+decisiones de diseño, diagramas de infraestructura y manuales de despliegue.
+2. Presentación Ejecutiva: Diapositivas orientadas al negocio (perfil CIO/CFO) centrándose en
+el ROI, mitigación de riesgos, escalabilidad y continuidad.
+3. Manual de Operaciones y Procedimientos Runbook: Un documento guía procedimental
+paso a paso (estilo Runbook) orientado al equipo de Operaciones de TI (SysAdmins/DBAs)
+que describa cómo actuar ante alertas del sistema, cómo realizar ventanas de
+mantenimiento, el aprovisionamiento de nuevos nodos y la restauración de respaldos paso
+a paso.
+4. Prototipo de Interfaz de Flujo de Datos (Mockups de Arquitectura): Un mapa visual
+interactivo o maqueta de arquitectura (diseñado en herramientas como Figma, Miro,
+MarvelApp o Visio) que simule el viaje de la información a través de las capas. Debe mostrar
+la interacción del usuario final con los servicios, el flujo hacia las APIs, y cómo se bifurca o
+consolida la data visualmente entre la base de datos transaccional (SQL) y la analítica
+(NoSQL) ante diferentes eventos del negocio.
+3. Requerimientos
+Modalidad y evaluación:
+• Grupos: de hasta 4 integrantes — Roles de arquitecto, DBA, desarrollador y analista de
+seguridad.
+• Defensa: 20 minutos de presentación + 5 minutos de preguntas técnicas/estratégicas del
+panel.
+• Criterios: Diseño de arquitectura (35%), Implementación (30%), Seguridad (20%),
+Presentación (15%) Valor del proyecto final 30 pts.
+Debe entregar:
+1. Documento en formato PDF con lo requerido en cada etapa (PPT para la presentación final),
+sumando a este documento las etapas previas del proyecto:
+“El éxito de este proyecto final no depende exclusivamente de la solvencia técnica individual, sino de
+la capacidad colectiva del equipo para operar como una unidad consultora de alto rendimiento en
+el ámbito de la ingeniería de datos. En el entorno de maestría, el trabajo en grupo se concibe como
+un ejercicio de gobernanza colaborativa donde la asignación de roles estratégicos (4) exige una
+organización impecable, comunicación asertiva y una sinergia metodológica rigurosa. Cada entrega
+parcial y el documento final deben reflejar el más alto estándar de profesionalismo, pulcritud técnica
+y alineación con las mejores prácticas de la industria, entendiendo que la documentación, el
+modelado y el cumplimiento de los tiempos establecidos son el reflejo directo de su competencia
+como futuros líderes y tomadores de decisiones tecnológicas.”

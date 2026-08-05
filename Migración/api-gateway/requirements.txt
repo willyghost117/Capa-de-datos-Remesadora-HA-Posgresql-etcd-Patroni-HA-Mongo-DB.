@@ -1,0 +1,4 @@
+Django>=5.0,<6.0
+psycopg[binary]>=3.2,<4.0
+Faker>=24.0
+pymongo>=4.7

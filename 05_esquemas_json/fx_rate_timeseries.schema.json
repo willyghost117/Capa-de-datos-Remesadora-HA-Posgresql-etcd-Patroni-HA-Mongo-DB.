@@ -1,0 +1,20 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["observed_at", "metadata", "exchange_rate_id", "market_rate", "received_at", "source_event_id"],
+    "properties": {
+      "observed_at": { "bsonType": "date" },
+      "metadata": {
+        "bsonType": "object",
+        "required": ["provider_code", "currency_pair", "base_currency", "quote_currency"]
+      },
+      "exchange_rate_id": { "bsonType": ["long", "int"] },
+      "market_rate": { "bsonType": "decimal" },
+      "bid_rate": { "bsonType": ["decimal", "null"] },
+      "ask_rate": { "bsonType": ["decimal", "null"] },
+      "valid_to": { "bsonType": ["date", "null"] },
+      "received_at": { "bsonType": "date" },
+      "source_event_id": { "bsonType": "string" }
+    }
+  }
+}

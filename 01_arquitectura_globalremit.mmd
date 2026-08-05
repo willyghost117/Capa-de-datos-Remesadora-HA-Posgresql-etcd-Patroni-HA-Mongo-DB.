@@ -1,0 +1,90 @@
+flowchart LR
+    subgraph CHANNELS["Canales"]
+        WEB["Web"]
+        MOBILE["Movil"]
+        AGENT["Agente / Sucursal"]
+        PARTNER["Corresponsal / API"]
+    end
+
+    subgraph SERVICES["Capa conceptual de servicios"]
+        API["API y control de acceso"]
+        ORCH["Orquestacion de remesas"]
+        CHECKS["KYC / AML / Riesgo"]
+        QUOTE["Cotizacion FX"]
+    end
+
+    subgraph POSTGRES["PostgreSQL - Fuente transaccional de verdad"]
+        CUSTOMER["Customer & Identity"]
+        REMITTANCE["Remittance Operations"]
+        FX["FX & Treasury"]
+        COMPLIANCE["Compliance AML/KYC"]
+        SETTLEMENT["Settlement"]
+        OUTBOX["Integration Outbox"]
+    end
+
+    subgraph PIPELINE["Publicacion idempotente"]
+        PUBLISHER["Publicador de eventos"]
+    end
+
+    subgraph MONGO["MongoDB - Productos derivados"]
+        EVENTS["Remittance Events"]
+        LIFECYCLE["Remittance Lifecycle"]
+        RATES["FX Rate Timeseries"]
+        FRAUD["Fraud Signals y Behavior"]
+        CASES["Compliance Case Snapshot"]
+        SETTLEMENT_VIEW["Settlement Status"]
+    end
+
+    subgraph CONSUMERS["Consumidores"]
+        OPS["Operaciones"]
+        ANALYTICS["Analitica y tableros"]
+        RISK_USERS["Riesgo y cumplimiento"]
+        AUDIT["Auditoria"]
+    end
+
+    FX_PROVIDER["Proveedor externo de tasas"]
+    BANK_NETWORK["Banco / Corresponsal"]
+
+    WEB --> API
+    MOBILE --> API
+    AGENT --> API
+    PARTNER --> API
+
+    API --> ORCH
+    ORCH --> CHECKS
+    ORCH --> QUOTE
+
+    ORCH --> CUSTOMER
+    ORCH --> REMITTANCE
+    CHECKS --> COMPLIANCE
+    QUOTE --> FX
+    ORCH --> SETTLEMENT
+
+    FX_PROVIDER --> QUOTE
+    SETTLEMENT <--> BANK_NETWORK
+
+    CUSTOMER --> OUTBOX
+    REMITTANCE --> OUTBOX
+    FX --> OUTBOX
+    COMPLIANCE --> OUTBOX
+    SETTLEMENT --> OUTBOX
+
+    OUTBOX --> PUBLISHER
+    PUBLISHER --> EVENTS
+    PUBLISHER --> LIFECYCLE
+    PUBLISHER --> RATES
+    PUBLISHER --> FRAUD
+    PUBLISHER --> CASES
+    PUBLISHER --> SETTLEMENT_VIEW
+
+    EVENTS --> OPS
+    LIFECYCLE --> OPS
+    LIFECYCLE --> ANALYTICS
+    RATES --> ANALYTICS
+    FRAUD --> RISK_USERS
+    CASES --> RISK_USERS
+    SETTLEMENT_VIEW --> OPS
+    EVENTS --> AUDIT
+
+    FRAUD -. "senal; decision final validada" .-> CHECKS
+

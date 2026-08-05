@@ -1,0 +1,92 @@
+flowchart TB
+    subgraph HOST["Host Windows / Docker Desktop"]
+        CLIENT["Usuario / herramientas\nVS Code, psql, mongosh, scripts"]
+    end
+
+    subgraph BASE["Migracion base - globalremit-net"]
+        PGS["globalremit-postgres\nPostgreSQL 18 standalone\nHost 55432 -> 5432"]
+
+        subgraph MRS["MongoDB replica set rsGlobalRemit"]
+            M1["globalremit-mongo1\nPRIMARY preferido\nHost 37017 -> 27017"]
+            M2["globalremit-mongo2\nSECONDARY / failover PRIMARY\nHost 37018 -> 27017"]
+            M3["globalremit-mongo3\nSECONDARY\nHost 37019 -> 27017"]
+        end
+    end
+
+    subgraph HA["Etapa extendida - globalremit-ha-net"]
+        APIGW["globalremit-api-gateway\nAPI Gateway HTTP\nHost 8080"]
+        HAP["globalremit-pg-haproxy\nEntrada PostgreSQL TCP\nHost 55433 -> 5432\nStats 8404"]
+
+        PGP["globalremit-postgres-primary\nPostgreSQL 18 primary\nHost 56432 -> 5432"]
+        PGR["globalremit-postgres-standby\nPostgreSQL 18 standby\nHost 56433 -> 5432"]
+
+        TOOLS["globalremit-db-tools\nCarga / ETL / validaciones"]
+        PGB["globalremit-pg-backup\npg_dump"]
+        MGB["globalremit-mongo-backup\nmongodump"]
+
+        PROM["globalremit-prometheus\nHost 9090"]
+        GRAF["globalremit-grafana\nHost 3000"]
+    end
+
+    subgraph FILES["Volumenes y archivos del proyecto"]
+        SQLDDL["06_sql_ddl.sql\n06_sql_seed.sql"]
+        GEN["07_generador_datos\nrun_generator.py"]
+        JSON["07_generador_datos/output\nJSON para MongoDB"]
+        BACKUP["Migracion/backup\npg_dump y mongodump"]
+        TESTS["Migracion/tests\nPruebas automatizadas"]
+    end
+
+    CLIENT -->|HTTP 127.0.0.1:8080| APIGW
+    CLIENT -->|PostgreSQL standalone 127.0.0.1:55432| PGS
+    CLIENT -->|PostgreSQL HA directo 127.0.0.1:56432| PGP
+    CLIENT -->|PostgreSQL por HAProxy 127.0.0.1:55433| HAP
+    CLIENT -->|MongoDB replica set 37017,37018,37019| M1
+
+    APIGW -.->|publica estado de arquitectura| HAP
+    APIGW -.->|redirecciona observabilidad| PROM
+    APIGW -.->|redirecciona paneles| GRAF
+    HAP -->|backend principal| PGP
+    HAP -.->|backend backup requiere promocion manual| PGR
+
+    PGP -->|streaming WAL async| PGR
+
+    M1 <-->|replica set| M2
+    M1 <-->|replica set| M3
+    M2 <-->|replica set| M3
+
+    SQLDDL --> PGS
+    SQLDDL --> PGP
+    GEN -->|carga SQL HA| PGP
+    GEN --> JSON
+    JSON -->|carga documental| M1
+
+    TOOLS --> PGP
+    TOOLS --> PGR
+    TOOLS --> M1
+
+    PGB -->|pg_dump| PGP
+    PGB --> BACKUP
+    MGB -->|mongodump| M1
+    MGB --> BACKUP
+
+    TESTS --> PGS
+    TESTS --> PGP
+    TESTS --> PGR
+    TESTS --> M1
+    TESTS --> M2
+    TESTS --> M3
+
+    PROM -.->|base de observabilidad| HAP
+    PROM -.->|base de observabilidad| PGP
+    PROM -.->|base de observabilidad| M1
+    GRAF --> PROM
+
+    classDef sql fill:#d7ecff,stroke:#1d4f91,color:#10243f;
+    classDef mongo fill:#dff7df,stroke:#237a35,color:#173b1c;
+    classDef ops fill:#fff0c2,stroke:#9b6b00,color:#3d2a00;
+    classDef files fill:#eeeeee,stroke:#555,color:#222;
+
+    class PGS,PGP,PGR,HAP sql;
+    class M1,M2,M3 mongo;
+    class APIGW,TOOLS,PGB,MGB,PROM,GRAF,CLIENT ops;
+    class SQLDDL,GEN,JSON,BACKUP,TESTS files;

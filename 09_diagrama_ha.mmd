@@ -1,0 +1,74 @@
+flowchart TB
+    subgraph CLIENTES["Clientes / aplicacion GlobalRemit"]
+        APP["Aplicacion o scripts de carga"]
+        OPS["Operacion / pruebas de failover"]
+    end
+
+    subgraph ENTRY["Entradas publicadas en Windows"]
+        DJANGO["Django API Gateway\nlocalhost:8080"]
+        PGEND["PostgreSQL HAProxy\nlocalhost:55434"]
+        HASTATS["HAProxy stats\nlocalhost:8405"]
+        MONGOEND["MongoDB replica set URI\nlocalhost:37017,37018,37019"]
+    end
+
+    subgraph PATRONI["PostgreSQL 18 - Alta disponibilidad con Patroni"]
+        ETCD["globalremit-patroni-etcd\nCoordinacion del cluster"]
+        HAP["globalremit-patroni-haproxy\nEnruta escrituras al lider"]
+        PG1["globalremit-patroni-pg1\nLeader actual"]
+        PG2["globalremit-patroni-pg2\nReplica streaming"]
+        PG3["globalremit-patroni-pg3\nReplica streaming"]
+    end
+
+    subgraph MONGO["MongoDB - Replica set rsGlobalRemit"]
+        M1["globalremit-mongo1\nPRIMARY"]
+        M2["globalremit-mongo2\nSECONDARY"]
+        M3["globalremit-mongo3\nSECONDARY"]
+    end
+
+    subgraph DEMO["Escenario de demostracion"]
+        FAILPG["Apagar lider PostgreSQL\nPatroni promueve otro nodo"]
+        FAILMONGO["Apagar PRIMARY MongoDB\nReplica set elige nuevo PRIMARY"]
+    end
+
+    APP --> DJANGO
+    OPS --> DJANGO
+    DJANGO --> PGEND
+    APP --> MONGOEND
+    OPS --> MONGOEND
+
+    PGEND --> HAP
+    HASTATS --> HAP
+    HAP --> PG1
+    HAP -.si cambia el lider.-> PG2
+    HAP -.si cambia el lider.-> PG3
+
+    ETCD -.estado y liderazgo.-> PG1
+    ETCD -.estado y liderazgo.-> PG2
+    ETCD -.estado y liderazgo.-> PG3
+
+    PG1 <-->|streaming replication| PG2
+    PG1 <-->|streaming replication| PG3
+
+    MONGOEND --> M1
+    MONGOEND --> M2
+    MONGOEND --> M3
+    M1 <-->|replica set| M2
+    M1 <-->|replica set| M3
+    M2 <-->|replica set| M3
+
+    FAILPG --> PG1
+    FAILPG --> PG2
+    FAILPG --> PG3
+    FAILMONGO --> M1
+    FAILMONGO --> M2
+    FAILMONGO --> M3
+
+    classDef entry fill:#fff2cc,stroke:#d6b656,color:#3b2f00;
+    classDef pg fill:#d5e8d4,stroke:#82b366,color:#173b1c;
+    classDef mongo fill:#dae8fc,stroke:#6c8ebf,color:#10243f;
+    classDef demo fill:#f8cecc,stroke:#b85450,color:#3b1515;
+
+    class DJANGO,PGEND,HASTATS,MONGOEND entry;
+    class ETCD,HAP,PG1,PG2,PG3 pg;
+    class M1,M2,M3 mongo;
+    class FAILPG,FAILMONGO demo;

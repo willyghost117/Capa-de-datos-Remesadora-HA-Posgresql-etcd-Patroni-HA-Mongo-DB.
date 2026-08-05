@@ -1,0 +1,48 @@
+flowchart LR
+    HOST["Host Windows\nlocalhost / 127.0.0.1"]
+
+    subgraph PATRONINET["Docker network: globalremit-patroni-net\nSubnet 172.21.0.0/16\nGateway 172.21.0.1"]
+        ETCD["globalremit-patroni-etcd\nIP 172.21.0.2\netcd 2379/2380"]
+        PG3["globalremit-patroni-pg3\nIP 172.21.0.3\nPostgreSQL 5432\nReplica streaming"]
+        PG2["globalremit-patroni-pg2\nIP 172.21.0.4\nPostgreSQL 5432\nReplica streaming"]
+        PG1["globalremit-patroni-pg1\nIP 172.21.0.5\nPostgreSQL 5432\nLeader actual"]
+        HAP["globalremit-patroni-haproxy\nIP 172.21.0.6\nHost 55434 -> 5432\nStats 8405"]
+        API["globalremit-api-gateway\nIP 172.21.0.7\nDjango 8080\nHost 8080"]
+    end
+
+    subgraph MONGONET["Docker network: globalremit-net\nSubnet 172.19.0.0/16\nGateway 172.19.0.1"]
+        M1["globalremit-mongo1\nIP 172.19.0.2\nHost 37017 -> 27017\nPRIMARY"]
+        M3["globalremit-mongo3\nIP 172.19.0.3\nHost 37019 -> 27017\nSECONDARY"]
+        M2["globalremit-mongo2\nIP 172.19.0.4\nHost 37018 -> 27017\nSECONDARY"]
+    end
+
+    HOST -->|Django API\nlocalhost:8080| API
+    HOST -->|PostgreSQL\nlocalhost:55434| HAP
+    HOST -->|HAProxy stats\nlocalhost:8405| HAP
+    HOST -->|MongoDB\nlocalhost:37017| M1
+    HOST -->|MongoDB\nlocalhost:37018| M2
+    HOST -->|MongoDB\nlocalhost:37019| M3
+
+    API -->|inserta eventos| HAP
+    HAP -->|escrituras al lider| PG1
+    HAP -.failover si cambia lider.-> PG2
+    HAP -.failover si cambia lider.-> PG3
+
+    ETCD -.coordina liderazgo.-> PG1
+    ETCD -.coordina liderazgo.-> PG2
+    ETCD -.coordina liderazgo.-> PG3
+
+    PG1 <-->|streaming replication| PG2
+    PG1 <-->|streaming replication| PG3
+
+    M1 <-->|replica set rsGlobalRemit| M2
+    M1 <-->|replica set rsGlobalRemit| M3
+    M2 <-->|replica set rsGlobalRemit| M3
+
+    classDef host fill:#fff2cc,stroke:#d6b656,color:#3b2f00;
+    classDef pg fill:#d5e8d4,stroke:#82b366,color:#173b1c;
+    classDef mongo fill:#dae8fc,stroke:#6c8ebf,color:#10243f;
+
+    class HOST host;
+    class ETCD,PG1,PG2,PG3,HAP,API pg;
+    class M1,M2,M3 mongo;

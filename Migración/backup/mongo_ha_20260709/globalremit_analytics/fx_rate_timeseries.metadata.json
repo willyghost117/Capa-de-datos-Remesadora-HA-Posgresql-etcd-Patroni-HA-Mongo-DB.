@@ -1,0 +1,1 @@
+{"options":{"timeseries":{"timeField":"observed_at","metaField":"metadata","granularity":"seconds","bucketMaxSpanSeconds":{"$numberInt":"3600"}}},"indexes":[{"v":{"$numberInt":"2"},"key":{"metadata":{"$numberInt":"1"},"observed_at":{"$numberInt":"1"}},"name":"metadata_1_observed_at_1"}],"collectionName":"fx_rate_timeseries","type":"timeseries"}

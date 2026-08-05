@@ -1,0 +1,19 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "settlement_batch_id", "batch_code", "correspondent", "currency", "period", "totals", "status", "last_event_id", "updated_at"],
+    "properties": {
+      "_id": { "bsonType": ["long", "int"] },
+      "settlement_batch_id": { "bsonType": ["long", "int"] },
+      "batch_code": { "bsonType": "string" },
+      "correspondent": { "bsonType": "object" },
+      "currency": { "bsonType": "string", "minLength": 3, "maxLength": 3 },
+      "period": { "bsonType": "object" },
+      "totals": { "bsonType": "object" },
+      "status": { "bsonType": "string" },
+      "exceptions": { "bsonType": "array" },
+      "last_event_id": { "bsonType": "string" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

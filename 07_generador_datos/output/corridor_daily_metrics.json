@@ -1,0 +1,5526 @@
+[
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-23",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 8,
+      "UNDER_REVIEW": 3,
+      "CANCELLED": 1,
+      "REJECTED": 3,
+      "PAID": 8,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 91281.0426,
+      "payout_amount": 210315.5743,
+      "fee_amount": 1018.2484,
+      "tax_amount": 122.1895,
+      "fx_spread_amount": 844.6408
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-09",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-09T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 2,
+      "REJECTED": 1,
+      "SETTLED": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 17112.5462,
+      "payout_amount": 2173.0721,
+      "fee_amount": 196.9004,
+      "tax_amount": 23.628,
+      "fx_spread_amount": 8.7271
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-15",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "REJECTED": 1,
+      "PAID": 8,
+      "UNDER_REVIEW": 3,
+      "AUTHORIZED": 1,
+      "SETTLED": 2,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 77288.2332,
+      "payout_amount": 9800.2267,
+      "fee_amount": 810.3058,
+      "tax_amount": 97.2367,
+      "fx_spread_amount": 39.3585
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-20",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 4,
+      "REVERSED": 1,
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 3,
+      "PAID": 3,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 57403.5531,
+      "payout_amount": 133063.1306,
+      "fee_amount": 615.2284,
+      "tax_amount": 73.8274,
+      "fx_spread_amount": 534.3902
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-18",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "SENT_TO_PARTNER": 3,
+      "SETTLED": 4,
+      "PAID": 8,
+      "UNDER_REVIEW": 1,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 55270.3909,
+      "payout_amount": 7047.2092,
+      "fee_amount": 658.1633,
+      "tax_amount": 78.9796,
+      "fx_spread_amount": 28.3021
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-26",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 3,
+      "PAID": 8,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 41723.8408,
+      "payout_amount": 96483.3889,
+      "fee_amount": 489.7909,
+      "tax_amount": 58.7748,
+      "fx_spread_amount": 387.4835
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-17",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "AUTHORIZED": 1,
+      "SETTLED": 6,
+      "UNDER_REVIEW": 5,
+      "PAID": 7,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 107701.841,
+      "payout_amount": 249105.2669,
+      "fee_amount": 1101.6146,
+      "tax_amount": 132.1937,
+      "fx_spread_amount": 1000.4229
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 7,
+      "high_risk_count": 7
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-21",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 2,
+      "SETTLED": 3,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "PAID": 3
+    },
+    "amounts": {
+      "send_amount": 30963.0747,
+      "payout_amount": 1238.7908,
+      "fee_amount": 355.7046,
+      "tax_amount": 42.6846,
+      "fx_spread_amount": 4.9751
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-26",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 8,
+      "UNDER_REVIEW": 2,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 31453.4358,
+      "payout_amount": 3999.8981,
+      "fee_amount": 419.6276,
+      "tax_amount": 50.3554,
+      "fx_spread_amount": 16.0638
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-25",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 3,
+      "CANCELLED": 2,
+      "REJECTED": 1,
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "PAID": 3,
+      "UNDER_REVIEW": 4
+    },
+    "amounts": {
+      "send_amount": 48987.2865,
+      "payout_amount": 113022.1136,
+      "fee_amount": 571.8982,
+      "tax_amount": 68.6278,
+      "fx_spread_amount": 453.9042
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-25",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 5,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 31875.9059,
+      "payout_amount": 1285.9562,
+      "fee_amount": 375.0075,
+      "tax_amount": 45.0011,
+      "fx_spread_amount": 5.1644
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-10",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "EXPIRED": 1,
+      "PAID": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 10627.4842,
+      "payout_amount": 1359.3056,
+      "fee_amount": 121.0199,
+      "tax_amount": 14.5224,
+      "fx_spread_amount": 5.4591
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-04",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "PAID": 2,
+      "CANCELLED": 1,
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "REJECTED": 2
+    },
+    "amounts": {
+      "send_amount": 40966.5802,
+      "payout_amount": 1652.9987,
+      "fee_amount": 459.7327,
+      "tax_amount": 55.1681,
+      "fx_spread_amount": 6.6385
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-24",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-24T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 5,
+      "UNDER_REVIEW": 2,
+      "PAID": 4,
+      "SENT_TO_PARTNER": 4,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 53238.7358,
+      "payout_amount": 123430.3502,
+      "fee_amount": 617.9099,
+      "tax_amount": 74.1492,
+      "fx_spread_amount": 495.7043
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-01",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "CANCELLED": 2,
+      "PAID": 7,
+      "SENT_TO_PARTNER": 1,
+      "REVERSED": 1,
+      "EXPIRED": 2,
+      "FUNDED": 1,
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 52671.2702,
+      "payout_amount": 2117.5814,
+      "fee_amount": 625.3698,
+      "tax_amount": 75.0443,
+      "fx_spread_amount": 8.5043
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-09",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-09T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 3,
+      "SETTLED": 6,
+      "REJECTED": 1,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "AUTHORIZED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 46891.7015,
+      "payout_amount": 5953.4571,
+      "fee_amount": 543.1335,
+      "tax_amount": 65.1761,
+      "fx_spread_amount": 23.9095
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-01",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "CANCELLED": 3,
+      "PAID": 12,
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 2,
+      "AUTHORIZED": 2,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 79112.8103,
+      "payout_amount": 10065.5166,
+      "fee_amount": 896.9023,
+      "tax_amount": 107.6281,
+      "fx_spread_amount": 40.4236
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-20",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "SETTLED": 6,
+      "REJECTED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 47960.6964,
+      "payout_amount": 6102.434,
+      "fee_amount": 563.6855,
+      "tax_amount": 67.6423,
+      "fx_spread_amount": 24.5078
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-17",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 1321.4839,
+      "payout_amount": 10102.7036,
+      "fee_amount": 46.5719,
+      "tax_amount": 5.5887,
+      "fx_spread_amount": 40.5731
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-07",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-07T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "CANCELLED": 1,
+      "AUTHORIZED": 2,
+      "PAID": 2,
+      "SETTLED": 3,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 27488.4121,
+      "payout_amount": 63241.1057,
+      "fee_amount": 327.9074,
+      "tax_amount": 39.3491,
+      "fx_spread_amount": 253.9804
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-30",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "UNDER_REVIEW": 2,
+      "SENT_TO_PARTNER": 1,
+      "PAID": 5,
+      "SETTLED": 5,
+      "REJECTED": 2,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 91815.2402,
+      "payout_amount": 11691.627,
+      "fee_amount": 926.5219,
+      "tax_amount": 111.1824,
+      "fx_spread_amount": 46.9544
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 5,
+      "high_risk_count": 5
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-01",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 5,
+      "FUNDED": 2,
+      "SETTLED": 5,
+      "UNDER_REVIEW": 2,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "REJECTED": 1,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 48592.8923,
+      "payout_amount": 111730.8131,
+      "fee_amount": 592.743,
+      "tax_amount": 71.1292,
+      "fx_spread_amount": 448.7182
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-12",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 1,
+      "FUNDED": 2,
+      "PAID": 5,
+      "REJECTED": 1,
+      "SETTLED": 2,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 34842.7561,
+      "payout_amount": 4443.3909,
+      "fee_amount": 422.7419,
+      "tax_amount": 50.7292,
+      "fx_spread_amount": 17.8449
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-19",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1,
+      "PAID": 4,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 23789.0058,
+      "payout_amount": 3031.7164,
+      "fee_amount": 286.312,
+      "tax_amount": 34.3575,
+      "fx_spread_amount": 12.1756
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-10",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 26958.5828,
+      "payout_amount": 3437.0504,
+      "fee_amount": 323.6687,
+      "tax_amount": 38.8403,
+      "fx_spread_amount": 13.8035
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-17",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "SETTLED": 4
+    },
+    "amounts": {
+      "send_amount": 28002.8712,
+      "payout_amount": 3569.6974,
+      "fee_amount": 344.0231,
+      "tax_amount": 41.2828,
+      "fx_spread_amount": 14.336
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-10",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "REJECTED": 1,
+      "AUTHORIZED": 1,
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 26809.1698,
+      "payout_amount": 3422.4124,
+      "fee_amount": 334.4733,
+      "tax_amount": 40.1367,
+      "fx_spread_amount": 13.7446
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-21",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "FUNDED": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 34343.4173,
+      "payout_amount": 4367.3427,
+      "fee_amount": 358.7474,
+      "tax_amount": 43.0496,
+      "fx_spread_amount": 17.5394
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-02",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 1,
+      "AUTHORIZED": 1,
+      "PAID": 2,
+      "UNDER_REVIEW": 1,
+      "SENT_TO_PARTNER": 2,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 27691.2012,
+      "payout_amount": 3534.3287,
+      "fee_amount": 317.5297,
+      "tax_amount": 38.1037,
+      "fx_spread_amount": 14.1941
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-02",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "PAID": 4,
+      "UNDER_REVIEW": 2,
+      "REJECTED": 1,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 46579.7791,
+      "payout_amount": 5919.1914,
+      "fee_amount": 528.6382,
+      "tax_amount": 63.4367,
+      "fx_spread_amount": 23.7717
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-27",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "REVERSED": 2,
+      "PAID": 2,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 15610.0303,
+      "payout_amount": 6710.9583,
+      "fee_amount": 184.8803,
+      "tax_amount": 22.1856,
+      "fx_spread_amount": 26.9517
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-03",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 7,
+      "FUNDED": 1,
+      "AUTHORIZED": 1,
+      "PAID": 7,
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "REJECTED": 3,
+      "UNDER_REVIEW": 2
+    },
+    "amounts": {
+      "send_amount": 102068.1834,
+      "payout_amount": 234942.4138,
+      "fee_amount": 1092.5455,
+      "tax_amount": 131.1056,
+      "fx_spread_amount": 943.5437
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 5,
+      "high_risk_count": 5
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-18",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 21193.79,
+      "payout_amount": 9090.3425,
+      "fee_amount": 193.5503,
+      "tax_amount": 23.226,
+      "fx_spread_amount": 36.5074
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-07",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-07T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "AUTHORIZED": 1,
+      "SETTLED": 2,
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 23969.6688,
+      "payout_amount": 968.4266,
+      "fee_amount": 323.7574,
+      "tax_amount": 38.8509,
+      "fx_spread_amount": 3.8892
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-06",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-06T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 5,
+      "UNDER_REVIEW": 3,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 19435.1383,
+      "payout_amount": 44700.2207,
+      "fee_amount": 263.4812,
+      "tax_amount": 31.6179,
+      "fx_spread_amount": 179.519
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-28",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 1,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 3,
+      "AUTHORIZED": 1,
+      "FUNDED": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 50576.2085,
+      "payout_amount": 116890.5759,
+      "fee_amount": 512.6097,
+      "tax_amount": 61.5133,
+      "fx_spread_amount": 469.44
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-23",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "CANCELLED": 1,
+      "EXPIRED": 1,
+      "UNDER_REVIEW": 2,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 36298.7146,
+      "payout_amount": 4629.3213,
+      "fee_amount": 434.3897,
+      "tax_amount": 52.1267,
+      "fx_spread_amount": 18.5916
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-30",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 3,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 30966.4403,
+      "payout_amount": 1242.9395,
+      "fee_amount": 331.7316,
+      "tax_amount": 39.8078,
+      "fx_spread_amount": 4.9917
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-13",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "SETTLED": 1,
+      "REJECTED": 3,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 33486.9012,
+      "payout_amount": 4265.9538,
+      "fee_amount": 375.8952,
+      "tax_amount": 45.1074,
+      "fx_spread_amount": 17.1323
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-11",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 7,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 23354.0899,
+      "payout_amount": 53899.8693,
+      "fee_amount": 306.8326,
+      "tax_amount": 36.8199,
+      "fx_spread_amount": 216.4653
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-08",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "UNDER_REVIEW": 2,
+      "PAID": 9,
+      "SETTLED": 2,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 45411.4379,
+      "payout_amount": 5780.5402,
+      "fee_amount": 531.2914,
+      "tax_amount": 63.7549,
+      "fx_spread_amount": 23.2149
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-27",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 3,
+      "AUTHORIZED": 2,
+      "SETTLED": 3,
+      "UNDER_REVIEW": 2,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 50726.361,
+      "payout_amount": 6447.3979,
+      "fee_amount": 537.811,
+      "tax_amount": 64.5372,
+      "fx_spread_amount": 25.8931
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-11",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "FUNDED": 1,
+      "PAID": 6,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 3
+    },
+    "amounts": {
+      "send_amount": 22416.1506,
+      "payout_amount": 899.0931,
+      "fee_amount": 311.3293,
+      "tax_amount": 37.3595,
+      "fx_spread_amount": 3.6109
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-27",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "REJECTED": 2,
+      "SENT_TO_PARTNER": 2,
+      "SETTLED": 4,
+      "UNDER_REVIEW": 2,
+      "PAID": 9,
+      "AUTHORIZED": 2,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 64515.9447,
+      "payout_amount": 8241.9006,
+      "fee_amount": 780.1276,
+      "tax_amount": 93.6153,
+      "fx_spread_amount": 33.0998
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-27",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "UNDER_REVIEW": 1,
+      "SETTLED": 1,
+      "REJECTED": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 15224.1215,
+      "payout_amount": 117868.3887,
+      "fee_amount": 169.793,
+      "tax_amount": 20.3752,
+      "fx_spread_amount": 473.367
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-05",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "FUNDED": 1,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 19001.7081,
+      "payout_amount": 8240.3726,
+      "fee_amount": 188.0137,
+      "tax_amount": 22.5616,
+      "fx_spread_amount": 33.0939
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-10",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 3,
+      "REVERSED": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 30800.5931,
+      "payout_amount": 71344.1766,
+      "fee_amount": 306.4047,
+      "tax_amount": 36.7685,
+      "fx_spread_amount": 286.5228
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-28",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 8,
+      "SETTLED": 4,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 61381.4528,
+      "payout_amount": 7865.1915,
+      "fee_amount": 647.0517,
+      "tax_amount": 77.6464,
+      "fx_spread_amount": 31.5871
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-06",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-06T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "SETTLED": 5,
+      "REVERSED": 1,
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 46370.7791,
+      "payout_amount": 5921.5766,
+      "fee_amount": 514.9662,
+      "tax_amount": 61.796,
+      "fx_spread_amount": 23.7815
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-19",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "SETTLED": 7,
+      "AUTHORIZED": 2
+    },
+    "amounts": {
+      "send_amount": 50925.5938,
+      "payout_amount": 6493.0091,
+      "fee_amount": 599.4045,
+      "tax_amount": 71.9285,
+      "fx_spread_amount": 26.0766
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-16",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-16T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 2,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 28635.0233,
+      "payout_amount": 1149.6729,
+      "fee_amount": 337.08,
+      "tax_amount": 40.4497,
+      "fx_spread_amount": 4.6172
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-05",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "SETTLED": 4,
+      "SENT_TO_PARTNER": 2,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 44542.7895,
+      "payout_amount": 5675.5588,
+      "fee_amount": 512.3425,
+      "tax_amount": 61.481,
+      "fx_spread_amount": 22.7933
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-03",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 22049.9079,
+      "payout_amount": 2804.7168,
+      "fee_amount": 272.3992,
+      "tax_amount": 32.688,
+      "fx_spread_amount": 11.264
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-20",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "CANCELLED": 1,
+      "SETTLED": 1,
+      "UNDER_REVIEW": 3,
+      "FUNDED": 1,
+      "SENT_TO_PARTNER": 2
+    },
+    "amounts": {
+      "send_amount": 43882.2201,
+      "payout_amount": 5594.5103,
+      "fee_amount": 519.0577,
+      "tax_amount": 62.2869,
+      "fx_spread_amount": 22.468
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-29",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-29T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 6,
+      "PAID": 3,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 31775.3095,
+      "payout_amount": 4041.9834,
+      "fee_amount": 398.2025,
+      "tax_amount": 47.7843,
+      "fx_spread_amount": 16.233
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-15",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 8,
+      "UNDER_REVIEW": 2,
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 2,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 33211.5054,
+      "payout_amount": 76987.4011,
+      "fee_amount": 433.6921,
+      "tax_amount": 52.0431,
+      "fx_spread_amount": 309.1862
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-18",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "UNDER_REVIEW": 2,
+      "PAID": 2,
+      "SETTLED": 2,
+      "SENT_TO_PARTNER": 2,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 22516.8738,
+      "payout_amount": 2858.9457,
+      "fee_amount": 288.1351,
+      "tax_amount": 34.5762,
+      "fx_spread_amount": 11.4816
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-29",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-29T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 9,
+      "REJECTED": 1,
+      "UNDER_REVIEW": 2,
+      "FUNDED": 1,
+      "CANCELLED": 1,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 35467.5767,
+      "payout_amount": 82156.9675,
+      "fee_amount": 463.7406,
+      "tax_amount": 55.649,
+      "fx_spread_amount": 329.9475
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-13",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 5,
+      "FUNDED": 2,
+      "PAID": 9,
+      "UNDER_REVIEW": 2,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 62376.9902,
+      "payout_amount": 144420.1016,
+      "fee_amount": 727.0158,
+      "tax_amount": 87.2421,
+      "fx_spread_amount": 580.0004
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-24",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-24T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 1,
+      "PAID": 4,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 3,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 34660.2059,
+      "payout_amount": 4421.0296,
+      "fee_amount": 397.2816,
+      "tax_amount": 47.6737,
+      "fx_spread_amount": 17.7549
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-19",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 3945.1857,
+      "payout_amount": 30364.51,
+      "fee_amount": 55.5615,
+      "tax_amount": 6.6673,
+      "fx_spread_amount": 121.9458
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-24",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-24T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 1,
+      "AUTHORIZED": 1,
+      "PAID": 3,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 21698.8426,
+      "payout_amount": 865.8056,
+      "fee_amount": 245.5907,
+      "tax_amount": 29.4709,
+      "fx_spread_amount": 3.4771
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-05",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "CANCELLED": 2,
+      "PAID": 4,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 4
+    },
+    "amounts": {
+      "send_amount": 47682.6954,
+      "payout_amount": 110102.7084,
+      "fee_amount": 513.4616,
+      "tax_amount": 61.6152,
+      "fx_spread_amount": 442.1795
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-17",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 1,
+      "PAID": 3,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 17376.5453,
+      "payout_amount": 698.5616,
+      "fee_amount": 199.0123,
+      "tax_amount": 23.8815,
+      "fx_spread_amount": 2.8054
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-29",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-29T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 25475.6806,
+      "payout_amount": 3242.294,
+      "fee_amount": 311.8053,
+      "tax_amount": 37.4166,
+      "fx_spread_amount": 13.0211
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-07",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-07T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "SENT_TO_PARTNER": 1,
+      "FUNDED": 1,
+      "UNDER_REVIEW": 2,
+      "REJECTED": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 44704.9054,
+      "payout_amount": 5696.3578,
+      "fee_amount": 513.6392,
+      "tax_amount": 61.6367,
+      "fx_spread_amount": 22.8769
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-29",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-29T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 8,
+      "EXPIRED": 1,
+      "SETTLED": 6,
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 48394.4107,
+      "payout_amount": 1946.8151,
+      "fee_amount": 603.1555,
+      "tax_amount": 72.3786,
+      "fx_spread_amount": 7.8184
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-21",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 5,
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 4,
+      "REJECTED": 2,
+      "AUTHORIZED": 1,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 31594.2484,
+      "payout_amount": 72794.2243,
+      "fee_amount": 420.7542,
+      "tax_amount": 50.4905,
+      "fx_spread_amount": 292.3463
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-28",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "SETTLED": 3
+    },
+    "amounts": {
+      "send_amount": 17012.2204,
+      "payout_amount": 2160.6062,
+      "fee_amount": 220.0978,
+      "tax_amount": 26.4118,
+      "fx_spread_amount": 8.6772
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-28",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "CANCELLED": 1,
+      "PAID": 1,
+      "UNDER_REVIEW": 1,
+      "AUTHORIZED": 1,
+      "SENT_TO_PARTNER": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 20671.7071,
+      "payout_amount": 825.8376,
+      "fee_amount": 273.3736,
+      "tax_amount": 32.8048,
+      "fx_spread_amount": 3.3166
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-13",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "UNDER_REVIEW": 1,
+      "REJECTED": 2,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 26628.6981,
+      "payout_amount": 1072.5961,
+      "fee_amount": 309.0295,
+      "tax_amount": 37.0835,
+      "fx_spread_amount": 4.3076
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-06",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-06T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "AUTHORIZED": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 15721.5951,
+      "payout_amount": 1998.8056,
+      "fee_amount": 197.7728,
+      "tax_amount": 23.7328,
+      "fx_spread_amount": 8.0273
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-19",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 2,
+      "UNDER_REVIEW": 2,
+      "PAID": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 25634.6345,
+      "payout_amount": 1029.5293,
+      "fee_amount": 277.077,
+      "tax_amount": 33.2492,
+      "fx_spread_amount": 4.1346
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-11",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 3,
+      "REJECTED": 1,
+      "PAID": 5,
+      "SETTLED": 7,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 49683.8484,
+      "payout_amount": 6314.6803,
+      "fee_amount": 601.471,
+      "tax_amount": 72.1763,
+      "fx_spread_amount": 25.3602
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-25",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 2,
+      "FUNDED": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 8311.0494,
+      "payout_amount": 63804.5304,
+      "fee_amount": 114.4884,
+      "tax_amount": 13.7386,
+      "fx_spread_amount": 256.2431
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-04",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 4,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 34813.6687,
+      "payout_amount": 80431.0649,
+      "fee_amount": 350.5093,
+      "tax_amount": 42.0612,
+      "fx_spread_amount": 323.0164
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-30",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "SETTLED": 1,
+      "UNDER_REVIEW": 1,
+      "REVERSED": 1,
+      "EXPIRED": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 19878.4099,
+      "payout_amount": 2534.1418,
+      "fee_amount": 267.0274,
+      "tax_amount": 32.0433,
+      "fx_spread_amount": 10.1773
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-16",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-16T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "SETTLED": 6,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 48931.2769,
+      "payout_amount": 6223.7797,
+      "fee_amount": 571.4501,
+      "tax_amount": 68.574,
+      "fx_spread_amount": 24.995
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-22",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "SENT_TO_PARTNER": 3,
+      "UNDER_REVIEW": 4,
+      "SETTLED": 4,
+      "PAID": 4,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 75862.1595,
+      "payout_amount": 9661.1518,
+      "fee_amount": 822.8972,
+      "tax_amount": 98.7477,
+      "fx_spread_amount": 38.7997
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 6,
+      "high_risk_count": 6
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-03",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "SETTLED": 2,
+      "REJECTED": 1,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 32785.7334,
+      "payout_amount": 1316.2282,
+      "fee_amount": 382.286,
+      "tax_amount": 45.8744,
+      "fx_spread_amount": 5.2861
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-08",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "SETTLED": 5,
+      "PAID": 5,
+      "FUNDED": 2,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 29540.7624,
+      "payout_amount": 68300.2178,
+      "fee_amount": 392.3262,
+      "tax_amount": 47.0791,
+      "fx_spread_amount": 274.2981
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-10",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 2,
+      "SENT_TO_PARTNER": 1,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 11165.9273,
+      "payout_amount": 449.7998,
+      "fee_amount": 137.3274,
+      "tax_amount": 16.4794,
+      "fx_spread_amount": 1.8064
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-02",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 5,
+      "SETTLED": 4,
+      "SENT_TO_PARTNER": 1,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1,
+      "AUTHORIZED": 1,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 34126.7653,
+      "payout_amount": 78908.0036,
+      "fee_amount": 441.0139,
+      "tax_amount": 52.9218,
+      "fx_spread_amount": 316.8996
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-27",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 3,
+      "CANCELLED": 1,
+      "AUTHORIZED": 1,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 46251.993,
+      "payout_amount": 1852.9318,
+      "fee_amount": 478.016,
+      "tax_amount": 57.3619,
+      "fx_spread_amount": 7.4414
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-27",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-27T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 6,
+      "SETTLED": 3,
+      "AVAILABLE_FOR_PAYOUT": 2,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 28622.7145,
+      "payout_amount": 66332.5498,
+      "fee_amount": 372.9818,
+      "tax_amount": 44.7579,
+      "fx_spread_amount": 266.3959
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-14",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 6,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 3,
+      "SENT_TO_PARTNER": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 39907.6366,
+      "payout_amount": 91752.648,
+      "fee_amount": 463.2611,
+      "tax_amount": 55.5913,
+      "fx_spread_amount": 368.4846
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-25",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "FUNDED": 2,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 4,
+      "REJECTED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 49967.2759,
+      "payout_amount": 6361.9085,
+      "fee_amount": 579.7382,
+      "tax_amount": 69.5687,
+      "fx_spread_amount": 25.5498
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-08",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 12917.6107,
+      "payout_amount": 98437.3791,
+      "fee_amount": 115.3409,
+      "tax_amount": 13.8409,
+      "fx_spread_amount": 395.3308
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-18",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "PAID": 3,
+      "UNDER_REVIEW": 1,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 52107.3351,
+      "payout_amount": 2097.2463,
+      "fee_amount": 524.8586,
+      "tax_amount": 62.9831,
+      "fx_spread_amount": 8.4227
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-16",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-16T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 5,
+      "UNDER_REVIEW": 3,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 34625.4224,
+      "payout_amount": 79187.8824,
+      "fee_amount": 397.0033,
+      "tax_amount": 47.6404,
+      "fx_spread_amount": 318.0235
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-18",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 10,
+      "SETTLED": 4,
+      "CANCELLED": 2,
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 51757.1951,
+      "payout_amount": 119678.7362,
+      "fee_amount": 642.0577,
+      "tax_amount": 77.0469,
+      "fx_spread_amount": 480.6376
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-12",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 2,
+      "PAID": 4,
+      "SETTLED": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 34008.8691,
+      "payout_amount": 1363.3684,
+      "fee_amount": 368.0708,
+      "tax_amount": 44.1685,
+      "fx_spread_amount": 5.4754
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-21",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "UNDER_REVIEW": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 7005.1995,
+      "payout_amount": 53607.9515,
+      "fee_amount": 80.0416,
+      "tax_amount": 9.605,
+      "fx_spread_amount": 215.293
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-12",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "AUTHORIZED": 2,
+      "PAID": 2,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 29564.0576,
+      "payout_amount": 3766.9157,
+      "fee_amount": 308.5125,
+      "tax_amount": 37.0215,
+      "fx_spread_amount": 15.1281
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-23",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "EXPIRED": 1,
+      "PAID": 6,
+      "AUTHORIZED": 1,
+      "SETTLED": 4
+    },
+    "amounts": {
+      "send_amount": 26682.7532,
+      "payout_amount": 1071.186,
+      "fee_amount": 357.4619,
+      "tax_amount": 42.8956,
+      "fx_spread_amount": 4.3021
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-15",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 5,
+      "AUTHORIZED": 1,
+      "FUNDED": 1,
+      "CANCELLED": 1,
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 3
+    },
+    "amounts": {
+      "send_amount": 37666.3784,
+      "payout_amount": 4796.001,
+      "fee_amount": 445.331,
+      "tax_amount": 53.4396,
+      "fx_spread_amount": 19.2611
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-02",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "UNDER_REVIEW": 2,
+      "SETTLED": 2,
+      "FUNDED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 58501.3355,
+      "payout_amount": 2355.5362,
+      "fee_amount": 612.0107,
+      "tax_amount": 73.4413,
+      "fx_spread_amount": 9.46
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-24",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-24T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 6,
+      "UNDER_REVIEW": 2
+    },
+    "amounts": {
+      "send_amount": 25955.9539,
+      "payout_amount": 3311.309,
+      "fee_amount": 339.6476,
+      "tax_amount": 40.7577,
+      "fx_spread_amount": 13.2985
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-07",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-07T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "SETTLED": 1,
+      "SENT_TO_PARTNER": 2
+    },
+    "amounts": {
+      "send_amount": 18376.0579,
+      "payout_amount": 2333.1791,
+      "fee_amount": 231.0085,
+      "tax_amount": 27.721,
+      "fx_spread_amount": 9.3701
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-03",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 3,
+      "UNDER_REVIEW": 2,
+      "SETTLED": 2,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 20667.3027,
+      "payout_amount": 2646.394,
+      "fee_amount": 261.3384,
+      "tax_amount": 31.3606,
+      "fx_spread_amount": 10.6281
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-19",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 3488.7345,
+      "payout_amount": 1495.901,
+      "fee_amount": 51.9099,
+      "tax_amount": 6.2292,
+      "fx_spread_amount": 6.0076
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-01",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 2,
+      "FUNDED": 1,
+      "EXPIRED": 1,
+      "PAID": 2,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1,
+      "SENT_TO_PARTNER": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 41484.1593,
+      "payout_amount": 5296.0858,
+      "fee_amount": 451.8731,
+      "tax_amount": 54.2248,
+      "fx_spread_amount": 21.2696
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-22",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 1,
+      "PAID": 2,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 14649.3458,
+      "payout_amount": 1865.9685,
+      "fee_amount": 177.1947,
+      "tax_amount": 21.2634,
+      "fx_spread_amount": 7.4937
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-07",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-07T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SENT_TO_PARTNER": 1,
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 14126.2214,
+      "payout_amount": 108437.4154,
+      "fee_amount": 173.0098,
+      "tax_amount": 20.7612,
+      "fx_spread_amount": 435.4916
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-13",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "PAID": 2,
+      "AVAILABLE_FOR_PAYOUT": 2
+    },
+    "amounts": {
+      "send_amount": 18290.307,
+      "payout_amount": 2331.8501,
+      "fee_amount": 230.3224,
+      "tax_amount": 27.6387,
+      "fx_spread_amount": 9.3648
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-14",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "FUNDED": 1,
+      "UNDER_REVIEW": 1,
+      "PAID": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 20999.949,
+      "payout_amount": 8966.9762,
+      "fee_amount": 227.9996,
+      "tax_amount": 27.3599,
+      "fx_spread_amount": 36.012
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-01",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 2,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 17709.2702,
+      "payout_amount": 137754.4454,
+      "fee_amount": 177.6741,
+      "tax_amount": 21.3209,
+      "fx_spread_amount": 553.2307
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-12",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 20746.8446,
+      "payout_amount": 8940.1059,
+      "fee_amount": 201.9748,
+      "tax_amount": 24.2369,
+      "fx_spread_amount": 35.904
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-15",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "REJECTED": 1,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 14737.7206,
+      "payout_amount": 6314.6499,
+      "fee_amount": 165.9018,
+      "tax_amount": 19.9083,
+      "fx_spread_amount": 25.36
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-07-04",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "UNDER_REVIEW": 3,
+      "PAID": 6,
+      "REJECTED": 2,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 70301.3642,
+      "payout_amount": 8939.8498,
+      "fee_amount": 754.411,
+      "tax_amount": 90.5293,
+      "fx_spread_amount": 35.903
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-04",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 3
+    },
+    "amounts": {
+      "send_amount": 5530.5515,
+      "payout_amount": 42646.5449,
+      "fee_amount": 80.2443,
+      "tax_amount": 9.6293,
+      "fx_spread_amount": 171.2713
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-30",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 4,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "SETTLED": 5,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 37961.2404,
+      "payout_amount": 87058.9552,
+      "fee_amount": 435.6899,
+      "tax_amount": 52.2829,
+      "fx_spread_amount": 349.6343
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-17",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 3,
+      "PAID": 4,
+      "SETTLED": 1,
+      "UNDER_REVIEW": 1,
+      "REJECTED": 1,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 38022.2354,
+      "payout_amount": 4839.735,
+      "fee_amount": 436.178,
+      "tax_amount": 52.3414,
+      "fx_spread_amount": 19.4366
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-22",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "FUNDED": 1,
+      "SETTLED": 5,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 39035.5996,
+      "payout_amount": 1576.2451,
+      "fee_amount": 408.2848,
+      "tax_amount": 48.9942,
+      "fx_spread_amount": 6.3303
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-11",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 3,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 20724.5556,
+      "payout_amount": 2628.1571,
+      "fee_amount": 225.7964,
+      "tax_amount": 27.0956,
+      "fx_spread_amount": 10.555
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-08",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 1,
+      "PAID": 2,
+      "AUTHORIZED": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 10198.7953,
+      "payout_amount": 1297.5148,
+      "fee_amount": 141.5904,
+      "tax_amount": 16.9909,
+      "fx_spread_amount": 5.211
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-12",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 8,
+      "SETTLED": 3,
+      "UNDER_REVIEW": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 39690.6207,
+      "payout_amount": 91360.3452,
+      "fee_amount": 473.5251,
+      "tax_amount": 56.8229,
+      "fx_spread_amount": 366.9091
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-12",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-12T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "FUNDED": 1,
+      "SETTLED": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 6552.3233,
+      "payout_amount": 50261.7855,
+      "fee_amount": 88.4185,
+      "tax_amount": 10.6102,
+      "fx_spread_amount": 201.8546
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-10",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 4,
+      "CANCELLED": 1,
+      "SENT_TO_PARTNER": 1,
+      "EXPIRED": 2
+    },
+    "amounts": {
+      "send_amount": 27893.5808,
+      "payout_amount": 64590.3675,
+      "fee_amount": 319.1486,
+      "tax_amount": 38.2977,
+      "fx_spread_amount": 259.3991
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-23",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "UNDER_REVIEW": 2,
+      "SETTLED": 2,
+      "PAID": 9,
+      "AUTHORIZED": 1,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 39249.5447,
+      "payout_amount": 5002.4873,
+      "fee_amount": 493.9964,
+      "tax_amount": 59.2795,
+      "fx_spread_amount": 20.0902
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-20",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 2
+    },
+    "amounts": {
+      "send_amount": 5364.5743,
+      "payout_amount": 2304.9589,
+      "fee_amount": 66.9166,
+      "tax_amount": 8.03,
+      "fx_spread_amount": 9.2569
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-01",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-01T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 2523.3038,
+      "payout_amount": 1077.7308,
+      "fee_amount": 44.1864,
+      "tax_amount": 5.3024,
+      "fx_spread_amount": 4.3283
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-06",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-06T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 2,
+      "REJECTED": 1,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 3,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 41187.3242,
+      "payout_amount": 1652.2662,
+      "fee_amount": 437.4986,
+      "tax_amount": 52.4998,
+      "fx_spread_amount": 6.6356
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-05",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "UNDER_REVIEW": 1,
+      "PAID": 2
+    },
+    "amounts": {
+      "send_amount": 30497.118,
+      "payout_amount": 3888.0628,
+      "fee_amount": 327.9768,
+      "tax_amount": 39.3572,
+      "fx_spread_amount": 15.6146
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-09",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-09T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 2,
+      "FUNDED": 1,
+      "SETTLED": 2,
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 18092.079,
+      "payout_amount": 723.8455,
+      "fee_amount": 216.7367,
+      "tax_amount": 26.0083,
+      "fx_spread_amount": 2.9069
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-24",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-24T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 5516.04,
+      "payout_amount": 42573.2902,
+      "fee_amount": 68.1284,
+      "tax_amount": 8.1754,
+      "fx_spread_amount": 170.9771
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-08",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 4,
+      "REVERSED": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 17224.1491,
+      "payout_amount": 694.4397,
+      "fee_amount": 221.7932,
+      "tax_amount": 26.6151,
+      "fx_spread_amount": 2.7889
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-02",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 2,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 12026.6852,
+      "payout_amount": 92226.0771,
+      "fee_amount": 144.2135,
+      "tax_amount": 17.3057,
+      "fx_spread_amount": 370.3859
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-21",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "AUTHORIZED": 1,
+      "UNDER_REVIEW": 1,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 25830.31,
+      "payout_amount": 3299.8548,
+      "fee_amount": 326.6426,
+      "tax_amount": 39.1971,
+      "fx_spread_amount": 13.2525
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-16",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-16T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SENT_TO_PARTNER": 2,
+      "PAID": 3,
+      "SETTLED": 2,
+      "CANCELLED": 1,
+      "REVERSED": 2
+    },
+    "amounts": {
+      "send_amount": 30935.3444,
+      "payout_amount": 3937.3287,
+      "fee_amount": 367.4828,
+      "tax_amount": 44.0979,
+      "fx_spread_amount": 15.8125
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-14",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 4,
+      "REJECTED": 1,
+      "PAID": 3,
+      "EXPIRED": 1
+    },
+    "amounts": {
+      "send_amount": 65481.7376,
+      "payout_amount": 2628.9661,
+      "fee_amount": 631.854,
+      "tax_amount": 75.8226,
+      "fx_spread_amount": 10.5581
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-25",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 6,
+      "UNDER_REVIEW": 1,
+      "SETTLED": 3,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 62261.884,
+      "payout_amount": 7923.2667,
+      "fee_amount": 630.0951,
+      "tax_amount": 75.6115,
+      "fx_spread_amount": 31.8202
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 3,
+      "high_risk_count": 3
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-17",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-17T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "UNDER_REVIEW": 1,
+      "AUTHORIZED": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 4238.0082,
+      "payout_amount": 1822.8888,
+      "fee_amount": 69.904,
+      "tax_amount": 8.3885,
+      "fx_spread_amount": 7.3209
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-22",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 17166.2342,
+      "payout_amount": 131643.7431,
+      "fee_amount": 161.3299,
+      "tax_amount": 19.3596,
+      "fx_spread_amount": 528.6897
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-26",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "SETTLED": 3,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 49651.9319,
+      "payout_amount": 1994.4837,
+      "fee_amount": 529.2156,
+      "tax_amount": 63.506,
+      "fx_spread_amount": 8.01
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 4,
+      "high_risk_count": 4
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-14",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 3,
+      "SETTLED": 2,
+      "UNDER_REVIEW": 1,
+      "REJECTED": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 33396.7173,
+      "payout_amount": 4245.7954,
+      "fee_amount": 363.1738,
+      "tax_amount": 43.5809,
+      "fx_spread_amount": 17.0514
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-13",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 1611.3929,
+      "payout_amount": 12522.2826,
+      "fee_amount": 24.8911,
+      "tax_amount": 2.9869,
+      "fx_spread_amount": 50.2903
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-11",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "AUTHORIZED": 1,
+      "PAID": 2
+    },
+    "amounts": {
+      "send_amount": 8888.492,
+      "payout_amount": 68585.4945,
+      "fee_amount": 107.1079,
+      "tax_amount": 12.8529,
+      "fx_spread_amount": 275.4438
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-22",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 9,
+      "SETTLED": 3,
+      "UNDER_REVIEW": 1,
+      "AUTHORIZED": 1
+    },
+    "amounts": {
+      "send_amount": 36864.989,
+      "payout_amount": 85072.3113,
+      "fee_amount": 462.9198,
+      "tax_amount": 55.5502,
+      "fx_spread_amount": 341.6559
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-15",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 3,
+      "PAID": 7,
+      "SETTLED": 1,
+      "AUTHORIZED": 1,
+      "REJECTED": 2
+    },
+    "amounts": {
+      "send_amount": 48695.3814,
+      "payout_amount": 1958.6788,
+      "fee_amount": 557.5631,
+      "tax_amount": 66.9076,
+      "fx_spread_amount": 7.8662
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-10",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 2637.9489,
+      "payout_amount": 1134.7189,
+      "fee_amount": 33.1036,
+      "tax_amount": 3.9724,
+      "fx_spread_amount": 4.5571
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-07-09",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-07-09T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "PAID": 7,
+      "SETTLED": 2,
+      "AUTHORIZED": 1,
+      "AVAILABLE_FOR_PAYOUT": 1,
+      "UNDER_REVIEW": 1
+    },
+    "amounts": {
+      "send_amount": 44844.4038,
+      "payout_amount": 103233.7691,
+      "fee_amount": 502.7552,
+      "tax_amount": 60.3306,
+      "fx_spread_amount": 414.5934
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-06-20",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "EXPIRED": 2,
+      "SETTLED": 2,
+      "REVERSED": 1
+    },
+    "amounts": {
+      "send_amount": 29046.6585,
+      "payout_amount": 1173.1605,
+      "fee_amount": 376.3732,
+      "tax_amount": 45.1649,
+      "fx_spread_amount": 4.7115
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-29",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-29T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 1872.794,
+      "payout_amount": 802.0118,
+      "fee_amount": 38.9823,
+      "tax_amount": 4.6778,
+      "fx_spread_amount": 3.2209
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-10",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3,
+      "REVERSED": 1,
+      "SENT_TO_PARTNER": 2
+    },
+    "amounts": {
+      "send_amount": 15886.6323,
+      "payout_amount": 2024.7206,
+      "fee_amount": 199.093,
+      "tax_amount": 23.8912,
+      "fx_spread_amount": 8.1315
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-MX-GTQ-MXN|2026-06-19",
+    "corridor_code": "GT-MX-GTQ-MXN",
+    "metric_date": "2026-06-19T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "MXN",
+    "counts": {
+      "UNDER_REVIEW": 2,
+      "PAID": 6,
+      "SETTLED": 3,
+      "FUNDED": 2,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 42421.5695,
+      "payout_amount": 98094.3143,
+      "fee_amount": 507.3726,
+      "tax_amount": 60.8847,
+      "fx_spread_amount": 393.9529
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 2,
+      "high_risk_count": 2
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-10",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 14641.4889,
+      "payout_amount": 112911.0327,
+      "fee_amount": 129.1319,
+      "tax_amount": 15.4958,
+      "fx_spread_amount": 453.458
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-30",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 4179.5236,
+      "payout_amount": 32673.0183,
+      "fee_amount": 45.4362,
+      "tax_amount": 5.4523,
+      "fx_spread_amount": 131.2169
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-SV-GTQ-USD|2026-06-14",
+    "corridor_code": "GT-SV-GTQ-USD",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 7,
+      "CANCELLED": 1,
+      "SETTLED": 5,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 37295.8438,
+      "payout_amount": 4752.9396,
+      "fee_amount": 466.3667,
+      "tax_amount": 55.964,
+      "fx_spread_amount": 19.0879
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-07-04",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 3
+    },
+    "amounts": {
+      "send_amount": 10248.7351,
+      "payout_amount": 1304.2535,
+      "fee_amount": 117.9899,
+      "tax_amount": 14.1588,
+      "fx_spread_amount": 5.2379
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-05",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "SETTLED": 2,
+      "PAID": 3,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 10415.2109,
+      "payout_amount": 419.3028,
+      "fee_amount": 155.3217,
+      "tax_amount": 18.6387,
+      "fx_spread_amount": 1.6839
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-04",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-04T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 4921.8948,
+      "payout_amount": 2078.4493,
+      "fee_amount": 51.3752,
+      "tax_amount": 6.165,
+      "fx_spread_amount": 8.3472
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-30",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-30T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 2833.3825,
+      "payout_amount": 1230.2119,
+      "fee_amount": 34.6671,
+      "tax_amount": 4.1601,
+      "fx_spread_amount": 4.9406
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-23",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 5317.6013,
+      "payout_amount": 40688.5564,
+      "fee_amount": 66.5409,
+      "tax_amount": 7.9849,
+      "fx_spread_amount": 163.4078
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "GT-US-GTQ-USD|2026-06-26",
+    "corridor_code": "GT-US-GTQ-USD",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "GTQ",
+    "payout_currency": "USD",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 4,
+      "SENT_TO_PARTNER": 1,
+      "CANCELLED": 1
+    },
+    "amounts": {
+      "send_amount": 29678.3328,
+      "payout_amount": 3812.8372,
+      "fee_amount": 321.4266,
+      "tax_amount": 38.571,
+      "fx_spread_amount": 15.3127
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-18",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-18T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 3636.1173,
+      "payout_amount": 27734.6144,
+      "fee_amount": 41.0889,
+      "tax_amount": 4.9307,
+      "fx_spread_amount": 111.384
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-05",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-05T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 2,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 4039.9007,
+      "payout_amount": 31097.853,
+      "fee_amount": 68.3192,
+      "tax_amount": 8.1983,
+      "fx_spread_amount": 124.8911
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-11",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-11T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 7201.6148,
+      "payout_amount": 3090.9511,
+      "fee_amount": 81.6129,
+      "tax_amount": 9.7935,
+      "fx_spread_amount": 12.4135
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "HN-US-HNL-USD|2026-07-10",
+    "corridor_code": "HN-US-HNL-USD",
+    "metric_date": "2026-07-10T00:00:00+00:00",
+    "send_currency": "HNL",
+    "payout_currency": "USD",
+    "counts": {
+      "AUTHORIZED": 1,
+      "SETTLED": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 6496.5761,
+      "payout_amount": 261.3032,
+      "fee_amount": 87.9726,
+      "tax_amount": 10.5567,
+      "fx_spread_amount": 1.0494
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-03",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SENT_TO_PARTNER": 1
+    },
+    "amounts": {
+      "send_amount": 4588.0776,
+      "payout_amount": 1978.0692,
+      "fee_amount": 60.7046,
+      "tax_amount": 7.2845,
+      "fx_spread_amount": 7.9441
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-13",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-13T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 5091.2628,
+      "payout_amount": 2163.1302,
+      "fee_amount": 76.7301,
+      "tax_amount": 9.2076,
+      "fx_spread_amount": 8.6872
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-09",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-09T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 4038.613,
+      "payout_amount": 1716.587,
+      "fee_amount": 56.3089,
+      "tax_amount": 6.7571,
+      "fx_spread_amount": 6.894
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-26",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 2
+    },
+    "amounts": {
+      "send_amount": 2181.5037,
+      "payout_amount": 941.1933,
+      "fee_amount": 41.452,
+      "tax_amount": 4.9743,
+      "fx_spread_amount": 3.7799
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-23",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-23T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "REJECTED": 1
+    },
+    "amounts": {
+      "send_amount": 3592.3782,
+      "payout_amount": 1541.0402,
+      "fee_amount": 40.739,
+      "tax_amount": 4.8887,
+      "fx_spread_amount": 6.1889
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-21",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-21T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "REJECTED": 1,
+      "PAID": 2
+    },
+    "amounts": {
+      "send_amount": 23075.2507,
+      "payout_amount": 9857.5311,
+      "fee_amount": 220.602,
+      "tax_amount": 26.4722,
+      "fx_spread_amount": 39.5885
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-15",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-15T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1,
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 3198.0127,
+      "payout_amount": 24396.1973,
+      "fee_amount": 49.5841,
+      "tax_amount": 5.9501,
+      "fx_spread_amount": 97.9767
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-22",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-22T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 3392.7042,
+      "payout_amount": 1443.9934,
+      "fee_amount": 39.1416,
+      "tax_amount": 4.697,
+      "fx_spread_amount": 5.7992
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-08",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-08T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1,
+      "SENT_TO_PARTNER": 1,
+      "FUNDED": 1
+    },
+    "amounts": {
+      "send_amount": 21439.1026,
+      "payout_amount": 9181.2175,
+      "fee_amount": 207.5128,
+      "tax_amount": 24.9015,
+      "fx_spread_amount": 36.8723
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-25",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-25T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 2977.8908,
+      "payout_amount": 1284.2941,
+      "fee_amount": 35.8231,
+      "tax_amount": 4.2988,
+      "fx_spread_amount": 5.1578
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-26",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-26T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1,
+      "UNDER_REVIEW": 1,
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 24280.2318,
+      "payout_amount": 185854.5496,
+      "fee_amount": 230.2419,
+      "tax_amount": 27.629,
+      "fx_spread_amount": 746.4038
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 1,
+      "high_risk_count": 1
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-28",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "AVAILABLE_FOR_PAYOUT": 1
+    },
+    "amounts": {
+      "send_amount": 2725.3866,
+      "payout_amount": 1150.8937,
+      "fee_amount": 33.8031,
+      "tax_amount": 4.0564,
+      "fx_spread_amount": 4.6221
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-28",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-28T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 444.6782,
+      "payout_amount": 3476.2285,
+      "fee_amount": 15.5574,
+      "tax_amount": 1.8669,
+      "fx_spread_amount": 13.9608
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-20",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-20T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 2
+    },
+    "amounts": {
+      "send_amount": 5527.0356,
+      "payout_amount": 42231.8827,
+      "fee_amount": 68.2163,
+      "tax_amount": 8.186,
+      "fx_spread_amount": 169.606
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-02",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-02T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 1880.2665,
+      "payout_amount": 800.2738,
+      "fee_amount": 27.0421,
+      "tax_amount": 3.2451,
+      "fx_spread_amount": 3.214
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-07-06",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-07-06T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 1275.1125,
+      "payout_amount": 551.0092,
+      "fee_amount": 22.2009,
+      "tax_amount": 2.6641,
+      "fx_spread_amount": 2.2129
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-07-03",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-07-03T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 3030.3235,
+      "payout_amount": 23548.923,
+      "fee_amount": 36.2426,
+      "tax_amount": 4.3491,
+      "fx_spread_amount": 94.574
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-14",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-14T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 4906.3236,
+      "payout_amount": 37553.7237,
+      "fee_amount": 51.2506,
+      "tax_amount": 6.1501,
+      "fx_spread_amount": 150.8182
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-10",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "SETTLED": 1
+    },
+    "amounts": {
+      "send_amount": 3946.5925,
+      "payout_amount": 30852.1021,
+      "fee_amount": 43.5727,
+      "tax_amount": 5.2287,
+      "fx_spread_amount": 123.904
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "MX-GT-MXN-GTQ|2026-06-10",
+    "corridor_code": "MX-GT-MXN-GTQ",
+    "metric_date": "2026-06-10T00:00:00+00:00",
+    "send_currency": "MXN",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 748.4069,
+      "payout_amount": 323.406,
+      "fee_amount": 17.9873,
+      "tax_amount": 2.1585,
+      "fx_spread_amount": 1.2988
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": "US-GT-USD-GTQ|2026-06-16",
+    "corridor_code": "US-GT-USD-GTQ",
+    "metric_date": "2026-06-16T00:00:00+00:00",
+    "send_currency": "USD",
+    "payout_currency": "GTQ",
+    "counts": {
+      "PAID": 1
+    },
+    "amounts": {
+      "send_amount": 2916.4377,
+      "payout_amount": 22438.6504,
+      "fee_amount": 35.3315,
+      "tax_amount": 4.2398,
+      "fx_spread_amount": 90.1151
+    },
+    "service": {
+      "average_minutes_to_pay": 35.0,
+      "p95_minutes_to_pay": 70.0
+    },
+    "risk": {
+      "alert_count": 0,
+      "high_risk_count": 0
+    },
+    "calculation_version": 1,
+    "computed_at": "2026-07-10T15:34:34+00:00",
+    "source_watermark": "2026-07-10T15:34:34+00:00"
+  }
+]

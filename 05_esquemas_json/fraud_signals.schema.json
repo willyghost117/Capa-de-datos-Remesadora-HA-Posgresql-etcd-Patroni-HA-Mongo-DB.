@@ -1,0 +1,21 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "signal_id", "remittance_id", "customer_id", "signal_type", "severity", "score", "rule", "detected_at", "source_event_id", "status"],
+    "properties": {
+      "_id": { "bsonType": "string" },
+      "signal_id": { "bsonType": "string" },
+      "remittance_id": { "bsonType": ["long", "int"] },
+      "customer_id": { "bsonType": ["long", "int"] },
+      "signal_type": { "bsonType": "string" },
+      "severity": { "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"] },
+      "score": { "bsonType": ["double", "decimal"], "minimum": 0, "maximum": 1 },
+      "rule": { "bsonType": "object", "required": ["rule_code", "rule_version"] },
+      "features": { "bsonType": "object" },
+      "decision_context": { "bsonType": "object" },
+      "detected_at": { "bsonType": "date" },
+      "source_event_id": { "bsonType": "string" },
+      "status": { "enum": ["OPEN", "REVIEWED", "DISMISSED", "CONFIRMED"] }
+    }
+  }
+}

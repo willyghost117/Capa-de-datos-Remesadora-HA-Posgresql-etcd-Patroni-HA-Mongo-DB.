@@ -1,0 +1,1052 @@
+[
+  {
+    "_id": 1,
+    "settlement_batch_id": 1,
+    "batch_code": "SET-000001",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 60029.4332,
+      "reported_amount": 60029.4332,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "aca07f0a-9340-4e8e-bcb3-2e501e0bba08",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 2,
+    "settlement_batch_id": 2,
+    "batch_code": "SET-000002",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 75563.9361,
+      "reported_amount": 75563.9361,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "e26311e4-44d7-467d-81eb-c74dba96b7b7",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 3,
+    "settlement_batch_id": 3,
+    "batch_code": "SET-000003",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 32072.5418,
+      "reported_amount": 32072.5418,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "e1dce1dd-111e-4b52-a435-4ef22680ea71",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 4,
+    "settlement_batch_id": 4,
+    "batch_code": "SET-000004",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 54184.4684,
+      "reported_amount": 54184.4684,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "382be21f-8e89-4f64-8c2e-ede30bb84dbe",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 5,
+    "settlement_batch_id": 5,
+    "batch_code": "SET-000005",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 51997.9074,
+      "reported_amount": 51997.9074,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "78995527-3b0a-4157-a581-063617b114e6",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 6,
+    "settlement_batch_id": 6,
+    "batch_code": "SET-000006",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 126091.3573,
+      "reported_amount": 126091.3573,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "68c73787-42c0-42b4-b686-2766beca81a4",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 7,
+    "settlement_batch_id": 7,
+    "batch_code": "SET-000007",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 30042.4588,
+      "reported_amount": 30042.4588,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "b52944b0-1c4c-4930-8f41-de58cbae8e3f",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 8,
+    "settlement_batch_id": 8,
+    "batch_code": "SET-000008",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 65293.3104,
+      "reported_amount": 65293.3104,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "80e5c53d-a1f5-469a-9198-e14f586338f0",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 9,
+    "settlement_batch_id": 9,
+    "batch_code": "SET-000009",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 52785.0477,
+      "reported_amount": 52785.0477,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "a5118195-dd7a-42a2-9b1e-3a2fe4495c17",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 10,
+    "settlement_batch_id": 10,
+    "batch_code": "SET-000010",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 82107.2437,
+      "reported_amount": 82107.2437,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "4099c9a7-00b1-4318-8b79-05b784c0ec86",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 11,
+    "settlement_batch_id": 11,
+    "batch_code": "SET-000011",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 178841.6225,
+      "reported_amount": 178841.6225,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "3c687c34-b463-43e7-bc40-05c13f0e41f6",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 12,
+    "settlement_batch_id": 12,
+    "batch_code": "SET-000012",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 79569.8964,
+      "reported_amount": 79569.8964,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "2e6e5f05-3829-46e3-8cd9-6f29b37964e6",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 13,
+    "settlement_batch_id": 13,
+    "batch_code": "SET-000013",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 41741.2637,
+      "reported_amount": 41741.2637,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "e13e1947-1e01-41f1-a194-a4c3590238d4",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 14,
+    "settlement_batch_id": 14,
+    "batch_code": "SET-000014",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 83068.1111,
+      "reported_amount": 83068.1111,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "b2e99766-f295-4d27-b166-eb5528fb83b8",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 15,
+    "settlement_batch_id": 15,
+    "batch_code": "SET-000015",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 102868.6432,
+      "reported_amount": 102868.6432,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "6f1ade09-c9c2-45c1-8d23-0f837b03c04e",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 16,
+    "settlement_batch_id": 16,
+    "batch_code": "SET-000016",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 60832.2931,
+      "reported_amount": 60832.2931,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "93288532-5487-4be4-9acd-9d0cfcbeab81",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 17,
+    "settlement_batch_id": 17,
+    "batch_code": "SET-000017",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 79273.5062,
+      "reported_amount": 79273.5062,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "855a45a1-e6d6-4f5a-8c24-4f7be09b54b6",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 18,
+    "settlement_batch_id": 18,
+    "batch_code": "SET-000018",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 72989.9142,
+      "reported_amount": 72989.9142,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "6ad7aa17-b339-4dd2-80c9-b233faf74579",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 19,
+    "settlement_batch_id": 19,
+    "batch_code": "SET-000019",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 85678.4756,
+      "reported_amount": 85678.4756,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "992073b5-d961-47f3-a226-ad72b54aefcb",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 20,
+    "settlement_batch_id": 20,
+    "batch_code": "SET-000020",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "GTQ",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 96648.2919,
+      "reported_amount": 96648.2919,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "d5bffff9-7779-458a-9b6c-207be845e556",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 21,
+    "settlement_batch_id": 21,
+    "batch_code": "SET-000021",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 26736.599,
+      "reported_amount": 26736.599,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "073d21a9-8be5-4b87-bf8f-7d8058aa867a",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 22,
+    "settlement_batch_id": 22,
+    "batch_code": "SET-000022",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 65706.8197,
+      "reported_amount": 65706.8197,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "c6b3c05d-e20d-46ab-acbe-c6355cdde243",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 23,
+    "settlement_batch_id": 23,
+    "batch_code": "SET-000023",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 42574.4013,
+      "reported_amount": 42574.4013,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "c00ba02a-0aec-4e69-b318-89c00fe2f17a",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 24,
+    "settlement_batch_id": 24,
+    "batch_code": "SET-000024",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 116901.5013,
+      "reported_amount": 116901.5013,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "811fcc5c-dbca-47e6-b8aa-4e00660ff093",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 25,
+    "settlement_batch_id": 25,
+    "batch_code": "SET-000025",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 81836.0896,
+      "reported_amount": 81836.0896,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "082eb3dc-0471-47bd-97ed-36fb8327975e",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 26,
+    "settlement_batch_id": 26,
+    "batch_code": "SET-000026",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 136188.5044,
+      "reported_amount": 136188.5044,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "5ee80c98-027d-4fd2-b3b5-109259cd3ae3",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 27,
+    "settlement_batch_id": 27,
+    "batch_code": "SET-000027",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 95023.9268,
+      "reported_amount": 95023.9268,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "4e23537d-b4fe-4b17-ac0b-f27df1256430",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 28,
+    "settlement_batch_id": 28,
+    "batch_code": "SET-000028",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 86454.3162,
+      "reported_amount": 86454.3162,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "3ef86536-8f88-4584-b517-bbc40e1c6deb",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 29,
+    "settlement_batch_id": 29,
+    "batch_code": "SET-000029",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 42243.5974,
+      "reported_amount": 42243.5974,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "3b2daf57-4375-40dc-817b-f87a674f1828",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 30,
+    "settlement_batch_id": 30,
+    "batch_code": "SET-000030",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 129962.1797,
+      "reported_amount": 129962.1797,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "e669ba97-a981-4f48-bec9-4463966253cb",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 31,
+    "settlement_batch_id": 31,
+    "batch_code": "SET-000031",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 92316.9922,
+      "reported_amount": 92316.9922,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "89bb50de-d656-402c-b0c8-17d3f9924343",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 32,
+    "settlement_batch_id": 32,
+    "batch_code": "SET-000032",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 46893.8931,
+      "reported_amount": 46893.8931,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "6b8078fe-14cc-4d9c-ae3f-af0c11af94e0",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 33,
+    "settlement_batch_id": 33,
+    "batch_code": "SET-000033",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 110615.6863,
+      "reported_amount": 110615.6863,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "47d48f54-e9ff-4c62-8d7a-6406c9c6c752",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 34,
+    "settlement_batch_id": 34,
+    "batch_code": "SET-000034",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 107902.93,
+      "reported_amount": 107902.93,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "1771572b-e16d-44ba-a90d-c329d818755c",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 35,
+    "settlement_batch_id": 35,
+    "batch_code": "SET-000035",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 70879.6313,
+      "reported_amount": 70879.6313,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "2f088a99-a9e1-42a1-9950-1febbf54e236",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 36,
+    "settlement_batch_id": 36,
+    "batch_code": "SET-000036",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 169204.2487,
+      "reported_amount": 169204.2487,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "75a77724-b249-4265-8f3e-528af02ac448",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 37,
+    "settlement_batch_id": 37,
+    "batch_code": "SET-000037",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 63367.0381,
+      "reported_amount": 63367.0381,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "32d6d33e-0919-4a10-b65a-828c3c276781",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 38,
+    "settlement_batch_id": 38,
+    "batch_code": "SET-000038",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 84717.2051,
+      "reported_amount": 84717.2051,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "71fc9239-dfee-44e8-9942-c404eddcbc06",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 39,
+    "settlement_batch_id": 39,
+    "batch_code": "SET-000039",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 145802.3384,
+      "reported_amount": 145802.3384,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "6b22c1e5-1283-4390-9144-56326899120a",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 40,
+    "settlement_batch_id": 40,
+    "batch_code": "SET-000040",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "MXN",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 93404.3533,
+      "reported_amount": 93404.3533,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "1d34b114-d7f5-40aa-9297-56a137ac5733",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 41,
+    "settlement_batch_id": 41,
+    "batch_code": "SET-000041",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 25,
+      "expected_amount": 60841.7262,
+      "reported_amount": 60841.7262,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "471c8be0-b130-47cf-b083-9ae9cceb7b14",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  },
+  {
+    "_id": 42,
+    "settlement_batch_id": 42,
+    "batch_code": "SET-000042",
+    "correspondent": {
+      "correspondent_id": 1,
+      "correspondent_code": "BANK-US-01",
+      "country": "US"
+    },
+    "currency": "USD",
+    "period": {
+      "start_at": "2026-07-09T15:34:34+00:00",
+      "end_at": "2026-07-10T15:34:34+00:00"
+    },
+    "totals": {
+      "item_count": 2,
+      "expected_amount": 582.7224,
+      "reported_amount": 582.7224,
+      "difference_amount": 0.0
+    },
+    "status": "SETTLED",
+    "exceptions": [],
+    "last_event_id": "711fef42-0320-44b4-bfb4-9942f73b3ec0",
+    "updated_at": "2026-07-10T15:34:34+00:00"
+  }
+]

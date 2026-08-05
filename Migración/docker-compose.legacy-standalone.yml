@@ -1,0 +1,90 @@
+name: globalremit_migration
+
+services:
+  postgres:
+    image: postgres:18
+    container_name: globalremit-postgres
+    environment:
+      POSTGRES_DB: globalremit
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: GlobalRemitPg2026!
+    ports:
+      - "55432:5432"
+    volumes:
+      - globalremit_pg_data:/var/lib/postgresql
+      - ../06_sql_ddl.sql:/docker-entrypoint-initdb.d/01_ddl.sql:ro
+      - ../06_sql_seed.sql:/docker-entrypoint-initdb.d/02_seed.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d globalremit"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - globalremit-net
+
+  mongo1:
+    image: mongo:8
+    container_name: globalremit-mongo1
+    command: ["mongod", "--replSet", "rsGlobalRemit", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "37017:27017"
+    volumes:
+      - globalremit_mongo1_data:/data/db
+      - ..:/workspace:ro
+    networks:
+      - globalremit-net
+
+  mongo2:
+    image: mongo:8
+    container_name: globalremit-mongo2
+    command: ["mongod", "--replSet", "rsGlobalRemit", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "37018:27017"
+    volumes:
+      - globalremit_mongo2_data:/data/db
+      - ..:/workspace:ro
+    networks:
+      - globalremit-net
+
+  mongo3:
+    image: mongo:8
+    container_name: globalremit-mongo3
+    command: ["mongod", "--replSet", "rsGlobalRemit", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "37019:27017"
+    volumes:
+      - globalremit_mongo3_data:/data/db
+      - ..:/workspace:ro
+    networks:
+      - globalremit-net
+
+  mongo-init:
+    image: mongo:8
+    container_name: globalremit-mongo-init
+    depends_on:
+      - mongo1
+      - mongo2
+      - mongo3
+    volumes:
+      - ./mongo-init-replica.js:/scripts/mongo-init-replica.js:ro
+    entrypoint:
+      - bash
+      - -lc
+      - |
+        echo "Waiting for MongoDB nodes..."
+        until mongosh --host globalremit-mongo1:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        until mongosh --host globalremit-mongo2:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        until mongosh --host globalremit-mongo3:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        mongosh --host globalremit-mongo1:27017 /scripts/mongo-init-replica.js
+    networks:
+      - globalremit-net
+
+networks:
+  globalremit-net:
+    name: globalremit-net
+
+volumes:
+  globalremit_pg_data:
+  globalremit_mongo1_data:
+  globalremit_mongo2_data:
+  globalremit_mongo3_data:

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mockup interactivo del flujo de datos y continuidad de GlobalRemit">
+  <title>GlobalRemit | Flujo de datos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#main" aria-label="Ir al mapa de arquitectura">
+      <span class="brand-mark">G/R</span>
+      <span>
+        <strong>GLOBAL / REMIT</strong>
+        <small>Architecture flow simulator</small>
+      </span>
+    </a>
+    <div class="environment">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>VALIDACIÓN PREPRODUCTIVA</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">MAPA INTERACTIVO · ETAPA 5</p>
+        <h1 id="page-title">Una verdad financiera.<br>Dos cargas especializadas.</h1>
+        <p class="hero-copy">
+          Seleccione un evento para observar cómo la información viaja desde el
+          canal hasta la autoridad transaccional y sus productos analíticos.
+        </p>
+      </div>
+      <aside class="decision-card" aria-label="Regla de arquitectura">
+        <span>REGLA DE DECISIÓN</span>
+        <strong>PostgreSQL decide.</strong>
+        <strong>MongoDB deriva.</strong>
+        <strong>Auditoría explica.</strong>
+      </aside>
+    </section>
+
+    <section class="scenario-bar" aria-labelledby="scenario-title">
+      <div>
+        <p class="section-kicker">SIMULADOR</p>
+        <h2 id="scenario-title">Evento del negocio</h2>
+      </div>
+      <div class="scenario-actions" role="group" aria-label="Escenarios disponibles">
+        <button class="scenario-button is-active" data-scenario="remittance">
+          <span>01</span>Nueva remesa
+        </button>
+        <button class="scenario-button" data-scenario="fraud">
+          <span>02</span>Alerta de fraude
+        </button>
+        <button class="scenario-button" data-scenario="postgres">
+          <span>03</span>Failover PostgreSQL
+        </button>
+        <button class="scenario-button" data-scenario="mongo">
+          <span>04</span>Failover MongoDB
+        </button>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <div class="architecture-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">ARQUITECTURA</p>
+            <h2 id="active-title">Nueva remesa</h2>
+          </div>
+          <button id="play-button" class="play-button" type="button">
+            <span aria-hidden="true">▶</span> Reproducir flujo
+          </button>
+        </div>
+
+        <div class="architecture" id="architecture" aria-label="Diagrama interactivo de arquitectura">
+          <svg class="connections" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
+            <path id="line-channel-api" d="M145 250 H260"></path>
+            <path id="line-api-proxy" d="M410 250 H500"></path>
+            <path id="line-proxy-pg" d="M650 250 H735"></path>
+            <path id="line-pg-outbox" d="M885 250 H955"></path>
+            <path id="line-outbox-mongo" d="M1035 210 V105 H955"></path>
+            <path id="line-mongo-products" d="M885 105 H735"></path>
+            <path id="line-products-loop" d="M735 105 H500 V175"></path>
+          </svg>
+
+          <article class="node node-channel" data-node="channel" tabindex="0">
+            <span class="node-index">01</span>
+            <p>CANAL</p>
+            <h3>Usuario final</h3>
+            <small>Web · móvil · agencia</small>
+          </article>
+
+          <article class="node node-api" data-node="api" tabindex="0">
+            <span class="node-index">02</span>
+            <p>SERVICIO</p>
+            <h3>Django API</h3>
+            <small>Identidad · controles · idempotencia</small>
+          </article>
+
+          <article class="node node-proxy" data-node="proxy" tabindex="0">
+            <span class="node-index">03</span>
+            <p>ENRUTAMIENTO</p>
+            <h3>HAProxy</h3>
+            <small>Punto estable · solo líder</small>
+          </article>
+
+          <article class="node node-pg" data-node="postgres" tabindex="0">
+            <span class="node-index">04</span>
+            <p>AUTORIDAD</p>
+            <h3>PostgreSQL</h3>
+            <small id="pg-role">pg1 líder · pg2/pg3 réplicas</small>
+            <div class="node-rule">CONSISTENCIA FUERTE</div>
+          </article>
+
+          <article class="node node-outbox" data-node="outbox" tabindex="0">
+            <span class="node-index">05</span>
+            <p>PUENTE</p>
+            <h3>Outbox</h3>
+            <small>Entrega idempotente · reintentos</small>
+          </article>
+
+          <article class="node node-mongo" data-node="mongo" tabindex="0">
+            <span class="node-index">06</span>
+            <p>DERIVACIÓN</p>
+            <h3>MongoDB</h3>
+            <small id="mongo-role">mongo1 primario · 2 secundarios</small>
+            <div class="node-rule node-rule-orange">CONSISTENCIA EVENTUAL</div>
+          </article>
+
+          <article class="node node-products" data-node="products" tabindex="0">
+            <span class="node-index">07</span>
+            <p>PRODUCTOS</p>
+            <h3>Riesgo y analítica</h3>
+            <small>Fraude · AML · operaciones · métricas</small>
+          </article>
+
+          <div class="authority-note">
+            <span>INVARIANTE</span>
+            La decisión monetaria nunca depende de un documento analítico.
+          </div>
+        </div>
+      </div>
+
+      <aside class="telemetry-panel" aria-labelledby="telemetry-title">
+        <div class="telemetry-heading">
+          <div>
+            <p class="section-kicker">EVIDENCIA</p>
+            <h2 id="telemetry-title">Estado del evento</h2>
+          </div>
+          <span id="event-badge" class="event-badge">LISTO</span>
+        </div>
+
+        <div class="summary-card">
+          <span id="summary-label">OBJETIVO</span>
+          <strong id="summary-value">Confirmar sin doble escritura</strong>
+          <p id="summary-copy">
+            La remesa y el evento Outbox se confirman en una sola transacción.
+          </p>
+        </div>
+
+        <div class="metrics" aria-label="Métricas del escenario">
+          <div>
+            <span id="metric-a-label">Autoridad</span>
+            <strong id="metric-a-value">PostgreSQL</strong>
+          </div>
+          <div>
+            <span id="metric-b-label">Entrega</span>
+            <strong id="metric-b-value">Idempotente</strong>
+          </div>
+        </div>
+
+        <div class="log-wrap">
+          <div class="log-title">
+            <span>TRAZA DEL EVENTO</span>
+            <button id="reset-button" type="button">Reiniciar</button>
+          </div>
+          <ol id="event-log" class="event-log" aria-live="polite">
+            <li class="is-current">
+              <time>00:00</time>
+              <span>Escenario preparado. Inicie la simulación.</span>
+            </li>
+          </ol>
+        </div>
+
+        <p class="lab-note">
+          Los tiempos mostrados son referencias preproductivas. El SLA se
+          certifica con carga representativa y dominios de falla independientes.
+        </p>
+      </aside>
+    </section>
+
+    <section class="proof-strip" aria-label="Evidencia de validación operativa">
+      <div><strong>1,500</strong><span>remesas</span></div>
+      <div><strong>7,357</strong><span>movimientos</span></div>
+      <div><strong>223</strong><span>señales de fraude</span></div>
+      <div><strong>42</strong><span>lotes de liquidación</span></div>
+      <div><strong>0</strong><span>errores de integridad reportados</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GLOBALREMIT · ARQUITECTURA OBJETIVO DE PRODUCCIÓN</span>
+    <span>ETAPA 5 · MOCKUP DE FLUJO DE DATOS</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

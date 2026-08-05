@@ -1,0 +1,17 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "customer_id", "profile_version", "windows", "usual_patterns", "risk_features", "last_event_id", "computed_at"],
+    "properties": {
+      "_id": { "bsonType": ["long", "int"] },
+      "customer_id": { "bsonType": ["long", "int"] },
+      "profile_version": { "bsonType": "int", "minimum": 1 },
+      "windows": { "bsonType": "object" },
+      "usual_patterns": { "bsonType": "object" },
+      "risk_features": { "bsonType": "object" },
+      "last_event_id": { "bsonType": "string" },
+      "computed_at": { "bsonType": "date" },
+      "expires_at": { "bsonType": ["date", "null"] }
+    }
+  }
+}

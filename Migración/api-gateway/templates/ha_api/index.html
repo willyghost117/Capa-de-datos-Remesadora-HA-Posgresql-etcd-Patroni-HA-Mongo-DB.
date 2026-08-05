@@ -1,0 +1,303 @@
+﻿{% load static %}
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Consola interactiva de continuidad y flujo de datos de GlobalRemit">
+  <title>GlobalRemit | Continuidad en vivo</title>
+  <link rel="stylesheet" href="{% static 'ha_api/dashboard.css' %}">
+  <script defer src="{% static 'ha_api/dashboard.js' %}"></script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="#main" aria-label="Ir a la consola principal">
+      <span class="brand-mark" aria-hidden="true">G/R</span>
+      <span class="brand-copy">
+        <strong>GLOBAL / REMIT</strong>
+        <small>Consola de continuidad</small>
+      </span>
+    </a>
+    <div class="header-status">
+      <span class="live-indicator" aria-hidden="true"></span>
+      <span>LABORATORIO EN VIVO</span>
+      <time id="last-updated">Esperando telemetría</time>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="control-band" aria-labelledby="page-title">
+      <div class="title-block">
+        <p class="eyebrow">ETAPA 5 · PROTOTIPO FUNCIONAL</p>
+        <h1 id="page-title">Continuidad observable, operación comprobable</h1>
+        <p>La interfaz consulta el laboratorio real. Los cambios de líder, la disponibilidad del endpoint y las remesas se actualizan sin recargar la página.</p>
+      </div>
+      <div class="control-actions">
+        <button id="insert-remittance" class="command-button" type="button">
+          <span class="button-symbol" aria-hidden="true">+</span>
+          Insertar remesa completa
+        </button>
+        <button id="refresh-now" class="icon-button" type="button" title="Actualizar estado ahora" aria-label="Actualizar estado ahora">↻</button>
+        <label class="auto-toggle">
+          <input id="auto-refresh" type="checkbox" checked>
+          <span>Actualización automática</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="status-strip" aria-label="Resumen del laboratorio">
+      <div class="overall-status">
+        <span>ESTADO GENERAL</span>
+        <strong id="overall-label" class="status-label status-unknown">CONECTANDO</strong>
+      </div>
+      <div class="metric">
+        <span>Líder PostgreSQL</span>
+        <strong id="pg-leader">No disponible</strong>
+      </div>
+      <div class="metric">
+        <span>Primario MongoDB</span>
+        <strong id="mongo-primary">No disponible</strong>
+      </div>
+      <div class="metric">
+        <span>Endpoint de escritura</span>
+        <strong id="writer-endpoint">HAProxy :5432</strong>
+      </div>
+      <div class="metric">
+        <span>Remesas registradas</span>
+        <strong id="remittance-count">—</strong>
+      </div>
+    </section>
+
+    <section class="architecture-section" aria-labelledby="architecture-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">VIAJE DE LA INFORMACIÓN</p>
+          <h2 id="architecture-title">Arquitectura y roles actuales</h2>
+        </div>
+        <p>Detenga el líder desde Docker Desktop. Esta vista detectará la caída, la elección y la reincorporación.</p>
+      </div>
+
+      <div class="flow-viewport">
+        <div class="architecture-flow" aria-label="Flujo en vivo desde el usuario hasta los productos analíticos">
+          <article class="service-node fixed-node" data-service="channel">
+            <span class="node-index">01</span>
+            <p>CANAL</p>
+            <h3>Usuario final</h3>
+            <small>Web · móvil · agencia</small>
+            <span class="node-state state-up">ACTIVO</span>
+          </article>
+
+          <span class="flow-arrow" aria-hidden="true">→</span>
+
+          <article class="service-node fixed-node" data-service="django" data-trace-node="django">
+            <span class="node-index">02</span>
+            <p>APLICACIÓN</p>
+            <h3>Django API</h3>
+            <small>Validación · idempotencia</small>
+            <span class="node-state state-up">OPERATIVO</span>
+          </article>
+
+          <span class="flow-arrow" data-trace-link="haproxy" aria-hidden="true">→</span>
+
+          <article id="haproxy-node" class="service-node" data-health="unknown" data-trace-node="haproxy">
+            <span class="node-index">03</span>
+            <p>ENRUTAMIENTO</p>
+            <h3>HAProxy</h3>
+            <small>Punto estable · solo líder</small>
+            <span class="node-state">VERIFICANDO</span>
+          </article>
+
+          <span class="flow-arrow" data-trace-link="postgres" aria-hidden="true">→</span>
+
+          <article class="cluster-node postgres-cluster" data-trace-node="postgres">
+            <header>
+              <div>
+                <p>AUTORIDAD TRANSACCIONAL</p>
+                <h3>PostgreSQL + Patroni</h3>
+              </div>
+              <span id="pg-cluster-state" class="cluster-state">VERIFICANDO</span>
+            </header>
+            <div class="member-grid" aria-label="Nodos PostgreSQL">
+              <div class="member" data-pg-node="globalremit-patroni-pg1" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>pg1</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+              <div class="member" data-pg-node="globalremit-patroni-pg2" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>pg2</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+              <div class="member" data-pg-node="globalremit-patroni-pg3" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>pg3</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+            </div>
+            <footer>
+              <span id="etcd-state" class="dependency-state">etcd · verificando</span>
+              <span>Consistencia fuerte</span>
+            </footer>
+          </article>
+
+          <span class="flow-arrow" data-trace-link="outbox" aria-hidden="true">→</span>
+
+          <article class="service-node fixed-node" data-service="outbox" data-trace-node="outbox">
+            <span class="node-index">05</span>
+            <p>PUENTE</p>
+            <h3>Outbox</h3>
+            <small>Eventos · reintentos</small>
+            <span class="node-state">ESPERANDO EVENTO</span>
+          </article>
+
+          <span class="flow-arrow" data-trace-link="mongodb" aria-hidden="true">→</span>
+
+          <article class="cluster-node mongo-cluster" data-trace-node="mongodb">
+            <header>
+              <div>
+                <p>PROYECCIÓN ANALÍTICA</p>
+                <h3>MongoDB Replica Set</h3>
+              </div>
+              <span id="mongo-cluster-state" class="cluster-state">VERIFICANDO</span>
+            </header>
+            <div class="member-grid" aria-label="Nodos MongoDB">
+              <div class="member" data-mongo-node="globalremit-mongo1" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>mongo1</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+              <div class="member" data-mongo-node="globalremit-mongo2" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>mongo2</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+              <div class="member" data-mongo-node="globalremit-mongo3" data-health="unknown">
+                <span class="member-dot" aria-hidden="true"></span>
+                <strong>mongo3</strong>
+                <small class="member-role">DESCONOCIDO</small>
+                <small class="member-proof">Sin traza activa</small>
+              </div>
+            </div>
+            <footer>
+              <span>rsGlobalRemit</span>
+              <span>Consistencia eventual</span>
+            </footer>
+          </article>
+
+          <span class="flow-arrow" data-trace-link="analytics" aria-hidden="true">→</span>
+
+          <article class="service-node fixed-node" data-service="products" data-trace-node="analytics">
+            <span class="node-index">07</span>
+            <p>CONSUMO</p>
+            <h3>Riesgo y analítica</h3>
+            <small>Fraude · AML · métricas</small>
+            <span class="node-state state-up">DISPONIBLE</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="architecture-rule">
+        <strong>Invariante:</strong> PostgreSQL decide, MongoDB deriva y HAProxy conserva el punto de conexión.
+      </div>
+    </section>
+
+    <section id="trace-section" class="trace-section" aria-labelledby="trace-title" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TRAZA DISTRIBUIDA VERIFICABLE</p>
+          <h2 id="trace-title">Recorrido de la última remesa</h2>
+        </div>
+        <div class="trace-identifiers">
+          <span id="trace-remittance">Remesa —</span>
+          <code id="trace-event">event_id —</code>
+          <code id="trace-lsn">LSN —</code>
+        </div>
+      </div>
+      <ol class="trace-progress" aria-live="polite">
+        <li data-trace-stage="django" data-status="waiting"><span>01</span><strong>Django</strong><small>Solicitud</small></li>
+        <li data-trace-stage="haproxy" data-status="waiting"><span>02</span><strong>HAProxy</strong><small>Enrutamiento</small></li>
+        <li data-trace-stage="postgres" data-status="waiting"><span>03</span><strong>PostgreSQL</strong><small>COMMIT</small></li>
+        <li data-trace-stage="audit" data-status="waiting"><span>04</span><strong>Auditoría</strong><small>Trigger</small></li>
+        <li data-trace-stage="replication" data-status="waiting"><span>05</span><strong>Réplicas PG</strong><small>WAL</small></li>
+        <li data-trace-stage="outbox" data-status="waiting"><span>06</span><strong>Outbox</strong><small>Publicación</small></li>
+        <li data-trace-stage="mongodb" data-status="waiting"><span>07</span><strong>MongoDB</strong><small>Replica Set</small></li>
+        <li data-trace-stage="analytics" data-status="waiting"><span>08</span><strong>Analítica</strong><small>Disponible</small></li>
+      </ol>
+      <p id="trace-detail" class="trace-detail">Esperando evidencia del backend.</p>
+    </section>
+
+    <section class="evidence-grid" aria-label="Evidencia operativa">
+      <div class="timeline-section">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">TRAZA EN VIVO</p>
+            <h2>Eventos de continuidad</h2>
+          </div>
+          <button id="clear-timeline" class="text-button" type="button">Limpiar</button>
+        </div>
+        <ol id="event-timeline" class="event-timeline" aria-live="polite">
+          <li data-tone="info">
+            <time>--:--:--</time>
+            <div><strong>SISTEMA</strong><span>Esperando la primera lectura del laboratorio.</span></div>
+          </li>
+        </ol>
+      </div>
+
+      <div class="remittance-section">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">EVIDENCIA DE ESCRITURA</p>
+            <h2>Últimas remesas</h2>
+          </div>
+          <span id="remittance-source" class="source-label">Por HAProxy</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Código</th>
+                <th>Corredor</th>
+                <th>Envío</th>
+                <th>Pago</th>
+                <th>Estado</th>
+                <th>Creada</th>
+              </tr>
+            </thead>
+            <tbody id="remittances-body">
+              <tr><td colspan="7" class="empty-row">Consultando PostgreSQL…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="operation-panel" class="operation-panel" aria-labelledby="operation-title">
+      <div>
+        <p class="eyebrow">ÚLTIMA OPERACIÓN</p>
+        <h2 id="operation-title">Preparado para insertar</h2>
+        <p id="operation-message">La remesa será creada por Django y enviada al líder mediante el mismo endpoint de HAProxy.</p>
+      </div>
+      <div class="operation-facts">
+        <div><span>Intentos</span><strong id="operation-attempts">0</strong></div>
+        <div><span>Tiempo</span><strong id="operation-elapsed">0 s</strong></div>
+        <div><span>Servidor</span><strong id="operation-server">—</strong></div>
+      </div>
+      <details>
+        <summary>Ver respuesta técnica</summary>
+        <pre id="operation-json">Sin operaciones ejecutadas.</pre>
+      </details>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>GLOBALREMIT · LABORATORIO ACADÉMICO</span>
+    <span>RTO/RPO mostrados deben respaldarse con la bitácora de pruebas</span>
+  </footer>
+</body>
+</html>

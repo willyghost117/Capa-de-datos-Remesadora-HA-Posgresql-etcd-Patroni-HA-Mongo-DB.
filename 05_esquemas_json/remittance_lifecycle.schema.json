@@ -1,0 +1,24 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "remittance_id", "remittance_code", "version", "current_status", "corridor", "parties", "financial", "compliance", "timestamps", "last_event_id", "updated_at"],
+    "properties": {
+      "_id": { "bsonType": ["long", "int"] },
+      "remittance_id": { "bsonType": ["long", "int"] },
+      "remittance_code": { "bsonType": "string" },
+      "version": { "bsonType": "int", "minimum": 1 },
+      "current_status": { "bsonType": "string" },
+      "corridor": { "bsonType": "object" },
+      "parties": { "bsonType": "object" },
+      "financial": {
+        "bsonType": "object",
+        "required": ["send_amount", "applied_exchange_rate", "payout_amount", "total_charged_amount"]
+      },
+      "compliance": { "bsonType": "object" },
+      "timestamps": { "bsonType": "object" },
+      "status_timeline": { "bsonType": "array" },
+      "last_event_id": { "bsonType": "string" },
+      "updated_at": { "bsonType": "date" }
+    }
+  }
+}

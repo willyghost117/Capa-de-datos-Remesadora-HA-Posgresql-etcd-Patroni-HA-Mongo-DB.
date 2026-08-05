@@ -1,0 +1,21 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "case_id", "case_type", "status", "severity", "party_refs", "opened_at", "updated_at", "source_event_id"],
+    "properties": {
+      "_id": { "bsonType": ["long", "int"] },
+      "case_id": { "bsonType": ["long", "int"] },
+      "case_type": { "enum": ["AML_ALERT", "KYC_REVIEW"] },
+      "status": { "bsonType": "string" },
+      "severity": { "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"] },
+      "remittance_id": { "bsonType": ["long", "int", "null"] },
+      "party_refs": { "bsonType": "array", "minItems": 1 },
+      "screening": { "bsonType": ["object", "null"] },
+      "decision": { "bsonType": ["string", "null"] },
+      "assigned_team": { "bsonType": ["string", "null"] },
+      "opened_at": { "bsonType": "date" },
+      "updated_at": { "bsonType": "date" },
+      "source_event_id": { "bsonType": "string" }
+    }
+  }
+}

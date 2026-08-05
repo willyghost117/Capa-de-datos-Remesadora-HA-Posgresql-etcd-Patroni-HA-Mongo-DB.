@@ -1,0 +1,2402 @@
+[
+  {
+    "_id": 728098406,
+    "case_id": 728098406,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 3,
+    "party_refs": [
+      {
+        "party_id": 50,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7296
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-15T13:39:38+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "2abe01e6-65f5-47f2-8581-c04b99dd29f1"
+  },
+  {
+    "_id": 719889923,
+    "case_id": 719889923,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 16,
+    "party_refs": [
+      {
+        "party_id": 31,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6987
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-09T14:55:39+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "eaf640b5-bea3-4231-9685-f600c55ca61e"
+  },
+  {
+    "_id": 664010251,
+    "case_id": 664010251,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 20,
+    "party_refs": [
+      {
+        "party_id": 122,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6769
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-21T01:12:39+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "274d48f6-736c-4587-b3fe-9f422c2430d9"
+  },
+  {
+    "_id": 929133162,
+    "case_id": 929133162,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 22,
+    "party_refs": [
+      {
+        "party_id": 181,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.71
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-30T09:00:39+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "8d52e935-4b53-4c72-8889-c6c093d7d677"
+  },
+  {
+    "_id": 525120225,
+    "case_id": 525120225,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 39,
+    "party_refs": [
+      {
+        "party_id": 142,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.822
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-18T23:18:40+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "492a6eba-bc66-4981-8791-9a5194d40bc7"
+  },
+  {
+    "_id": 863189478,
+    "case_id": 863189478,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 45,
+    "party_refs": [
+      {
+        "party_id": 9,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7384
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T20:20:41+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "ef5ab3ea-ffc7-4a98-94d7-e4af69c1764f"
+  },
+  {
+    "_id": 481700193,
+    "case_id": 481700193,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 50,
+    "party_refs": [
+      {
+        "party_id": 168,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.816
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-08T15:31:41+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e73d9af4-17b8-49ae-86cf-c202a9ba1292"
+  },
+  {
+    "_id": 724097481,
+    "case_id": 724097481,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 56,
+    "party_refs": [
+      {
+        "party_id": 69,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9099
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-27T07:46:42+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e21d68b6-f839-4210-bba7-85c5213bbb92"
+  },
+  {
+    "_id": 623612127,
+    "case_id": 623612127,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 57,
+    "party_refs": [
+      {
+        "party_id": 99,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8834
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-27T22:38:42+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "bb05380b-d828-4f54-b725-7fcb91f16a26"
+  },
+  {
+    "_id": 877812744,
+    "case_id": 877812744,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 62,
+    "party_refs": [
+      {
+        "party_id": 33,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7864
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-06T23:55:42+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "bf9d6373-3764-42f9-ae75-206a09c6beef"
+  },
+  {
+    "_id": 916531322,
+    "case_id": 916531322,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 73,
+    "party_refs": [
+      {
+        "party_id": 7,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6997
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-18T09:42:43+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "74771894-6b1d-4a4d-9dad-add4a403d34e"
+  },
+  {
+    "_id": 735430963,
+    "case_id": 735430963,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 76,
+    "party_refs": [
+      {
+        "party_id": 116,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8793
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T05:23:43+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "2db43879-4d2c-489a-8086-d6649bd70852"
+  },
+  {
+    "_id": 658840226,
+    "case_id": 658840226,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 99,
+    "party_refs": [
+      {
+        "party_id": 189,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9111
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-11T09:20:45+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "dd443987-6d27-4682-87b3-7cd6fae6be2f"
+  },
+  {
+    "_id": 352354898,
+    "case_id": 352354898,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 100,
+    "party_refs": [
+      {
+        "party_id": 190,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8194
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-24T04:04:45+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "029b9924-cc45-4112-80f7-ba5d481fc45f"
+  },
+  {
+    "_id": 935269033,
+    "case_id": 935269033,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 110,
+    "party_refs": [
+      {
+        "party_id": 73,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8275
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-15T00:23:46+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "2ed53aa4-d8a8-4d5d-8e6f-c7c8ec4194b7"
+  },
+  {
+    "_id": 325457300,
+    "case_id": 325457300,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 125,
+    "party_refs": [
+      {
+        "party_id": 72,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7116
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-27T13:16:47+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "54dfdbc5-9e07-436c-8b1a-754a847cd702"
+  },
+  {
+    "_id": 702086691,
+    "case_id": 702086691,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 128,
+    "party_refs": [
+      {
+        "party_id": 132,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8341
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-15T19:01:48+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "1428a755-e343-4ad1-ac51-470ff3675b61"
+  },
+  {
+    "_id": 25958776,
+    "case_id": 25958776,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 140,
+    "party_refs": [
+      {
+        "party_id": 187,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8272
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-08T05:52:48+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "582cb78c-1213-4494-ae8b-312c81c0fd1c"
+  },
+  {
+    "_id": 156338604,
+    "case_id": 156338604,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 141,
+    "party_refs": [
+      {
+        "party_id": 37,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8569
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-18T22:44:48+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "36ca1f65-ca0d-4b46-a196-47c3e75f1d04"
+  },
+  {
+    "_id": 873593402,
+    "case_id": 873593402,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 153,
+    "party_refs": [
+      {
+        "party_id": 37,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7587
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-21T09:32:49+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "1cb3f4c7-8f24-40ae-a854-142522356983"
+  },
+  {
+    "_id": 170562732,
+    "case_id": 170562732,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 163,
+    "party_refs": [
+      {
+        "party_id": 62,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7411
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-02T21:26:50+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "8826b12d-8679-4322-9b19-4e9b854d0774"
+  },
+  {
+    "_id": 467404193,
+    "case_id": 467404193,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 188,
+    "party_refs": [
+      {
+        "party_id": 14,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8921
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-03T13:54:52+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "647167ce-f6d7-4c36-8d7e-3e71285e062a"
+  },
+  {
+    "_id": 18551457,
+    "case_id": 18551457,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 204,
+    "party_refs": [
+      {
+        "party_id": 114,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6984
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-25T00:13:53+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "cc023604-8dc4-4036-8932-0602752824f0"
+  },
+  {
+    "_id": 274125124,
+    "case_id": 274125124,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 209,
+    "party_refs": [
+      {
+        "party_id": 93,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8691
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-15T12:38:54+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "6228b6d2-b6db-41cf-9bcd-6d11db33abbb"
+  },
+  {
+    "_id": 56040407,
+    "case_id": 56040407,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 213,
+    "party_refs": [
+      {
+        "party_id": 52,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8494
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T12:01:54+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c611ea76-77ad-4619-8c87-671f34b1a106"
+  },
+  {
+    "_id": 933880277,
+    "case_id": 933880277,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 220,
+    "party_refs": [
+      {
+        "party_id": 111,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.74
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-03T02:24:54+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "678d2391-15fd-458c-a4b4-73dfdb77d71a"
+  },
+  {
+    "_id": 229688768,
+    "case_id": 229688768,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 222,
+    "party_refs": [
+      {
+        "party_id": 182,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8234
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-04T20:58:55+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "45523b60-bac2-479f-93cd-f43fe3880363"
+  },
+  {
+    "_id": 259332624,
+    "case_id": 259332624,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 228,
+    "party_refs": [
+      {
+        "party_id": 63,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7311
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-19T04:40:55+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "3f302323-ab5b-446a-8ac6-100aa557364c"
+  },
+  {
+    "_id": 788995020,
+    "case_id": 788995020,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 242,
+    "party_refs": [
+      {
+        "party_id": 57,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.834
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-23T05:37:56+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e8d7422c-e867-4129-8b88-2c671bbebec8"
+  },
+  {
+    "_id": 125500767,
+    "case_id": 125500767,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 251,
+    "party_refs": [
+      {
+        "party_id": 181,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9027
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-20T21:18:57+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "749d92a7-5db2-41fe-acb9-72ab5218a07f"
+  },
+  {
+    "_id": 423945193,
+    "case_id": 423945193,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 260,
+    "party_refs": [
+      {
+        "party_id": 81,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7142
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-23T20:13:57+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "7f226f10-04b7-44a6-a2a8-08f6e85ac753"
+  },
+  {
+    "_id": 364846841,
+    "case_id": 364846841,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 276,
+    "party_refs": [
+      {
+        "party_id": 34,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8402
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-23T15:46:58+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c1de5c8d-379a-4ad1-ac9a-f902fbf5e24d"
+  },
+  {
+    "_id": 503388440,
+    "case_id": 503388440,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 285,
+    "party_refs": [
+      {
+        "party_id": 138,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.884
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-26T00:01:59+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "f551ab7d-b01f-42fc-8ab1-9fc37d53ad02"
+  },
+  {
+    "_id": 509571758,
+    "case_id": 509571758,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 293,
+    "party_refs": [
+      {
+        "party_id": 124,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9006
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-13T06:49:00+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "8a3e642c-cfc6-4301-afbb-d204a71e6ac1"
+  },
+  {
+    "_id": 966956443,
+    "case_id": 966956443,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 295,
+    "party_refs": [
+      {
+        "party_id": 21,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7001
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-07T16:40:00+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "96983eeb-b899-401d-aeee-0de746a992de"
+  },
+  {
+    "_id": 646979039,
+    "case_id": 646979039,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 300,
+    "party_refs": [
+      {
+        "party_id": 120,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6755
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-27T19:03:00+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "8be6dd50-30f6-40fc-a473-7943cb6cfc22"
+  },
+  {
+    "_id": 69175164,
+    "case_id": 69175164,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 303,
+    "party_refs": [
+      {
+        "party_id": 144,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8427
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-03T22:50:00+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "7ac1b8b7-d899-48db-95d9-e0c53eb1fe87"
+  },
+  {
+    "_id": 571239082,
+    "case_id": 571239082,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 311,
+    "party_refs": [
+      {
+        "party_id": 185,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7191
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-15T22:06:01+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "4abfa9e3-8dad-4be5-a15d-6d5d788db2a4"
+  },
+  {
+    "_id": 849298302,
+    "case_id": 849298302,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 321,
+    "party_refs": [
+      {
+        "party_id": 56,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7617
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-05T06:29:02+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "b61cd3c1-ab90-4205-a707-9d0e8cacc4a3"
+  },
+  {
+    "_id": 216229364,
+    "case_id": 216229364,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 324,
+    "party_refs": [
+      {
+        "party_id": 178,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7927
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-04T13:37:02+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "39849ff3-ca8b-4aa2-8952-052a534ef4e2"
+  },
+  {
+    "_id": 618184893,
+    "case_id": 618184893,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 330,
+    "party_refs": [
+      {
+        "party_id": 62,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7768
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-06T06:01:02+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "cc2c4ba6-5b0f-4946-a4ac-45cf7fdb7558"
+  },
+  {
+    "_id": 295058746,
+    "case_id": 295058746,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 331,
+    "party_refs": [
+      {
+        "party_id": 37,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6842
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-07T04:46:03+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e4360a84-9c57-447c-a6a9-e65f5eeb4fd0"
+  },
+  {
+    "_id": 690510924,
+    "case_id": 690510924,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 338,
+    "party_refs": [
+      {
+        "party_id": 49,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9067
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-29T17:51:03+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "79422acd-e890-49df-969e-dc0eca69d4b9"
+  },
+  {
+    "_id": 242919054,
+    "case_id": 242919054,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 343,
+    "party_refs": [
+      {
+        "party_id": 112,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9166
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-13T05:54:03+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e84c3424-2ecc-4fcb-8636-aefe75cc36a7"
+  },
+  {
+    "_id": 191045887,
+    "case_id": 191045887,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 349,
+    "party_refs": [
+      {
+        "party_id": 112,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7717
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-14T05:59:04+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e2b6be84-83af-4a44-adea-f924ba5c3506"
+  },
+  {
+    "_id": 309228968,
+    "case_id": 309228968,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 354,
+    "party_refs": [
+      {
+        "party_id": 5,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6968
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-05T19:17:04+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "631140ee-ca17-4937-9458-66f43b0fc549"
+  },
+  {
+    "_id": 927557486,
+    "case_id": 927557486,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 358,
+    "party_refs": [
+      {
+        "party_id": 48,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7947
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T10:12:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c7691d09-2305-44e7-b355-931b94e131a4"
+  },
+  {
+    "_id": 951768827,
+    "case_id": 951768827,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 363,
+    "party_refs": [
+      {
+        "party_id": 102,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7791
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-14T20:36:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "4e64539b-af7e-428b-bc6e-01249e3da460"
+  },
+  {
+    "_id": 612771714,
+    "case_id": 612771714,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 364,
+    "party_refs": [
+      {
+        "party_id": 51,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8396
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-25T18:30:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "cf589dc2-bc67-44bd-a313-5d491cecb3c9"
+  },
+  {
+    "_id": 427252464,
+    "case_id": 427252464,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 365,
+    "party_refs": [
+      {
+        "party_id": 16,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.66
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-09T22:53:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "9dfe3feb-f8b8-4083-925a-2724cf3bce19"
+  },
+  {
+    "_id": 965576787,
+    "case_id": 965576787,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 367,
+    "party_refs": [
+      {
+        "party_id": 77,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8461
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T04:55:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "9778c710-23de-4077-b647-fbc78515715a"
+  },
+  {
+    "_id": 604594420,
+    "case_id": 604594420,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 368,
+    "party_refs": [
+      {
+        "party_id": 161,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8556
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-02T18:25:05+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "6c66ad82-4797-473b-876c-20d48f00fb77"
+  },
+  {
+    "_id": 509352584,
+    "case_id": 509352584,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 370,
+    "party_refs": [
+      {
+        "party_id": 187,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9008
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-22T19:52:06+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "bdba0bc1-c9b2-4537-aba4-bd809121ec5b"
+  },
+  {
+    "_id": 459539027,
+    "case_id": 459539027,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 371,
+    "party_refs": [
+      {
+        "party_id": 164,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7856
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-13T07:09:06+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "5ebd1398-e8b4-4299-8c97-5de15a1f8212"
+  },
+  {
+    "_id": 339476841,
+    "case_id": 339476841,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 379,
+    "party_refs": [
+      {
+        "party_id": 108,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8478
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-14T15:11:06+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "0e3d09f6-c2e7-47bd-ae7c-ec1353b248ec"
+  },
+  {
+    "_id": 428316624,
+    "case_id": 428316624,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 394,
+    "party_refs": [
+      {
+        "party_id": 175,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7137
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-18T11:25:07+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "ae47e1d0-9a39-4449-b368-dfdded374c47"
+  },
+  {
+    "_id": 816599104,
+    "case_id": 816599104,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 403,
+    "party_refs": [
+      {
+        "party_id": 153,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8792
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-12T08:27:08+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "b3a9c229-fc48-4a60-85d4-85360e8f030e"
+  },
+  {
+    "_id": 131762701,
+    "case_id": 131762701,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 413,
+    "party_refs": [
+      {
+        "party_id": 169,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8613
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-06T04:31:09+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "2f7e4378-c0b4-4c23-a6c4-7fe5a1810c8a"
+  },
+  {
+    "_id": 964762542,
+    "case_id": 964762542,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 420,
+    "party_refs": [
+      {
+        "party_id": 114,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7829
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-22T09:56:09+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "80992d60-0cb9-4640-ae3a-78b0c0110e20"
+  },
+  {
+    "_id": 221557267,
+    "case_id": 221557267,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 438,
+    "party_refs": [
+      {
+        "party_id": 88,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7619
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-01T06:34:11+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "68e6854e-97a8-44c1-af39-da4d1bb7a930"
+  },
+  {
+    "_id": 399050589,
+    "case_id": 399050589,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 441,
+    "party_refs": [
+      {
+        "party_id": 66,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6748
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-14T17:36:11+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "a9d4ebbf-b715-4103-9153-e01b493ae87a"
+  },
+  {
+    "_id": 2626591,
+    "case_id": 2626591,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 445,
+    "party_refs": [
+      {
+        "party_id": 55,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8192
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-02T00:34:11+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "d06a04b5-f7ed-4af4-a654-67b35e09c619"
+  },
+  {
+    "_id": 707162359,
+    "case_id": 707162359,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 454,
+    "party_refs": [
+      {
+        "party_id": 8,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8727
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-12T06:19:12+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "f334ae8b-5996-45ff-b36d-ac520d5221e8"
+  },
+  {
+    "_id": 916448709,
+    "case_id": 916448709,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 475,
+    "party_refs": [
+      {
+        "party_id": 114,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.83
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-22T16:50:13+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "90518a3c-ee59-4e39-a4e9-4c613ec33d58"
+  },
+  {
+    "_id": 723033645,
+    "case_id": 723033645,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 483,
+    "party_refs": [
+      {
+        "party_id": 87,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8071
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-28T03:28:14+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "faeb1cb1-779f-44a2-a0e4-452b5c42c09f"
+  },
+  {
+    "_id": 72923618,
+    "case_id": 72923618,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 492,
+    "party_refs": [
+      {
+        "party_id": 3,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.844
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-27T23:36:15+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c7447d94-95f3-4375-84b2-375639ca4c62"
+  },
+  {
+    "_id": 251423765,
+    "case_id": 251423765,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 494,
+    "party_refs": [
+      {
+        "party_id": 193,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7096
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-11T12:38:15+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "51ab015b-f7c0-4f96-a426-5eef947da266"
+  },
+  {
+    "_id": 673603102,
+    "case_id": 673603102,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 502,
+    "party_refs": [
+      {
+        "party_id": 139,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6579
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-01T14:58:15+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "5217413b-d3d5-4aa7-b531-9661b1d953a2"
+  },
+  {
+    "_id": 491577761,
+    "case_id": 491577761,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 507,
+    "party_refs": [
+      {
+        "party_id": 196,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8798
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-22T00:13:16+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "098088bf-b6f1-4db2-a357-dbc6591140b7"
+  },
+  {
+    "_id": 124332949,
+    "case_id": 124332949,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 511,
+    "party_refs": [
+      {
+        "party_id": 22,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7064
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-19T01:12:16+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "061ba939-8a05-429f-82e8-7fb1b87732e9"
+  },
+  {
+    "_id": 58894520,
+    "case_id": 58894520,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 512,
+    "party_refs": [
+      {
+        "party_id": 63,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7515
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-19T07:10:16+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "6befd6d5-5b41-45f9-99ee-a0b13bb094b9"
+  },
+  {
+    "_id": 890069315,
+    "case_id": 890069315,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 520,
+    "party_refs": [
+      {
+        "party_id": 148,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8036
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T06:13:17+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "dd572e95-ff0d-4eb5-b272-775e54e986f3"
+  },
+  {
+    "_id": 482839007,
+    "case_id": 482839007,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 529,
+    "party_refs": [
+      {
+        "party_id": 199,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8842
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-10T00:28:17+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "8125baa2-8f4f-4fe7-aef8-c07fa0066961"
+  },
+  {
+    "_id": 359879401,
+    "case_id": 359879401,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 530,
+    "party_refs": [
+      {
+        "party_id": 99,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8665
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-30T20:50:17+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "7f5686e6-ecb1-49ed-9956-481f7e2ac080"
+  },
+  {
+    "_id": 677197132,
+    "case_id": 677197132,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 533,
+    "party_refs": [
+      {
+        "party_id": 41,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6986
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-14T15:22:18+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "50520a72-b1e7-4b9b-9ede-bb4e4a8a113a"
+  },
+  {
+    "_id": 620107604,
+    "case_id": 620107604,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 541,
+    "party_refs": [
+      {
+        "party_id": 151,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7079
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-24T04:20:18+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c75907d8-bd1d-4aa5-9fd3-f1e9a54892ac"
+  },
+  {
+    "_id": 784376792,
+    "case_id": 784376792,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 544,
+    "party_refs": [
+      {
+        "party_id": 91,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8219
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-13T16:27:18+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "920301e9-473f-4680-928c-7bee286a50eb"
+  },
+  {
+    "_id": 354321289,
+    "case_id": 354321289,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 546,
+    "party_refs": [
+      {
+        "party_id": 56,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7602
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-18T12:33:18+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "949f8975-5360-40d5-a51d-36d9d849c08f"
+  },
+  {
+    "_id": 109335891,
+    "case_id": 109335891,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 550,
+    "party_refs": [
+      {
+        "party_id": 89,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6938
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-04T16:58:19+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "f0331af8-1a53-4282-ada7-f72cf403f8a2"
+  },
+  {
+    "_id": 297491185,
+    "case_id": 297491185,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "HIGH",
+    "remittance_id": 555,
+    "party_refs": [
+      {
+        "party_id": 44,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6601
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-23T04:47:19+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "3af3a85b-51a6-4fae-850d-aa2e87ceb643"
+  },
+  {
+    "_id": 322944475,
+    "case_id": 322944475,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 560,
+    "party_refs": [
+      {
+        "party_id": 18,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6868
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-26T10:28:19+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "f2b36578-c9d5-49b9-9b35-3ff390067f2a"
+  },
+  {
+    "_id": 776578983,
+    "case_id": 776578983,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 562,
+    "party_refs": [
+      {
+        "party_id": 60,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7595
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-30T06:16:19+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "61a61301-9adb-421e-8344-2044cef0b10a"
+  },
+  {
+    "_id": 104894330,
+    "case_id": 104894330,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 576,
+    "party_refs": [
+      {
+        "party_id": 68,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8335
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-24T14:42:20+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "dfbef9e2-fe06-447b-aa18-04a73a4eeb0c"
+  },
+  {
+    "_id": 262754062,
+    "case_id": 262754062,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 585,
+    "party_refs": [
+      {
+        "party_id": 7,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7678
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-16T09:52:21+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "a8e2c58f-95cf-49bf-b40d-9a2d073ff4d6"
+  },
+  {
+    "_id": 56459289,
+    "case_id": 56459289,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 590,
+    "party_refs": [
+      {
+        "party_id": 149,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8828
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-30T00:59:22+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "438e2be1-ca49-476c-9c82-2aadc46ce0ba"
+  },
+  {
+    "_id": 675798703,
+    "case_id": 675798703,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 595,
+    "party_refs": [
+      {
+        "party_id": 47,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.7334
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-04T17:52:22+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c5d4a77a-0ff9-4c95-bd12-2edea9abb06b"
+  },
+  {
+    "_id": 596064443,
+    "case_id": 596064443,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 598,
+    "party_refs": [
+      {
+        "party_id": 84,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9109
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-24T14:24:22+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "7e69269a-0ef3-428d-a664-6ce7c816b8fc"
+  },
+  {
+    "_id": 977141399,
+    "case_id": 977141399,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 603,
+    "party_refs": [
+      {
+        "party_id": 8,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.706
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-20T23:47:22+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "13413aec-6145-40a4-a215-88c2c9156844"
+  },
+  {
+    "_id": 116795459,
+    "case_id": 116795459,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 606,
+    "party_refs": [
+      {
+        "party_id": 80,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8458
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-26T01:39:23+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "e542315f-752b-46a1-bc79-410716dd137a"
+  },
+  {
+    "_id": 522331713,
+    "case_id": 522331713,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 608,
+    "party_refs": [
+      {
+        "party_id": 15,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8726
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-05T19:19:23+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "ff06286d-3646-40ef-935c-5eb55345b465"
+  },
+  {
+    "_id": 335647763,
+    "case_id": 335647763,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 626,
+    "party_refs": [
+      {
+        "party_id": 190,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.873
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-26T09:52:24+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "403b4787-e5a4-434f-bfd0-a61e72242380"
+  },
+  {
+    "_id": 611762113,
+    "case_id": 611762113,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 632,
+    "party_refs": [
+      {
+        "party_id": 156,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6687
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-03T18:54:25+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "44b72fc4-4a10-44b6-b544-2fc7d40292be"
+  },
+  {
+    "_id": 263801365,
+    "case_id": 263801365,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 636,
+    "party_refs": [
+      {
+        "party_id": 56,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.886
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-24T18:33:25+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "9291daea-1129-4254-a3fa-5097f69929ff"
+  },
+  {
+    "_id": 381769927,
+    "case_id": 381769927,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 638,
+    "party_refs": [
+      {
+        "party_id": 95,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8382
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-17T15:08:25+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "c24c5409-e43b-419f-8eb3-798afa5f73e2"
+  },
+  {
+    "_id": 836485404,
+    "case_id": 836485404,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 654,
+    "party_refs": [
+      {
+        "party_id": 19,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8461
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-01T13:18:26+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "fd75f863-ee56-4b38-a758-453c7e76d18a"
+  },
+  {
+    "_id": 618398170,
+    "case_id": 618398170,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 662,
+    "party_refs": [
+      {
+        "party_id": 199,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6759
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-04T19:28:27+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "f7b5a419-ca4f-4350-bda6-5e1fdcb33291"
+  },
+  {
+    "_id": 293177405,
+    "case_id": 293177405,
+    "case_type": "AML_ALERT",
+    "status": "CLOSED",
+    "severity": "CRITICAL",
+    "remittance_id": 691,
+    "party_refs": [
+      {
+        "party_id": 123,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "NEW_BENEFICIARY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.9183
+    },
+    "decision": "REJECT",
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-06-13T00:20:29+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "230c834f-2a9e-4f51-8394-adacd0e6003a"
+  },
+  {
+    "_id": 296201147,
+    "case_id": 296201147,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "HIGH",
+    "remittance_id": 703,
+    "party_refs": [
+      {
+        "party_id": 11,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_RISK_CORRIDOR",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.6742
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-02T14:08:30+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "5089b78a-4323-499d-ad69-8ffd56fd3f99"
+  },
+  {
+    "_id": 445220250,
+    "case_id": 445220250,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 706,
+    "party_refs": [
+      {
+        "party_id": 194,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_VELOCITY",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8798
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-06T02:15:30+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "80e9082f-bdb4-4f08-9a8f-28b957ac8782"
+  },
+  {
+    "_id": 734617217,
+    "case_id": 734617217,
+    "case_type": "AML_ALERT",
+    "status": "UNDER_REVIEW",
+    "severity": "CRITICAL",
+    "remittance_id": 707,
+    "party_refs": [
+      {
+        "party_id": 5,
+        "role": "ORIGINATOR"
+      }
+    ],
+    "screening": {
+      "screening_type": "HIGH_AMOUNT",
+      "provider_code": "INTERNAL_AML",
+      "match_score": 0.8646
+    },
+    "decision": null,
+    "assigned_team": "COMPLIANCE",
+    "opened_at": "2026-07-06T09:16:30+00:00",
+    "updated_at": "2026-07-10T15:34:34+00:00",
+    "source_event_id": "7fc5db48-c45f-4eef-90d9-9c7557e0ea80"
+  }
+]

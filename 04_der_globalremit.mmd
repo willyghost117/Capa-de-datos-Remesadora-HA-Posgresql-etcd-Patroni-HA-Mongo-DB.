@@ -1,0 +1,388 @@
+erDiagram
+    COUNTRY {
+        bigint country_id PK
+        char iso_alpha2_code UK
+        varchar country_name
+        varchar default_timezone
+    }
+    CURRENCY {
+        bigint currency_id PK
+        char iso_currency_code UK
+        smallint minor_unit
+    }
+    COUNTRY_CURRENCY {
+        bigint country_id PK,FK
+        bigint currency_id PK,FK
+        date valid_from PK
+    }
+    TRANSACTION_CHANNEL {
+        bigint channel_id PK
+        varchar channel_code UK
+    }
+    REMITTANCE_STATUS {
+        bigint remittance_status_id PK
+        varchar status_code UK
+        boolean is_final
+    }
+    FINANCIAL_MOVEMENT_TYPE {
+        bigint movement_type_id PK
+        varchar movement_type_code UK
+    }
+
+    PARTY {
+        bigint party_id PK
+        varchar party_code UK
+        varchar party_type
+        varchar legal_name
+        varchar party_status
+    }
+    DOCUMENT_TYPE_CATALOG {
+        bigint document_type_id PK
+        varchar document_type_code UK
+    }
+    PERSON_DETAIL {
+        bigint party_id PK,FK
+        date birth_date
+        bigint nationality_country_id FK
+    }
+    ORGANIZATION_DETAIL {
+        bigint party_id PK,FK
+        date incorporation_date
+        varchar tax_identifier
+    }
+    PARTY_DOCUMENT {
+        bigint party_document_id PK
+        bigint party_id FK
+        bigint document_type_id FK
+        bigint issuing_country_id FK
+    }
+    PARTY_ADDRESS {
+        bigint party_address_id PK
+        bigint party_id FK
+        bigint country_id FK
+    }
+    PARTY_CONTACT {
+        bigint party_contact_id PK
+        bigint party_id FK
+        varchar contact_type
+    }
+    CUSTOMER_PROFILE {
+        bigint customer_id PK
+        bigint party_id FK,UK
+        varchar customer_code UK
+    }
+    BENEFICIARY_PROFILE {
+        bigint beneficiary_id PK
+        bigint party_id FK,UK
+        varchar beneficiary_code UK
+    }
+    CUSTOMER_BENEFICIARY {
+        bigint customer_id PK,FK
+        bigint beneficiary_id PK,FK
+        varchar relationship_type
+    }
+    BENEFICIARY_PAYOUT_METHOD {
+        bigint payout_method_id PK
+        bigint beneficiary_id FK
+        bigint country_id FK
+        bigint currency_id FK
+    }
+
+    EXCHANGE_RATE_PROVIDER {
+        bigint provider_id PK
+        varchar provider_code UK
+    }
+    CURRENCY_PAIR {
+        bigint currency_pair_id PK
+        bigint base_currency_id FK
+        bigint quote_currency_id FK
+    }
+    EXCHANGE_RATE {
+        bigint exchange_rate_id PK
+        bigint provider_id FK
+        bigint currency_pair_id FK
+        decimal market_rate
+        timestamptz valid_from_utc
+    }
+    REMITTANCE_CORRIDOR {
+        bigint corridor_id PK
+        bigint origin_country_id FK
+        bigint destination_country_id FK
+        bigint send_currency_id FK
+        bigint payout_currency_id FK
+    }
+    CORRIDOR_LIMIT_RULE {
+        bigint limit_rule_id PK
+        bigint corridor_id FK
+        bigint channel_id FK
+    }
+    CORRIDOR_PRICING_RULE {
+        bigint pricing_rule_id PK
+        bigint corridor_id FK
+        bigint channel_id FK
+    }
+    FX_QUOTE {
+        bigint fx_quote_id PK
+        bigint customer_id FK
+        bigint corridor_id FK
+        bigint exchange_rate_id FK
+        bigint pricing_rule_id FK
+        varchar quote_code UK
+    }
+
+    PURPOSE_CATALOG {
+        bigint purpose_id PK
+        varchar purpose_code UK
+    }
+    SOURCE_OF_FUNDS_CATALOG {
+        bigint source_of_funds_id PK
+        varchar source_code UK
+    }
+    STATUS_REASON_CATALOG {
+        bigint status_reason_id PK
+        varchar reason_code UK
+    }
+    REMITTANCE_STATUS_TRANSITION {
+        bigint from_status_id PK,FK
+        bigint to_status_id PK,FK
+    }
+    REMITTANCE_ORDER {
+        bigint remittance_id PK
+        varchar remittance_code UK
+        bigint customer_id FK
+        bigint beneficiary_id FK
+        bigint corridor_id FK
+        bigint fx_quote_id FK,UK
+        bigint channel_id FK
+        bigint current_status_id FK
+        bigint purpose_id FK
+        bigint source_of_funds_id FK
+    }
+    REMITTANCE_FINANCIAL_DETAIL {
+        bigint remittance_id PK,FK
+        bigint send_currency_id FK
+        bigint payout_currency_id FK
+        decimal applied_exchange_rate
+        decimal total_charged_amount
+    }
+    REMITTANCE_STATUS_HISTORY {
+        bigint status_history_id PK
+        bigint remittance_id FK
+        bigint previous_status_id FK
+        bigint new_status_id FK
+        bigint status_reason_id FK
+    }
+    REMITTANCE_FINANCIAL_MOVEMENT {
+        bigint financial_movement_id PK
+        bigint remittance_id FK
+        bigint movement_type_id FK
+        bigint currency_id FK
+        bigint related_movement_id FK
+    }
+    REMITTANCE_PAYOUT_INSTRUCTION {
+        bigint payout_instruction_id PK
+        bigint remittance_id FK,UK
+        bigint payout_method_id FK
+    }
+
+    KYC_PROFILE {
+        bigint kyc_profile_id PK
+        bigint party_id FK,UK
+        varchar verification_status
+    }
+    SCREENING_PROVIDER {
+        bigint screening_provider_id PK
+        varchar provider_code UK
+    }
+    AML_SCREENING {
+        bigint aml_screening_id PK
+        bigint screening_provider_id FK
+        varchar screening_type
+    }
+    AML_SCREENING_PARTY {
+        bigint aml_screening_id PK,FK
+        bigint party_id PK,FK
+        varchar subject_role
+    }
+    AML_SCREENING_REMITTANCE {
+        bigint aml_screening_id PK,FK
+        bigint remittance_id PK,FK
+    }
+    AML_ALERT {
+        bigint aml_alert_id PK
+        bigint aml_screening_id FK
+        varchar alert_status
+    }
+    RISK_ASSESSMENT {
+        bigint risk_assessment_id PK
+        bigint remittance_id FK
+        varchar decision
+    }
+    RISK_REASON_CATALOG {
+        bigint risk_reason_id PK
+        varchar reason_code UK
+    }
+    RISK_ASSESSMENT_REASON {
+        bigint risk_assessment_id PK,FK
+        bigint risk_reason_id PK,FK
+    }
+    TRAVEL_RULE_RECORD {
+        bigint travel_rule_record_id PK
+        bigint remittance_id FK,UK
+        bigint originator_party_id FK
+        bigint beneficiary_party_id FK
+    }
+
+    CORRESPONDENT {
+        bigint correspondent_id PK
+        bigint country_id FK
+        varchar correspondent_code UK
+    }
+    CORRESPONDENT_CORRIDOR {
+        bigint correspondent_corridor_id PK
+        bigint correspondent_id FK
+        bigint corridor_id FK
+    }
+    SETTLEMENT_BATCH {
+        bigint settlement_batch_id PK
+        bigint correspondent_id FK
+        bigint settlement_currency_id FK
+        varchar batch_code UK
+    }
+    SETTLEMENT_ITEM {
+        bigint settlement_item_id PK
+        bigint settlement_batch_id FK
+        bigint financial_movement_id FK,UK
+    }
+
+    IDEMPOTENCY_REQUEST {
+        bigint idempotency_request_id PK
+        bigint api_consumer_id FK
+        varchar idempotency_key
+    }
+    API_CONSUMER {
+        bigint api_consumer_id PK
+        varchar consumer_code UK
+    }
+    EXTERNAL_SYSTEM {
+        bigint external_system_id PK
+        varchar system_code UK
+    }
+    EXTERNAL_OPERATION_REFERENCE {
+        bigint external_reference_id PK
+        bigint external_system_id FK
+        varchar external_reference
+    }
+    EXTERNAL_REFERENCE_REMITTANCE {
+        bigint external_reference_id PK,FK
+        bigint remittance_id PK,FK
+    }
+    EXTERNAL_REFERENCE_MOVEMENT {
+        bigint external_reference_id PK,FK
+        bigint financial_movement_id PK,FK
+    }
+    EXTERNAL_REFERENCE_SETTLEMENT {
+        bigint external_reference_id PK,FK
+        bigint settlement_batch_id PK,FK
+    }
+    OUTBOX_EVENT {
+        uuid event_id PK
+        varchar aggregate_type
+        bigint aggregate_id
+        varchar event_type
+    }
+    PUBLICATION_DESTINATION {
+        bigint destination_id PK
+        varchar destination_code UK
+    }
+    OUTBOX_PUBLICATION_ATTEMPT {
+        bigint publication_attempt_id PK
+        uuid event_id FK
+        bigint destination_id FK
+    }
+
+    COUNTRY ||--o{ COUNTRY_CURRENCY : permits
+    CURRENCY ||--o{ COUNTRY_CURRENCY : used_in
+    COUNTRY ||--o{ PERSON_DETAIL : nationality
+    COUNTRY ||--o{ PARTY_DOCUMENT : issues
+    DOCUMENT_TYPE_CATALOG ||--o{ PARTY_DOCUMENT : classifies
+    COUNTRY ||--o{ PARTY_ADDRESS : locates
+    CURRENCY ||--o{ BENEFICIARY_PAYOUT_METHOD : supports
+    PARTY ||--o| PERSON_DETAIL : specializes
+    PARTY ||--o| ORGANIZATION_DETAIL : specializes
+    PARTY ||--o{ PARTY_DOCUMENT : owns
+    PARTY ||--o{ PARTY_ADDRESS : owns
+    PARTY ||--o{ PARTY_CONTACT : owns
+    PARTY ||--o| CUSTOMER_PROFILE : acts_as
+    PARTY ||--o| BENEFICIARY_PROFILE : acts_as
+    CUSTOMER_PROFILE ||--o{ CUSTOMER_BENEFICIARY : registers
+    BENEFICIARY_PROFILE ||--o{ CUSTOMER_BENEFICIARY : relates
+    BENEFICIARY_PROFILE ||--o{ BENEFICIARY_PAYOUT_METHOD : owns
+
+    CURRENCY ||--o{ CURRENCY_PAIR : base
+    CURRENCY ||--o{ CURRENCY_PAIR : quote
+    EXCHANGE_RATE_PROVIDER ||--o{ EXCHANGE_RATE : publishes
+    CURRENCY_PAIR ||--o{ EXCHANGE_RATE : values
+    COUNTRY ||--o{ REMITTANCE_CORRIDOR : origin
+    COUNTRY ||--o{ REMITTANCE_CORRIDOR : destination
+    CURRENCY ||--o{ REMITTANCE_CORRIDOR : send_currency
+    CURRENCY ||--o{ REMITTANCE_CORRIDOR : payout_currency
+    REMITTANCE_CORRIDOR ||--o{ CORRIDOR_LIMIT_RULE : limits
+    REMITTANCE_CORRIDOR ||--o{ CORRIDOR_PRICING_RULE : prices
+    TRANSACTION_CHANNEL ||--o{ CORRIDOR_LIMIT_RULE : scopes
+    TRANSACTION_CHANNEL ||--o{ CORRIDOR_PRICING_RULE : scopes
+    CUSTOMER_PROFILE ||--o{ FX_QUOTE : requests
+    REMITTANCE_CORRIDOR ||--o{ FX_QUOTE : quotes
+    EXCHANGE_RATE ||--o{ FX_QUOTE : references
+    CORRIDOR_PRICING_RULE ||--o{ FX_QUOTE : applies
+
+    CUSTOMER_PROFILE ||--o{ REMITTANCE_ORDER : sends
+    BENEFICIARY_PROFILE ||--o{ REMITTANCE_ORDER : receives
+    FX_QUOTE ||--o| REMITTANCE_ORDER : creates
+    REMITTANCE_CORRIDOR ||--o{ REMITTANCE_ORDER : routes
+    TRANSACTION_CHANNEL ||--o{ REMITTANCE_ORDER : captures
+    REMITTANCE_STATUS ||--o{ REMITTANCE_ORDER : current
+    PURPOSE_CATALOG ||--o{ REMITTANCE_ORDER : declares
+    SOURCE_OF_FUNDS_CATALOG ||--o{ REMITTANCE_ORDER : funds
+    REMITTANCE_STATUS ||--o{ REMITTANCE_STATUS_TRANSITION : from
+    REMITTANCE_STATUS ||--o{ REMITTANCE_STATUS_TRANSITION : to
+    REMITTANCE_ORDER ||--|| REMITTANCE_FINANCIAL_DETAIL : freezes
+    REMITTANCE_ORDER ||--o{ REMITTANCE_STATUS_HISTORY : traces
+    REMITTANCE_STATUS ||--o{ REMITTANCE_STATUS_HISTORY : changes
+    STATUS_REASON_CATALOG ||--o{ REMITTANCE_STATUS_HISTORY : explains
+    REMITTANCE_ORDER ||--o{ REMITTANCE_FINANCIAL_MOVEMENT : generates
+    FINANCIAL_MOVEMENT_TYPE ||--o{ REMITTANCE_FINANCIAL_MOVEMENT : classifies
+    REMITTANCE_ORDER ||--o| REMITTANCE_PAYOUT_INSTRUCTION : instructs
+    BENEFICIARY_PAYOUT_METHOD ||--o{ REMITTANCE_PAYOUT_INSTRUCTION : originates
+
+    PARTY ||--o| KYC_PROFILE : verifies
+    SCREENING_PROVIDER ||--o{ AML_SCREENING : executes
+    AML_SCREENING ||--o{ AML_SCREENING_PARTY : evaluates
+    PARTY ||--o{ AML_SCREENING_PARTY : subject
+    AML_SCREENING ||--o{ AML_SCREENING_REMITTANCE : evaluates
+    REMITTANCE_ORDER ||--o{ AML_SCREENING_REMITTANCE : subject
+    AML_SCREENING ||--o{ AML_ALERT : raises
+    REMITTANCE_ORDER ||--o{ RISK_ASSESSMENT : assesses
+    RISK_ASSESSMENT ||--o{ RISK_ASSESSMENT_REASON : explains
+    RISK_REASON_CATALOG ||--o{ RISK_ASSESSMENT_REASON : classifies
+    REMITTANCE_ORDER ||--o| TRAVEL_RULE_RECORD : documents
+    PARTY ||--o{ TRAVEL_RULE_RECORD : snapshots
+
+    COUNTRY ||--o{ CORRESPONDENT : hosts
+    CORRESPONDENT ||--o{ CORRESPONDENT_CORRIDOR : serves
+    REMITTANCE_CORRIDOR ||--o{ CORRESPONDENT_CORRIDOR : served_by
+    CORRESPONDENT ||--o{ SETTLEMENT_BATCH : settles
+    CURRENCY ||--o{ SETTLEMENT_BATCH : denominates
+    SETTLEMENT_BATCH ||--o{ SETTLEMENT_ITEM : contains
+    REMITTANCE_FINANCIAL_MOVEMENT ||--o| SETTLEMENT_ITEM : reconciles
+
+    API_CONSUMER ||--o{ IDEMPOTENCY_REQUEST : submits
+    EXTERNAL_SYSTEM ||--o{ EXTERNAL_OPERATION_REFERENCE : issues
+    EXTERNAL_OPERATION_REFERENCE ||--o{ EXTERNAL_REFERENCE_REMITTANCE : maps
+    REMITTANCE_ORDER ||--o{ EXTERNAL_REFERENCE_REMITTANCE : referenced
+    EXTERNAL_OPERATION_REFERENCE ||--o{ EXTERNAL_REFERENCE_MOVEMENT : maps
+    REMITTANCE_FINANCIAL_MOVEMENT ||--o{ EXTERNAL_REFERENCE_MOVEMENT : referenced
+    EXTERNAL_OPERATION_REFERENCE ||--o{ EXTERNAL_REFERENCE_SETTLEMENT : maps
+    SETTLEMENT_BATCH ||--o{ EXTERNAL_REFERENCE_SETTLEMENT : referenced
+    OUTBOX_EVENT ||--o{ OUTBOX_PUBLICATION_ATTEMPT : attempts
+    PUBLICATION_DESTINATION ||--o{ OUTBOX_PUBLICATION_ATTEMPT : receives

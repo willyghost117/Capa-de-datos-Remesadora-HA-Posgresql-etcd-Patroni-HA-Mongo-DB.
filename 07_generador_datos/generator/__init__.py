@@ -1,0 +1,1 @@
+"""GlobalRemit academic data generator."""

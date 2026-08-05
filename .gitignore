@@ -1,0 +1,7 @@
+*.md
+Migración/secrets/
+.env
+.env.*
+*.key
+*.pem
+*.crt

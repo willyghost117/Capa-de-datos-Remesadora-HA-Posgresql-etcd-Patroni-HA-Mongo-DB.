@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram id="globalremit-ha-final" name="Arquitectura HA Final">
+    <mxGraphModel dx="1226" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;" value="Arquitectura de Alta Disponibilidad - GlobalRemit" vertex="1">
+          <mxGeometry height="40" width="900" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="entry_group" parent="1" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;startSize=28;" value="Entradas publicadas en Windows" vertex="1">
+          <mxGeometry height="350" width="290" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="app" parent="entry_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="Aplicacion o scripts de carga" vertex="1">
+          <mxGeometry height="40" width="220" x="35" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ops" parent="entry_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="Operacion / pruebas de failover" vertex="1">
+          <mxGeometry height="40" width="220" x="35" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="django_gateway" parent="entry_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" value="Django API Gateway&lt;br&gt;localhost:8080" vertex="1">
+          <mxGeometry height="45" width="220" x="35" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="pg_endpoint" parent="entry_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" value="PostgreSQL HAProxy&lt;br&gt;localhost:55434" vertex="1">
+          <mxGeometry height="45" width="220" x="35" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo_endpoint" parent="entry_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" value="MongoDB replica set URI&lt;br&gt;localhost:37017,37018,37019" vertex="1">
+          <mxGeometry height="45" width="220" x="35" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="pg_group" parent="1" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;startSize=28;" value="PostgreSQL 18 - Patroni + etcd + HAProxy" vertex="1">
+          <mxGeometry height="390" width="960" x="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="etcd" parent="pg_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" value="globalremit-patroni-etcd&lt;br&gt;Coordinacion del cluster" vertex="1">
+          <mxGeometry height="50" width="220" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="haproxy" parent="pg_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1;" value="globalremit-patroni-haproxy&lt;br&gt;Enruta escrituras al lider&lt;br&gt;localhost:55434" vertex="1">
+          <mxGeometry height="65" width="240" x="315" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1" parent="pg_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaffea;strokeColor=#82b366;fontStyle=1;" value="globalremit-patroni-pg1&lt;br&gt;Leader actual" vertex="1">
+          <mxGeometry height="55" width="190" x="340" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2" parent="pg_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" value="globalremit-patroni-pg2&lt;br&gt;Replica streaming" vertex="1">
+          <mxGeometry height="55" width="185" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pg3" parent="pg_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" value="globalremit-patroni-pg3&lt;br&gt;Replica streaming" vertex="1">
+          <mxGeometry height="55" width="185" x="760" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo_group" parent="1" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;startSize=28;" value="MongoDB - Replica set rsGlobalRemit" vertex="1">
+          <mxGeometry height="300" width="370" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo1" parent="mongo_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2ff;strokeColor=#6c8ebf;fontStyle=1;" value="globalremit-mongo1&lt;br&gt;PRIMARY&lt;br&gt;localhost:37017" vertex="1">
+          <mxGeometry height="60" width="180" x="95" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo2" parent="mongo_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="globalremit-mongo2&lt;br&gt;SECONDARY&lt;br&gt;localhost:37018" vertex="1">
+          <mxGeometry height="60" width="140" x="35" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mongo3" parent="mongo_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="globalremit-mongo3&lt;br&gt;SECONDARY&lt;br&gt;localhost:37019" vertex="1">
+          <mxGeometry height="60" width="140" x="200" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="demo_group" parent="1" style="swimlane;html=1;rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;startSize=28;" value="Escenario de demostracion" vertex="1">
+          <mxGeometry height="150" width="940" x="440" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="demo_pg" parent="demo_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" value="1. Apagar lider PostgreSQL&lt;br&gt;2. Patroni promueve otro nodo&lt;br&gt;3. localhost:55434 sigue aceptando transacciones" vertex="1">
+          <mxGeometry height="70" width="380" x="55" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="demo_mongo" parent="demo_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" value="1. Apagar PRIMARY MongoDB&lt;br&gt;2. Replica set elige nuevo PRIMARY&lt;br&gt;3. URI replica set mantiene disponibilidad" vertex="1">
+          <mxGeometry height="70" width="380" x="500" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_pg" edge="1" parent="1" source="pg_endpoint" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" target="haproxy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_django_pg" edge="1" parent="1" source="django_gateway" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" target="pg_endpoint" value="inserta eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_app_mongo" edge="1" parent="1" source="mongo_endpoint" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" target="mongo1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hap_pg1" edge="1" parent="1" source="haproxy" style="endArrow=block;html=1;rounded=0;strokeWidth=2;" target="pg1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hap_pg2" edge="1" parent="1" source="haproxy" style="endArrow=block;html=1;rounded=0;dashed=1;" target="pg2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_hap_pg3" edge="1" parent="1" source="haproxy" style="endArrow=block;html=1;rounded=0;dashed=1;" target="pg3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_etcd_pg1" edge="1" parent="1" source="etcd" style="endArrow=open;html=1;rounded=0;dashed=1;" target="pg1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_etcd_pg2" edge="1" parent="1" source="etcd" style="endArrow=open;html=1;rounded=0;dashed=1;" target="pg2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_etcd_pg3" edge="1" parent="1" source="etcd" style="endArrow=open;html=1;rounded=0;dashed=1;" target="pg3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pg_rep1" edge="1" parent="1" source="pg1" style="endArrow=block;startArrow=block;html=1;rounded=0;" target="pg2" value="streaming replication">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pg_rep2" edge="1" parent="1" source="pg1" style="endArrow=block;startArrow=block;html=1;rounded=0;" target="pg3" value="streaming replication">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_rep1" edge="1" parent="1" source="mongo1" style="endArrow=block;startArrow=block;html=1;rounded=0;" target="mongo2" value="replica set">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_m_rep2" edge="1" parent="1" source="mongo1" style="endArrow=block;startArrow=block;html=1;rounded=0;" target="mongo3" value="replica set">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

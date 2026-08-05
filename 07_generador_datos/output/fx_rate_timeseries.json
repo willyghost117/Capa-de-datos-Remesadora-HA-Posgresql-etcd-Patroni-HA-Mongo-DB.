@@ -1,0 +1,2017 @@
+[
+  {
+    "observed_at": "2026-06-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 1,
+    "market_rate": 0.1270637311,
+    "received_at": "2026-06-10T12:00:00+00:00",
+    "source_event_id": "761dd8b6-81e9-4ba1-a1d6-5d20604c150a"
+  },
+  {
+    "observed_at": "2026-06-11T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 2,
+    "market_rate": 0.1269980439,
+    "received_at": "2026-06-11T12:00:00+00:00",
+    "source_event_id": "5d205417-64b4-4069-ad9b-50dafd372346"
+  },
+  {
+    "observed_at": "2026-06-12T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 3,
+    "market_rate": 0.1276410981,
+    "received_at": "2026-06-12T12:00:00+00:00",
+    "source_event_id": "336d60f5-c70f-4b3f-8a50-227f0f8f68c7"
+  },
+  {
+    "observed_at": "2026-06-13T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 4,
+    "market_rate": 0.1269445067,
+    "received_at": "2026-06-13T12:00:00+00:00",
+    "source_event_id": "d4d7d8e7-c889-4f09-9084-40bc20abd3e2"
+  },
+  {
+    "observed_at": "2026-06-14T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 5,
+    "market_rate": 0.1271154378,
+    "received_at": "2026-06-14T12:00:00+00:00",
+    "source_event_id": "cac51d9c-4a7f-4c33-a6b3-9642dda12910"
+  },
+  {
+    "observed_at": "2026-06-15T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 6,
+    "market_rate": 0.1266595107,
+    "received_at": "2026-06-15T12:00:00+00:00",
+    "source_event_id": "4774d205-4e55-4d3a-95eb-46c00ea0c154"
+  },
+  {
+    "observed_at": "2026-06-16T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 7,
+    "market_rate": 0.1298962035,
+    "received_at": "2026-06-16T12:00:00+00:00",
+    "source_event_id": "4217a82e-ffc7-4304-9832-afd9ff743c2b"
+  },
+  {
+    "observed_at": "2026-06-17T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 8,
+    "market_rate": 0.1301386255,
+    "received_at": "2026-06-17T12:00:00+00:00",
+    "source_event_id": "5044cf8d-2791-4ccc-b8fc-9094e156ef6d"
+  },
+  {
+    "observed_at": "2026-06-18T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 9,
+    "market_rate": 0.1268245771,
+    "received_at": "2026-06-18T12:00:00+00:00",
+    "source_event_id": "686f8dbf-63fd-456c-bcad-3b3c8be82cb8"
+  },
+  {
+    "observed_at": "2026-06-19T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 10,
+    "market_rate": 0.1271550041,
+    "received_at": "2026-06-19T12:00:00+00:00",
+    "source_event_id": "c6beb88b-6be1-42be-ad79-0f6b0ed960ea"
+  },
+  {
+    "observed_at": "2026-06-20T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 11,
+    "market_rate": 0.1270837709,
+    "received_at": "2026-06-20T12:00:00+00:00",
+    "source_event_id": "52e73ef6-b138-46d6-9bda-c607ae40cb9f"
+  },
+  {
+    "observed_at": "2026-06-21T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 12,
+    "market_rate": 0.1277131621,
+    "received_at": "2026-06-21T12:00:00+00:00",
+    "source_event_id": "c64b710f-02e2-4c65-b258-e7dbf028d10f"
+  },
+  {
+    "observed_at": "2026-06-22T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 13,
+    "market_rate": 0.1283023128,
+    "received_at": "2026-06-22T12:00:00+00:00",
+    "source_event_id": "07ceccf6-f799-4063-ab82-65a324bda1e4"
+  },
+  {
+    "observed_at": "2026-06-23T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 14,
+    "market_rate": 0.1284004207,
+    "received_at": "2026-06-23T12:00:00+00:00",
+    "source_event_id": "eac6ff01-a430-47fc-a5ac-5546b8af84ce"
+  },
+  {
+    "observed_at": "2026-06-24T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 15,
+    "market_rate": 0.1272642879,
+    "received_at": "2026-06-24T12:00:00+00:00",
+    "source_event_id": "cc2c8018-5cae-4afd-b0f0-dd5a34395b64"
+  },
+  {
+    "observed_at": "2026-06-25T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 16,
+    "market_rate": 0.1278665979,
+    "received_at": "2026-06-25T12:00:00+00:00",
+    "source_event_id": "27c4f117-a345-4ba1-9479-d11b80150c59"
+  },
+  {
+    "observed_at": "2026-06-26T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 17,
+    "market_rate": 0.1279839423,
+    "received_at": "2026-06-26T12:00:00+00:00",
+    "source_event_id": "376f15b6-bea1-497d-90f6-4e12476ca452"
+  },
+  {
+    "observed_at": "2026-06-27T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 18,
+    "market_rate": 0.1302344,
+    "received_at": "2026-06-27T12:00:00+00:00",
+    "source_event_id": "42c512b7-da4c-4516-baf9-ab4be0a8ae91"
+  },
+  {
+    "observed_at": "2026-06-28T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 19,
+    "market_rate": 0.1268600513,
+    "received_at": "2026-06-28T12:00:00+00:00",
+    "source_event_id": "c2a79c8e-03e1-42aa-9adf-b9a9a9157b9a"
+  },
+  {
+    "observed_at": "2026-06-29T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 20,
+    "market_rate": 0.1302832966,
+    "received_at": "2026-06-29T12:00:00+00:00",
+    "source_event_id": "19d67247-2434-49d4-adc9-61f667d8947b"
+  },
+  {
+    "observed_at": "2026-06-30T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 21,
+    "market_rate": 0.1285259587,
+    "received_at": "2026-06-30T12:00:00+00:00",
+    "source_event_id": "bd03b246-1808-4710-8107-15c76b3e538c"
+  },
+  {
+    "observed_at": "2026-07-01T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 22,
+    "market_rate": 0.127993358,
+    "received_at": "2026-07-01T12:00:00+00:00",
+    "source_event_id": "3dd8d6c4-0813-4452-9772-ed54827bafa4"
+  },
+  {
+    "observed_at": "2026-07-02T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 23,
+    "market_rate": 0.1278557222,
+    "received_at": "2026-07-02T12:00:00+00:00",
+    "source_event_id": "25c191a4-e4cc-480e-9f32-1ba6a23c1f96"
+  },
+  {
+    "observed_at": "2026-07-03T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 24,
+    "market_rate": 0.1269459347,
+    "received_at": "2026-07-03T12:00:00+00:00",
+    "source_event_id": "b1b44360-7b3c-4ac7-bec2-00b69f3efb06"
+  },
+  {
+    "observed_at": "2026-07-04T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 25,
+    "market_rate": 0.1282398667,
+    "received_at": "2026-07-04T12:00:00+00:00",
+    "source_event_id": "a639b865-4175-4452-8c6b-138755318ab7"
+  },
+  {
+    "observed_at": "2026-07-05T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 26,
+    "market_rate": 0.1269213719,
+    "received_at": "2026-07-05T12:00:00+00:00",
+    "source_event_id": "46fc3233-35e6-40d5-8bf7-69dfac6f6666"
+  },
+  {
+    "observed_at": "2026-07-06T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 27,
+    "market_rate": 0.1279414923,
+    "received_at": "2026-07-06T12:00:00+00:00",
+    "source_event_id": "98d74800-7932-42d9-9f82-5289d097ca42"
+  },
+  {
+    "observed_at": "2026-07-07T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 28,
+    "market_rate": 0.127923202,
+    "received_at": "2026-07-07T12:00:00+00:00",
+    "source_event_id": "45582c50-5552-4755-b8b8-bc9dd3bcc832"
+  },
+  {
+    "observed_at": "2026-07-08T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 29,
+    "market_rate": 0.1283323009,
+    "received_at": "2026-07-08T12:00:00+00:00",
+    "source_event_id": "3c700736-b1a3-45e4-aa92-f7d02077c477"
+  },
+  {
+    "observed_at": "2026-07-09T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 30,
+    "market_rate": 0.1277089184,
+    "received_at": "2026-07-09T12:00:00+00:00",
+    "source_event_id": "bac8d15d-cc0e-491d-be5b-bf62dc31b78a"
+  },
+  {
+    "observed_at": "2026-07-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-USD",
+      "base_currency": "GTQ",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 31,
+    "market_rate": 0.129449941,
+    "received_at": "2026-07-10T12:00:00+00:00",
+    "source_event_id": "537cab56-8b42-4d3d-86a8-e2c042563dc6"
+  },
+  {
+    "observed_at": "2026-06-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 32,
+    "market_rate": 2.3198661044,
+    "received_at": "2026-06-10T12:00:00+00:00",
+    "source_event_id": "fac7b2a5-6a75-4312-8dd5-e39e4fa1aece"
+  },
+  {
+    "observed_at": "2026-06-11T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 33,
+    "market_rate": 2.3279800485,
+    "received_at": "2026-06-11T12:00:00+00:00",
+    "source_event_id": "08d2a185-8fd5-4172-b91b-e33eb3a1280b"
+  },
+  {
+    "observed_at": "2026-06-12T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 34,
+    "market_rate": 2.3043991059,
+    "received_at": "2026-06-12T12:00:00+00:00",
+    "source_event_id": "f70c7625-0a84-4f96-b986-db444f77a197"
+  },
+  {
+    "observed_at": "2026-06-13T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 35,
+    "market_rate": 2.292415351,
+    "received_at": "2026-06-13T12:00:00+00:00",
+    "source_event_id": "82722199-638f-4394-9129-6fcaf64e0c71"
+  },
+  {
+    "observed_at": "2026-06-14T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 36,
+    "market_rate": 2.3473252727,
+    "received_at": "2026-06-14T12:00:00+00:00",
+    "source_event_id": "2f8d460c-ed98-4d74-9795-4bb6ae50c6e4"
+  },
+  {
+    "observed_at": "2026-06-15T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 37,
+    "market_rate": 2.3401807014,
+    "received_at": "2026-06-15T12:00:00+00:00",
+    "source_event_id": "fface5ad-3812-4b38-a6f7-aa5abc631f37"
+  },
+  {
+    "observed_at": "2026-06-16T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 38,
+    "market_rate": 2.326524282,
+    "received_at": "2026-06-16T12:00:00+00:00",
+    "source_event_id": "85f9e28e-57e8-44f0-b3f7-4f826f815d75"
+  },
+  {
+    "observed_at": "2026-06-17T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 39,
+    "market_rate": 2.3242022747,
+    "received_at": "2026-06-17T12:00:00+00:00",
+    "source_event_id": "648b951d-7caf-4bbf-90c6-abfaf68611b2"
+  },
+  {
+    "observed_at": "2026-06-18T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 40,
+    "market_rate": 2.2892915834,
+    "received_at": "2026-06-18T12:00:00+00:00",
+    "source_event_id": "1969f285-bc10-44b4-b81e-3742497fa5e4"
+  },
+  {
+    "observed_at": "2026-06-19T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 41,
+    "market_rate": 2.3199326801,
+    "received_at": "2026-06-19T12:00:00+00:00",
+    "source_event_id": "2f36e36e-0a07-4fea-9171-1be7c422761f"
+  },
+  {
+    "observed_at": "2026-06-20T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 42,
+    "market_rate": 2.2917930102,
+    "received_at": "2026-06-20T12:00:00+00:00",
+    "source_event_id": "7a0fed84-4ddb-4a0e-8765-db7a84e2a58c"
+  },
+  {
+    "observed_at": "2026-06-21T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 43,
+    "market_rate": 2.2880465811,
+    "received_at": "2026-06-21T12:00:00+00:00",
+    "source_event_id": "d6e70b8d-fc0d-41e6-84d2-8a05537b4bbe"
+  },
+  {
+    "observed_at": "2026-06-22T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 44,
+    "market_rate": 2.3247234542,
+    "received_at": "2026-06-22T12:00:00+00:00",
+    "source_event_id": "ccea4319-1438-459d-909d-975ea4d8c5cb"
+  },
+  {
+    "observed_at": "2026-06-23T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 45,
+    "market_rate": 2.3531427437,
+    "received_at": "2026-06-23T12:00:00+00:00",
+    "source_event_id": "63723e1d-4534-4aea-9c8d-801bae2051d9"
+  },
+  {
+    "observed_at": "2026-06-24T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 46,
+    "market_rate": 2.2965112929,
+    "received_at": "2026-06-24T12:00:00+00:00",
+    "source_event_id": "cebd6fba-f110-43fb-8a32-8021c704250b"
+  },
+  {
+    "observed_at": "2026-06-25T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 47,
+    "market_rate": 2.3027071553,
+    "received_at": "2026-06-25T12:00:00+00:00",
+    "source_event_id": "282c53eb-a92b-4c32-9efb-242a03cd058d"
+  },
+  {
+    "observed_at": "2026-06-26T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 48,
+    "market_rate": 2.2885971725,
+    "received_at": "2026-06-26T12:00:00+00:00",
+    "source_event_id": "20304f62-92bc-405b-a52f-b13657f6f86c"
+  },
+  {
+    "observed_at": "2026-06-27T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 49,
+    "market_rate": 2.2909774919,
+    "received_at": "2026-06-27T12:00:00+00:00",
+    "source_event_id": "80c6ac96-b371-4524-852a-c6c285681181"
+  },
+  {
+    "observed_at": "2026-06-28T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 50,
+    "market_rate": 2.3260382321,
+    "received_at": "2026-06-28T12:00:00+00:00",
+    "source_event_id": "96bacd56-de69-43bc-9eda-c179af093fc9"
+  },
+  {
+    "observed_at": "2026-06-29T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 51,
+    "market_rate": 2.3284927992,
+    "received_at": "2026-06-29T12:00:00+00:00",
+    "source_event_id": "fcca6da3-9a16-42e5-b65c-a13a1a86ff7e"
+  },
+  {
+    "observed_at": "2026-06-30T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 52,
+    "market_rate": 2.3137450553,
+    "received_at": "2026-06-30T12:00:00+00:00",
+    "source_event_id": "f338b142-3324-4cbf-849d-5d48817deed0"
+  },
+  {
+    "observed_at": "2026-07-01T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 53,
+    "market_rate": 2.2861416347,
+    "received_at": "2026-07-01T12:00:00+00:00",
+    "source_event_id": "908725f2-6fac-4791-a8ee-f1782ccb343a"
+  },
+  {
+    "observed_at": "2026-07-02T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 54,
+    "market_rate": 2.2885803756,
+    "received_at": "2026-07-02T12:00:00+00:00",
+    "source_event_id": "062756c3-cb91-49b4-a9a7-bf4b10d4bf19"
+  },
+  {
+    "observed_at": "2026-07-03T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 55,
+    "market_rate": 2.289989243,
+    "received_at": "2026-07-03T12:00:00+00:00",
+    "source_event_id": "78e4759a-ce30-41b6-8ae7-45f539a9bb3f"
+  },
+  {
+    "observed_at": "2026-07-04T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 56,
+    "market_rate": 2.3352613211,
+    "received_at": "2026-07-04T12:00:00+00:00",
+    "source_event_id": "72272a06-3096-45ed-8916-30da392eb6bd"
+  },
+  {
+    "observed_at": "2026-07-05T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 57,
+    "market_rate": 2.2977614498,
+    "received_at": "2026-07-05T12:00:00+00:00",
+    "source_event_id": "ecc95228-963c-4e45-b228-3fbf2afdab0c"
+  },
+  {
+    "observed_at": "2026-07-06T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 58,
+    "market_rate": 2.3285006192,
+    "received_at": "2026-07-06T12:00:00+00:00",
+    "source_event_id": "579b5fe1-fafa-4deb-b151-4699aba3b1fd"
+  },
+  {
+    "observed_at": "2026-07-07T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 59,
+    "market_rate": 2.3424100744,
+    "received_at": "2026-07-07T12:00:00+00:00",
+    "source_event_id": "3b6fb591-b7f5-4b68-b389-ac7323ed8176"
+  },
+  {
+    "observed_at": "2026-07-08T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 60,
+    "market_rate": 2.3123713243,
+    "received_at": "2026-07-08T12:00:00+00:00",
+    "source_event_id": "7609d0a2-a1ee-4f68-bcce-41d0ba8bcdfb"
+  },
+  {
+    "observed_at": "2026-07-09T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 61,
+    "market_rate": 2.3326818342,
+    "received_at": "2026-07-09T12:00:00+00:00",
+    "source_event_id": "8f624319-b176-4d81-9bf0-262840d34582"
+  },
+  {
+    "observed_at": "2026-07-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "GTQ-MXN",
+      "base_currency": "GTQ",
+      "quote_currency": "MXN"
+    },
+    "exchange_rate_id": 62,
+    "market_rate": 2.3441037515,
+    "received_at": "2026-07-10T12:00:00+00:00",
+    "source_event_id": "01258e8e-25a6-4957-a7d7-e2c986135932"
+  },
+  {
+    "observed_at": "2026-06-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 63,
+    "market_rate": 7.822566052,
+    "received_at": "2026-06-10T12:00:00+00:00",
+    "source_event_id": "eb976aa9-3fae-469f-a9cc-ac1b2966bb51"
+  },
+  {
+    "observed_at": "2026-06-11T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 64,
+    "market_rate": 7.8589697492,
+    "received_at": "2026-06-11T12:00:00+00:00",
+    "source_event_id": "774f39c0-89c1-4e3a-af14-f205d9c881d8"
+  },
+  {
+    "observed_at": "2026-06-12T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 65,
+    "market_rate": 7.6766443279,
+    "received_at": "2026-06-12T12:00:00+00:00",
+    "source_event_id": "b5a9f005-d2f6-4c5a-b8d1-832f5849c7fb"
+  },
+  {
+    "observed_at": "2026-06-13T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 66,
+    "market_rate": 7.8677775624,
+    "received_at": "2026-06-13T12:00:00+00:00",
+    "source_event_id": "3c2435e7-1c8a-4993-9a84-b9443cbd9191"
+  },
+  {
+    "observed_at": "2026-06-14T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 67,
+    "market_rate": 7.645426039,
+    "received_at": "2026-06-14T12:00:00+00:00",
+    "source_event_id": "6147ddc1-0a57-41d6-9d69-95f0a9983085"
+  },
+  {
+    "observed_at": "2026-06-15T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 68,
+    "market_rate": 7.790685488,
+    "received_at": "2026-06-15T12:00:00+00:00",
+    "source_event_id": "90c0d0aa-02d0-40af-819f-2e9a63547430"
+  },
+  {
+    "observed_at": "2026-06-16T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 69,
+    "market_rate": 7.7837790666,
+    "received_at": "2026-06-16T12:00:00+00:00",
+    "source_event_id": "e2e6b407-dc16-4422-8319-31fc7b095d26"
+  },
+  {
+    "observed_at": "2026-06-17T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 70,
+    "market_rate": 7.6596637898,
+    "received_at": "2026-06-17T12:00:00+00:00",
+    "source_event_id": "91287d89-47f6-4f4f-8a9d-572b18cc1e04"
+  },
+  {
+    "observed_at": "2026-06-18T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 71,
+    "market_rate": 7.8362028705,
+    "received_at": "2026-06-18T12:00:00+00:00",
+    "source_event_id": "5db48a29-b930-4aca-98e8-a0b5a921dca0"
+  },
+  {
+    "observed_at": "2026-06-19T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 72,
+    "market_rate": 7.7710364674,
+    "received_at": "2026-06-19T12:00:00+00:00",
+    "source_event_id": "70046106-1adb-4b46-a112-a61e0c7ae4a9"
+  },
+  {
+    "observed_at": "2026-06-20T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 73,
+    "market_rate": 7.7452758192,
+    "received_at": "2026-06-20T12:00:00+00:00",
+    "source_event_id": "4f99503d-a494-44a6-9212-6f4dc0037d8e"
+  },
+  {
+    "observed_at": "2026-06-21T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 74,
+    "market_rate": 7.7604101035,
+    "received_at": "2026-06-21T12:00:00+00:00",
+    "source_event_id": "4b089173-8801-48be-abd0-02c6edf40f11"
+  },
+  {
+    "observed_at": "2026-06-22T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 75,
+    "market_rate": 7.8429688265,
+    "received_at": "2026-06-22T12:00:00+00:00",
+    "source_event_id": "34cb05db-8216-4faa-8bd1-2de91fcccc6c"
+  },
+  {
+    "observed_at": "2026-06-23T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 76,
+    "market_rate": 7.7450291269,
+    "received_at": "2026-06-23T12:00:00+00:00",
+    "source_event_id": "521d34c3-0561-4fc1-ac34-441de9380f28"
+  },
+  {
+    "observed_at": "2026-06-24T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 77,
+    "market_rate": 7.6998619598,
+    "received_at": "2026-06-24T12:00:00+00:00",
+    "source_event_id": "d2e17ee2-9e70-4394-9cbd-160993ae51e6"
+  },
+  {
+    "observed_at": "2026-06-25T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 78,
+    "market_rate": 7.8243469569,
+    "received_at": "2026-06-25T12:00:00+00:00",
+    "source_event_id": "18f754d4-713a-4adc-9af0-3fce9a3692f6"
+  },
+  {
+    "observed_at": "2026-06-26T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 79,
+    "market_rate": 7.8512415848,
+    "received_at": "2026-06-26T12:00:00+00:00",
+    "source_event_id": "8ce0d6a5-5609-4574-b1b9-dfdaa46666fa"
+  },
+  {
+    "observed_at": "2026-06-27T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 80,
+    "market_rate": 7.6452193584,
+    "received_at": "2026-06-27T12:00:00+00:00",
+    "source_event_id": "dc652677-6aae-45d4-979f-cb818345b496"
+  },
+  {
+    "observed_at": "2026-06-28T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 81,
+    "market_rate": 7.7896370447,
+    "received_at": "2026-06-28T12:00:00+00:00",
+    "source_event_id": "2a434aa5-66a9-423a-b715-9ee3d40e8b4d"
+  },
+  {
+    "observed_at": "2026-06-29T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 82,
+    "market_rate": 7.7150924747,
+    "received_at": "2026-06-29T12:00:00+00:00",
+    "source_event_id": "4e11fcd1-1c0d-4c11-943f-65591eb253d0"
+  },
+  {
+    "observed_at": "2026-06-30T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 83,
+    "market_rate": 7.7679932537,
+    "received_at": "2026-06-30T12:00:00+00:00",
+    "source_event_id": "58728201-0a57-4e9c-925c-655769011804"
+  },
+  {
+    "observed_at": "2026-07-01T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 84,
+    "market_rate": 7.7012923609,
+    "received_at": "2026-07-01T12:00:00+00:00",
+    "source_event_id": "b207ea01-aeec-45b1-9bee-77c51b5cca1d"
+  },
+  {
+    "observed_at": "2026-07-02T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 85,
+    "market_rate": 7.651005456,
+    "received_at": "2026-07-02T12:00:00+00:00",
+    "source_event_id": "29286977-66b1-492a-94ea-9a88bd27a445"
+  },
+  {
+    "observed_at": "2026-07-03T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 86,
+    "market_rate": 7.7426886979,
+    "received_at": "2026-07-03T12:00:00+00:00",
+    "source_event_id": "6690ac6a-15c2-4256-8009-dcd890d66c2b"
+  },
+  {
+    "observed_at": "2026-07-04T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 87,
+    "market_rate": 7.7247545619,
+    "received_at": "2026-07-04T12:00:00+00:00",
+    "source_event_id": "e369361b-bf8f-4910-9ac7-e09cb83fccd2"
+  },
+  {
+    "observed_at": "2026-07-05T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 88,
+    "market_rate": 7.6848868713,
+    "received_at": "2026-07-05T12:00:00+00:00",
+    "source_event_id": "0d156bc4-2efb-47ea-b84d-3758802306fa"
+  },
+  {
+    "observed_at": "2026-07-06T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 89,
+    "market_rate": 7.658168344,
+    "received_at": "2026-07-06T12:00:00+00:00",
+    "source_event_id": "b3660936-ea4e-4830-9644-56428d2a8135"
+  },
+  {
+    "observed_at": "2026-07-07T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 90,
+    "market_rate": 7.7117302427,
+    "received_at": "2026-07-07T12:00:00+00:00",
+    "source_event_id": "52b05b94-0f98-47bb-b1ee-a805cc0b3e17"
+  },
+  {
+    "observed_at": "2026-07-08T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 91,
+    "market_rate": 7.7320218227,
+    "received_at": "2026-07-08T12:00:00+00:00",
+    "source_event_id": "1a5eb670-be33-40ff-af8a-e063d75831e3"
+  },
+  {
+    "observed_at": "2026-07-09T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 92,
+    "market_rate": 7.8023013114,
+    "received_at": "2026-07-09T12:00:00+00:00",
+    "source_event_id": "084f2c61-4c31-49aa-a0fd-d93a4cab341a"
+  },
+  {
+    "observed_at": "2026-07-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "USD-GTQ",
+      "base_currency": "USD",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 93,
+    "market_rate": 7.8487977063,
+    "received_at": "2026-07-10T12:00:00+00:00",
+    "source_event_id": "c53323d5-6da5-4618-8e6b-8ab3cac7b359"
+  },
+  {
+    "observed_at": "2026-06-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 94,
+    "market_rate": 0.4304518083,
+    "received_at": "2026-06-10T12:00:00+00:00",
+    "source_event_id": "6138d52d-374a-4fa0-97e5-112e2d76446a"
+  },
+  {
+    "observed_at": "2026-06-11T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 95,
+    "market_rate": 0.4301515544,
+    "received_at": "2026-06-11T12:00:00+00:00",
+    "source_event_id": "aff4bc51-9bc4-41f8-9403-2b0de17bbb1e"
+  },
+  {
+    "observed_at": "2026-06-12T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 96,
+    "market_rate": 0.4236301976,
+    "received_at": "2026-06-12T12:00:00+00:00",
+    "source_event_id": "87636ea6-2802-4b5d-a782-1108a5d6a28a"
+  },
+  {
+    "observed_at": "2026-06-13T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 97,
+    "market_rate": 0.4331702627,
+    "received_at": "2026-06-13T12:00:00+00:00",
+    "source_event_id": "25324eb2-5e78-4c27-8f5c-76f13940c802"
+  },
+  {
+    "observed_at": "2026-06-14T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 98,
+    "market_rate": 0.4355869832,
+    "received_at": "2026-06-14T12:00:00+00:00",
+    "source_event_id": "c104c9e6-6919-4e5f-a621-2791a032f0da"
+  },
+  {
+    "observed_at": "2026-06-15T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 99,
+    "market_rate": 0.4237522502,
+    "received_at": "2026-06-15T12:00:00+00:00",
+    "source_event_id": "f483f8e7-612e-4d7e-b821-6ba9f0ac6c67"
+  },
+  {
+    "observed_at": "2026-06-16T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 100,
+    "market_rate": 0.430840409,
+    "received_at": "2026-06-16T12:00:00+00:00",
+    "source_event_id": "43043c56-de7b-44bc-8998-ee2643b15b57"
+  },
+  {
+    "observed_at": "2026-06-17T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 101,
+    "market_rate": 0.4295231189,
+    "received_at": "2026-06-17T12:00:00+00:00",
+    "source_event_id": "12c5e183-fcd0-452e-abdc-02c0e74ec0ad"
+  },
+  {
+    "observed_at": "2026-06-18T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 102,
+    "market_rate": 0.4287874064,
+    "received_at": "2026-06-18T12:00:00+00:00",
+    "source_event_id": "8bbabb77-0c2f-4ec4-87eb-e5a2610c5efd"
+  },
+  {
+    "observed_at": "2026-06-19T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 103,
+    "market_rate": 0.4318944151,
+    "received_at": "2026-06-19T12:00:00+00:00",
+    "source_event_id": "b0b5b73d-d0ba-4d57-acf7-517134d28557"
+  },
+  {
+    "observed_at": "2026-06-20T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 104,
+    "market_rate": 0.424514626,
+    "received_at": "2026-06-20T12:00:00+00:00",
+    "source_event_id": "9b61d7d4-6847-4312-8047-d2637529bb42"
+  },
+  {
+    "observed_at": "2026-06-21T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 105,
+    "market_rate": 0.423556619,
+    "received_at": "2026-06-21T12:00:00+00:00",
+    "source_event_id": "da6c36d1-85bb-4df3-b006-239e57ea34e1"
+  },
+  {
+    "observed_at": "2026-06-22T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 106,
+    "market_rate": 0.4266664241,
+    "received_at": "2026-06-22T12:00:00+00:00",
+    "source_event_id": "6f621d36-f588-4fcb-b052-f00a7f905744"
+  },
+  {
+    "observed_at": "2026-06-23T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 107,
+    "market_rate": 0.4360079431,
+    "received_at": "2026-06-23T12:00:00+00:00",
+    "source_event_id": "03b63da4-d090-4e3e-983c-f2caf3598bfe"
+  },
+  {
+    "observed_at": "2026-06-24T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 108,
+    "market_rate": 0.4250303512,
+    "received_at": "2026-06-24T12:00:00+00:00",
+    "source_event_id": "ee89217b-b588-41eb-8649-4de5cd9a7f48"
+  },
+  {
+    "observed_at": "2026-06-25T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 109,
+    "market_rate": 0.4254763718,
+    "received_at": "2026-06-25T12:00:00+00:00",
+    "source_event_id": "4f3d922b-d4ee-4ddc-adcb-eb78e790f01f"
+  },
+  {
+    "observed_at": "2026-06-26T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 110,
+    "market_rate": 0.4253833016,
+    "received_at": "2026-06-26T12:00:00+00:00",
+    "source_event_id": "6e258777-d466-40fa-b894-d3149860008f"
+  },
+  {
+    "observed_at": "2026-06-27T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 111,
+    "market_rate": 0.4274369141,
+    "received_at": "2026-06-27T12:00:00+00:00",
+    "source_event_id": "2247a2be-ebd8-41b1-b3de-6da438d78feb"
+  },
+  {
+    "observed_at": "2026-06-28T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 112,
+    "market_rate": 0.4318773181,
+    "received_at": "2026-06-28T12:00:00+00:00",
+    "source_event_id": "687ac346-8050-4586-94d2-dd10e5bcb420"
+  },
+  {
+    "observed_at": "2026-06-29T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 113,
+    "market_rate": 0.4251735437,
+    "received_at": "2026-06-29T12:00:00+00:00",
+    "source_event_id": "6a425ddb-1761-4eff-9a73-96875480fe66"
+  },
+  {
+    "observed_at": "2026-06-30T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 114,
+    "market_rate": 0.4344698423,
+    "received_at": "2026-06-30T12:00:00+00:00",
+    "source_event_id": "e54dd0ac-b0da-4f54-b0a3-f2b731b50254"
+  },
+  {
+    "observed_at": "2026-07-01T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 115,
+    "market_rate": 0.4359286204,
+    "received_at": "2026-07-01T12:00:00+00:00",
+    "source_event_id": "6e235e9a-5807-4654-a7ac-dc5b7dd87ef9"
+  },
+  {
+    "observed_at": "2026-07-02T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 116,
+    "market_rate": 0.4318794693,
+    "received_at": "2026-07-02T12:00:00+00:00",
+    "source_event_id": "2a6411b5-fd19-4660-87b4-9df9999eb27b"
+  },
+  {
+    "observed_at": "2026-07-03T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 117,
+    "market_rate": 0.4338614019,
+    "received_at": "2026-07-03T12:00:00+00:00",
+    "source_event_id": "4ba607b4-5a8d-4f39-a5b8-88e3cd799b42"
+  },
+  {
+    "observed_at": "2026-07-04T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 118,
+    "market_rate": 0.4273265323,
+    "received_at": "2026-07-04T12:00:00+00:00",
+    "source_event_id": "cd4a2cd9-f369-4de5-9f68-0ff38036d5a5"
+  },
+  {
+    "observed_at": "2026-07-05T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 119,
+    "market_rate": 0.4330084549,
+    "received_at": "2026-07-05T12:00:00+00:00",
+    "source_event_id": "bcd7e434-55ad-43e3-b11d-fbd93cba9d81"
+  },
+  {
+    "observed_at": "2026-07-06T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 120,
+    "market_rate": 0.4239823433,
+    "received_at": "2026-07-06T12:00:00+00:00",
+    "source_event_id": "b72f3864-22bc-48ea-9bba-73a91dba013e"
+  },
+  {
+    "observed_at": "2026-07-07T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 121,
+    "market_rate": 0.4273090973,
+    "received_at": "2026-07-07T12:00:00+00:00",
+    "source_event_id": "40630ebe-771a-465e-93a6-5233a07e9052"
+  },
+  {
+    "observed_at": "2026-07-08T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 122,
+    "market_rate": 0.4314110688,
+    "received_at": "2026-07-08T12:00:00+00:00",
+    "source_event_id": "2102af0b-6b8a-45ac-ab6c-9acd99a1db76"
+  },
+  {
+    "observed_at": "2026-07-09T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 123,
+    "market_rate": 0.4290251771,
+    "received_at": "2026-07-09T12:00:00+00:00",
+    "source_event_id": "05f3af1b-99aa-40e0-a94a-dababa321585"
+  },
+  {
+    "observed_at": "2026-07-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "MXN-GTQ",
+      "base_currency": "MXN",
+      "quote_currency": "GTQ"
+    },
+    "exchange_rate_id": 124,
+    "market_rate": 0.4306977366,
+    "received_at": "2026-07-10T12:00:00+00:00",
+    "source_event_id": "522d36b2-66f7-422b-bd44-10f3c79e84f6"
+  },
+  {
+    "observed_at": "2026-06-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 125,
+    "market_rate": 0.0401327282,
+    "received_at": "2026-06-10T12:00:00+00:00",
+    "source_event_id": "0bf35c09-03a0-4861-a4ae-905f6c9e904e"
+  },
+  {
+    "observed_at": "2026-06-11T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 126,
+    "market_rate": 0.0403299002,
+    "received_at": "2026-06-11T12:00:00+00:00",
+    "source_event_id": "cd6f8648-72ef-44fd-98eb-b83349576e42"
+  },
+  {
+    "observed_at": "2026-06-12T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 127,
+    "market_rate": 0.0405318267,
+    "received_at": "2026-06-12T12:00:00+00:00",
+    "source_event_id": "48622e20-4525-45dd-a92d-904ad2cdc2dd"
+  },
+  {
+    "observed_at": "2026-06-13T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 128,
+    "market_rate": 0.0408881533,
+    "received_at": "2026-06-13T12:00:00+00:00",
+    "source_event_id": "fda136bd-0118-4d9b-9fda-1559a962a162"
+  },
+  {
+    "observed_at": "2026-06-14T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 129,
+    "market_rate": 0.0404299958,
+    "received_at": "2026-06-14T12:00:00+00:00",
+    "source_event_id": "2284782e-622b-4a6c-aef3-55054ea4daaa"
+  },
+  {
+    "observed_at": "2026-06-15T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 130,
+    "market_rate": 0.0404948881,
+    "received_at": "2026-06-15T12:00:00+00:00",
+    "source_event_id": "ca802b48-057a-41db-b774-9c25283a2233"
+  },
+  {
+    "observed_at": "2026-06-16T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 131,
+    "market_rate": 0.0401127439,
+    "received_at": "2026-06-16T12:00:00+00:00",
+    "source_event_id": "c28f2b1c-c7d9-4ec4-8ea3-4cd839cda590"
+  },
+  {
+    "observed_at": "2026-06-17T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 132,
+    "market_rate": 0.0401362567,
+    "received_at": "2026-06-17T12:00:00+00:00",
+    "source_event_id": "e5bbc770-9901-4d7e-9280-cedac4241065"
+  },
+  {
+    "observed_at": "2026-06-18T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 133,
+    "market_rate": 0.0408309676,
+    "received_at": "2026-06-18T12:00:00+00:00",
+    "source_event_id": "7af52e18-d723-43c3-abda-e2c33aa516e8"
+  },
+  {
+    "observed_at": "2026-06-19T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 134,
+    "market_rate": 0.0405352088,
+    "received_at": "2026-06-19T12:00:00+00:00",
+    "source_event_id": "acd70465-cc77-4080-9753-bd7a26a5bd4a"
+  },
+  {
+    "observed_at": "2026-06-20T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 135,
+    "market_rate": 0.0400561735,
+    "received_at": "2026-06-20T12:00:00+00:00",
+    "source_event_id": "2f7baf45-fb7d-433e-bd5f-518f1bf89211"
+  },
+  {
+    "observed_at": "2026-06-21T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 136,
+    "market_rate": 0.0405947599,
+    "received_at": "2026-06-21T12:00:00+00:00",
+    "source_event_id": "7f8027c7-c8ac-4c8e-9d3f-9dcd08994713"
+  },
+  {
+    "observed_at": "2026-06-22T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 137,
+    "market_rate": 0.040451794,
+    "received_at": "2026-06-22T12:00:00+00:00",
+    "source_event_id": "a5e4f82a-d72b-41a9-939a-b0f423ba410f"
+  },
+  {
+    "observed_at": "2026-06-23T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 138,
+    "market_rate": 0.0407447811,
+    "received_at": "2026-06-23T12:00:00+00:00",
+    "source_event_id": "45887dbe-9515-40a3-90ab-31e646144102"
+  },
+  {
+    "observed_at": "2026-06-24T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 139,
+    "market_rate": 0.0402941721,
+    "received_at": "2026-06-24T12:00:00+00:00",
+    "source_event_id": "a53502c9-d7ed-46ad-8b2e-d9eef9c6def5"
+  },
+  {
+    "observed_at": "2026-06-25T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 140,
+    "market_rate": 0.0406942,
+    "received_at": "2026-06-25T12:00:00+00:00",
+    "source_event_id": "0c04f0f2-e356-4195-a134-d0c6f9546ed1"
+  },
+  {
+    "observed_at": "2026-06-26T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 141,
+    "market_rate": 0.0407641645,
+    "received_at": "2026-06-26T12:00:00+00:00",
+    "source_event_id": "d8585c28-70cd-46c1-b8b5-d8a4c530cc65"
+  },
+  {
+    "observed_at": "2026-06-27T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 142,
+    "market_rate": 0.0399673427,
+    "received_at": "2026-06-27T12:00:00+00:00",
+    "source_event_id": "fa77bad3-b42f-4332-9c7e-b5eebfc91b59"
+  },
+  {
+    "observed_at": "2026-06-28T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 143,
+    "market_rate": 0.0410630152,
+    "received_at": "2026-06-28T12:00:00+00:00",
+    "source_event_id": "0d22ab15-cdff-45af-b43a-cb6dec3fa643"
+  },
+  {
+    "observed_at": "2026-06-29T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 144,
+    "market_rate": 0.040602982,
+    "received_at": "2026-06-29T12:00:00+00:00",
+    "source_event_id": "0f14f1dd-8f60-41af-9c46-1a085739977b"
+  },
+  {
+    "observed_at": "2026-06-30T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 145,
+    "market_rate": 0.0399538016,
+    "received_at": "2026-06-30T12:00:00+00:00",
+    "source_event_id": "b7cc8090-1bbd-4c35-b53e-a9978858843b"
+  },
+  {
+    "observed_at": "2026-07-01T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 146,
+    "market_rate": 0.0406254294,
+    "received_at": "2026-07-01T12:00:00+00:00",
+    "source_event_id": "fce9a6a7-ba74-4879-bfe0-f26483d20c53"
+  },
+  {
+    "observed_at": "2026-07-02T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 147,
+    "market_rate": 0.0403660041,
+    "received_at": "2026-07-02T12:00:00+00:00",
+    "source_event_id": "bb3bc377-d9bd-4648-aa23-01777b650076"
+  },
+  {
+    "observed_at": "2026-07-03T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 148,
+    "market_rate": 0.0407325902,
+    "received_at": "2026-07-03T12:00:00+00:00",
+    "source_event_id": "1a950ca5-bb2b-4aa1-9250-faa6f08e4e1a"
+  },
+  {
+    "observed_at": "2026-07-04T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 149,
+    "market_rate": 0.040123446,
+    "received_at": "2026-07-04T12:00:00+00:00",
+    "source_event_id": "b2c667ee-c796-440b-adda-e51a0be0052a"
+  },
+  {
+    "observed_at": "2026-07-05T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 150,
+    "market_rate": 0.0403659353,
+    "received_at": "2026-07-05T12:00:00+00:00",
+    "source_event_id": "6ffbdea7-9d92-4dd5-9bcf-7c17193df242"
+  },
+  {
+    "observed_at": "2026-07-06T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 151,
+    "market_rate": 0.040613524,
+    "received_at": "2026-07-06T12:00:00+00:00",
+    "source_event_id": "885f3efe-1996-45ea-b733-e346cb8391e2"
+  },
+  {
+    "observed_at": "2026-07-07T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 152,
+    "market_rate": 0.0400173554,
+    "received_at": "2026-07-07T12:00:00+00:00",
+    "source_event_id": "e7446d64-484e-485f-ae84-de7fdce89304"
+  },
+  {
+    "observed_at": "2026-07-08T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 153,
+    "market_rate": 0.0399979962,
+    "received_at": "2026-07-08T12:00:00+00:00",
+    "source_event_id": "fb3991f4-3939-4786-aef7-e9d8c969b22f"
+  },
+  {
+    "observed_at": "2026-07-09T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 154,
+    "market_rate": 0.040002394,
+    "received_at": "2026-07-09T12:00:00+00:00",
+    "source_event_id": "570aaa34-d986-499a-bf31-a85d9b6958dc"
+  },
+  {
+    "observed_at": "2026-07-10T12:00:00+00:00",
+    "metadata": {
+      "provider_code": "ACADEMIC_FX",
+      "currency_pair": "HNL-USD",
+      "base_currency": "HNL",
+      "quote_currency": "USD"
+    },
+    "exchange_rate_id": 155,
+    "market_rate": 0.0406836502,
+    "received_at": "2026-07-10T12:00:00+00:00",
+    "source_event_id": "e46ac6f1-6cb1-424b-9992-01aa48681bd4"
+  }
+]

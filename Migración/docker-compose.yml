@@ -1,0 +1,274 @@
+﻿name: globalremit_migration
+
+services:
+  # MongoDB replica set para la capa NoSQL / analitica.
+  mongo1:
+    image: mongo:8
+    container_name: globalremit-mongo1
+    entrypoint: ["bash", "-lc"]
+    command:
+    - |
+      cp /run/secrets/mongo-keyfile /tmp/mongo-keyfile
+      chown mongodb:mongodb /tmp/mongo-keyfile
+      chmod 400 /tmp/mongo-keyfile
+      exec /usr/local/bin/docker-entrypoint.sh mongod \
+        --replSet rsGlobalRemit \
+        --bind_ip_all \
+        --port 27017 \
+        --auth \
+        --keyFile /tmp/mongo-keyfile
+    ports:
+        - "37017:27017"
+    volumes:
+      - globalremit_mongo1_data:/data/db
+      - ..:/workspace:ro
+      - ./secrets/mongo-keyfile:/run/secrets/mongo-keyfile:ro
+    networks:
+      - globalremit-net
+
+  mongo2:
+    image: mongo:8
+    container_name: globalremit-mongo2
+    entrypoint: ["bash", "-lc"]
+    command:
+    - |
+      cp /run/secrets/mongo-keyfile /tmp/mongo-keyfile
+      chown mongodb:mongodb /tmp/mongo-keyfile
+      chmod 400 /tmp/mongo-keyfile
+      exec /usr/local/bin/docker-entrypoint.sh mongod \
+        --replSet rsGlobalRemit \
+        --bind_ip_all \
+        --port 27017 \
+        --auth \
+        --keyFile /tmp/mongo-keyfile
+    ports:
+      - "37018:27017"
+    volumes:
+      - globalremit_mongo2_data:/data/db
+      - ..:/workspace:ro
+      - ./secrets/mongo-keyfile:/run/secrets/mongo-keyfile:ro
+    networks:
+      - globalremit-net
+
+  mongo3:
+    image: mongo:8
+    container_name: globalremit-mongo3
+    entrypoint: ["bash", "-lc"]
+    command:
+    - |
+      cp /run/secrets/mongo-keyfile /tmp/mongo-keyfile
+      chown mongodb:mongodb /tmp/mongo-keyfile
+      chmod 400 /tmp/mongo-keyfile
+      exec /usr/local/bin/docker-entrypoint.sh mongod \
+        --replSet rsGlobalRemit \
+        --bind_ip_all \
+        --port 27017 \
+        --auth \
+        --keyFile /tmp/mongo-keyfile
+    ports:
+      - "37019:27017"
+    volumes:
+      - globalremit_mongo3_data:/data/db
+      - ..:/workspace:ro
+      - ./secrets/mongo-keyfile:/run/secrets/mongo-keyfile:ro
+    networks:
+      - globalremit-net
+
+  mongo-init:
+    image: mongo:8
+    container_name: globalremit-mongo-init
+    depends_on:
+      - mongo1
+      - mongo2
+      - mongo3
+    volumes:
+      - ./mongo-init-replica.js:/scripts/mongo-init-replica.js:ro
+    entrypoint:
+      - bash
+      - -lc
+      - |
+        echo "Waiting for MongoDB nodes..."
+        until mongosh --host globalremit-mongo1:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        until mongosh --host globalremit-mongo2:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        until mongosh --host globalremit-mongo3:27017 --quiet --eval "db.adminCommand({ ping: 1 }).ok" >/dev/null 2>&1; do sleep 2; done
+        mongosh --host globalremit-mongo1:27017 /scripts/mongo-init-replica.js
+    networks:
+      - globalremit-net
+
+  # Patroni + etcd + HAProxy para PostgreSQL relacional con failover automatico.
+  patroni-etcd:
+    image: quay.io/coreos/etcd:v3.5.15
+    container_name: globalremit-patroni-etcd
+    command:
+      - /usr/local/bin/etcd
+      - --name=patroni-etcd
+      - --data-dir=/etcd-data
+      - --listen-client-urls=http://0.0.0.0:2379
+      - --advertise-client-urls=http://patroni-etcd:2379
+      - --enable-v2=true
+      - --listen-peer-urls=http://0.0.0.0:2380
+      - --initial-advertise-peer-urls=http://patroni-etcd:2380
+      - --initial-cluster=patroni-etcd=http://patroni-etcd:2380
+      - --initial-cluster-state=new
+      - --initial-cluster-token=globalremit-patroni
+    volumes:
+      - globalremit_patroni_etcd_data:/etcd-data
+    networks:
+      - globalremit-patroni-net
+
+  patroni-pg1:
+    build:
+      context: ./patroni
+    container_name: globalremit-patroni-pg1
+    hostname: globalremit-patroni-pg1
+    environment:
+      PATRONI_NAME: globalremit-patroni-pg1
+      PATRONI_SCOPE: globalremit
+      PATRONI_ETCD_HOST: patroni-etcd:2379
+      PATRONI_SUPERUSER_PASSWORD: GlobalRemitPg2026!
+      PATRONI_REPLICATION_PASSWORD: GlobalRemitRepl2026!
+      PATRONI_REWIND_PASSWORD: GlobalRemitRewind2026!
+    volumes:
+      - globalremit_patroni_pg1_data:/var/lib/postgresql/data
+    depends_on:
+      - patroni-etcd
+    networks:
+      - globalremit-patroni-net
+
+  patroni-pg2:
+    build:
+      context: ./patroni
+    container_name: globalremit-patroni-pg2
+    hostname: globalremit-patroni-pg2
+    environment:
+      PATRONI_NAME: globalremit-patroni-pg2
+      PATRONI_SCOPE: globalremit
+      PATRONI_ETCD_HOST: patroni-etcd:2379
+      PATRONI_SUPERUSER_PASSWORD: GlobalRemitPg2026!
+      PATRONI_REPLICATION_PASSWORD: GlobalRemitRepl2026!
+      PATRONI_REWIND_PASSWORD: GlobalRemitRewind2026!
+    volumes:
+      - globalremit_patroni_pg2_data:/var/lib/postgresql/data
+    depends_on:
+      - patroni-etcd
+    networks:
+      - globalremit-patroni-net
+
+  patroni-pg3:
+    build:
+      context: ./patroni
+    container_name: globalremit-patroni-pg3
+    hostname: globalremit-patroni-pg3
+    environment:
+      PATRONI_NAME: globalremit-patroni-pg3
+      PATRONI_SCOPE: globalremit
+      PATRONI_ETCD_HOST: patroni-etcd:2379
+      PATRONI_SUPERUSER_PASSWORD: GlobalRemitPg2026!
+      PATRONI_REPLICATION_PASSWORD: GlobalRemitRepl2026!
+      PATRONI_REWIND_PASSWORD: GlobalRemitRewind2026!
+    volumes:
+      - globalremit_patroni_pg3_data:/var/lib/postgresql/data
+    depends_on:
+      - patroni-etcd
+    networks:
+      - globalremit-patroni-net
+
+  patroni-haproxy:
+    image: haproxy:3.0
+    container_name: globalremit-patroni-haproxy
+    ports:
+      - "55434:5432"
+      - "8405:8405"
+    volumes:
+      - ./patroni/haproxy-patroni.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      - patroni-pg1
+      - patroni-pg2
+      - patroni-pg3
+    networks:
+      - globalremit-patroni-net
+
+  # API Gateway minimo en Django para insertar eventos por HTTP hacia Patroni.
+  api-gateway:
+    build:
+      context: ./api-gateway
+    container_name: globalremit-api-gateway
+    environment:
+      GLOBALREMIT_DB_HOST: globalremit-patroni-haproxy
+      GLOBALREMIT_DB_PORT: "5432"
+      GLOBALREMIT_DB_NAME: globalremit
+      GLOBALREMIT_DB_USER: gr_api_gateway
+      GLOBALREMIT_DB_PASSWORD: ChangeMe_ApiGateway_2026!
+      GLOBALREMIT_PG_PASSWORD: ChangeMe_ApiGateway_2026!
+      GLOBALREMIT_PATRONI_NODES: globalremit-patroni-pg1,globalremit-patroni-pg2,globalremit-patroni-pg3
+      GLOBALREMIT_MONGO_NODES: globalremit-mongo1,globalremit-mongo2,globalremit-mongo3
+      GLOBALREMIT_MONGO_USER: gr_mongo_analyst
+      GLOBALREMIT_MONGO_PASSWORD: MongoAnalyst_2026!
+      GLOBALREMIT_MONGO_AUTH_DB: admin
+      GLOBALREMIT_MONGO_REPLICA_SET: rsGlobalRemit
+      GLOBALREMIT_MONGO_DATABASE: globalremit_analytics
+      DJANGO_DEBUG: "1"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ..:/workspace
+    depends_on:
+      - patroni-haproxy
+    networks:
+      - globalremit-patroni-net
+      - globalremit-net
+
+  # Publicador transaccional: consume Outbox y genera la proyeccion MongoDB.
+  outbox-publisher:
+    build:
+      context: ./api-gateway
+    container_name: globalremit-outbox-publisher
+    command: ["python", "manage.py", "run_outbox_publisher"]
+    restart: unless-stopped
+    environment:
+      GLOBALREMIT_DB_HOST: globalremit-patroni-haproxy
+      GLOBALREMIT_DB_PORT: "5432"
+      GLOBALREMIT_DB_NAME: globalremit
+      GLOBALREMIT_DB_USER: gr_api_gateway
+      GLOBALREMIT_DB_PASSWORD: ChangeMe_ApiGateway_2026!
+      GLOBALREMIT_MONGO_NODES: globalremit-mongo1,globalremit-mongo2,globalremit-mongo3
+      GLOBALREMIT_MONGO_USER: gr_mongo_pipeline
+      GLOBALREMIT_MONGO_PASSWORD: MongoPipeline_2026!
+      GLOBALREMIT_MONGO_AUTH_DB: admin
+      GLOBALREMIT_MONGO_REPLICA_SET: rsGlobalRemit
+      GLOBALREMIT_MONGO_DATABASE: globalremit_analytics
+    depends_on:
+      - patroni-haproxy
+      - mongo1
+      - mongo2
+      - mongo3
+    networks:
+      - globalremit-patroni-net
+      - globalremit-net
+
+networks:
+  globalremit-net:
+    name: globalremit-net
+  globalremit-patroni-net:
+    name: globalremit-patroni-net
+
+volumes:
+  globalremit_mongo1_data:
+    name: globalremit_migration_globalremit_mongo1_data
+  globalremit_mongo2_data:
+    name: globalremit_migration_globalremit_mongo2_data
+  globalremit_mongo3_data:
+    name: globalremit_migration_globalremit_mongo3_data
+  globalremit_patroni_etcd_data:
+    name: globalremit_patroni_globalremit_patroni_etcd_data
+  globalremit_patroni_pg1_data:
+    name: globalremit_patroni_globalremit_patroni_pg1_data
+  globalremit_patroni_pg2_data:
+    name: globalremit_patroni_globalremit_patroni_pg2_data
+  globalremit_patroni_pg3_data:
+    name: globalremit_patroni_globalremit_patroni_pg3_data
+
+
+
+
+

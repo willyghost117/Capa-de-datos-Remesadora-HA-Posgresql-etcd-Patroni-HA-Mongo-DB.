@@ -1,0 +1,20 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["_id", "corridor_code", "metric_date", "send_currency", "payout_currency", "counts", "amounts", "service", "risk", "calculation_version", "computed_at", "source_watermark"],
+    "properties": {
+      "_id": { "bsonType": "string" },
+      "corridor_code": { "bsonType": "string" },
+      "metric_date": { "bsonType": "date" },
+      "send_currency": { "bsonType": "string", "minLength": 3, "maxLength": 3 },
+      "payout_currency": { "bsonType": "string", "minLength": 3, "maxLength": 3 },
+      "counts": { "bsonType": "object" },
+      "amounts": { "bsonType": "object" },
+      "service": { "bsonType": "object" },
+      "risk": { "bsonType": "object" },
+      "calculation_version": { "bsonType": "int", "minimum": 1 },
+      "computed_at": { "bsonType": "date" },
+      "source_watermark": { "bsonType": "date" }
+    }
+  }
+}

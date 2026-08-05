@@ -1,0 +1,32 @@
+{
+  "seed": 20260622,
+  "postgres": {
+    "host": "127.0.0.1",
+    "port": 55434,
+    "database": "globalremit",
+    "user": "postgres",
+    "password_env": "GLOBALREMIT_PG_PASSWORD"
+  },
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1:37017",
+    "database": "globalremit_analytics",
+    "enabled": false
+  },
+  "volume": {
+    "customers": 200,
+    "beneficiaries": 350,
+    "remittances": 1500,
+    "fx_history_days": 30,
+    "settlement_batches": 40
+  },
+  "risk": {
+    "review_rate": 0.20,
+    "fraud_rate": 0.08,
+    "critical_rate": 0.02
+  },
+  "output": {
+    "directory": "../07_generador_datos/output",
+    "report_path": "../07_reporte_carga_patroni.md"
+  },
+  "cleanup_generated_data": true
+}
